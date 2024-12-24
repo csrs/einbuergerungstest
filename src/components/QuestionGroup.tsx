@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import { mainQuestions, hamburgQuestions } from "../consts/questions.ts";
 import { QuestionAnswerKey } from "../types/questionAnswerTypes.ts";
-import {
-  calculateScore,
-  chooseRandomQuestions,
-} from "../utils/questionAnswerUtils.ts";
+import { chooseRandomQuestions } from "../utils/questionAnswerUtils.ts";
 import "./../App.css";
 
 export const QuestionGroup = () => {
@@ -15,7 +12,7 @@ export const QuestionGroup = () => {
   const [randomQs, setRandomQs] = useState(() =>
     chooseRandomQuestions(mainQuestions, hamburgQuestions)
   );
-  const [score, setScore] = useState(0);
+  const [score, setScore] = useState<number | undefined>(undefined);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -52,7 +49,11 @@ export const QuestionGroup = () => {
   return (
     <form onSubmit={handleSubmit} onReset={handleReset}>
       <fieldset>
-        <legend>Select options:</legend>
+        <legend>
+          Questions come from <em>Mein Einbürgerungstest</em> by Hans Jörg
+          Schrötter. 30 questions have been randomly chosen from the Allgemeine
+          Fragen question bank, and 3 from the Hamburg question bank.
+        </legend>
         <div className="questions-container">
           {randomQs.map((q) => {
             const isCorrectlyAnswered = submittedAnswers[q.id] === q.answer;
@@ -69,12 +70,10 @@ export const QuestionGroup = () => {
                   }}
                 >
                   <strong>
-                    {q.id + 1}: {q.question}
+                    Question #{q.id + 1}: {q.question}
                   </strong>
                   {q.image && <img src={q.image} style={{ width: "200px" }} />}
                 </div>
-                <span style={{ color: "red" }}> *</span>
-
                 {q.possibleAnswers.map((a, index) => {
                   return (
                     <div key={index}>
@@ -98,7 +97,7 @@ export const QuestionGroup = () => {
         </div>
         <button type="submit">Submit</button>
         <button type="reset">New Questions</button>
-        <span>{score}</span>
+        {score && <span> Score: {score}</span>}
       </fieldset>
     </form>
   );

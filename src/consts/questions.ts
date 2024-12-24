@@ -1638,16 +1638,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
+  // need to check above here
   {
     id: 150,
     question: "Wer baute die Mauer in Berlin?",
     possibleAnswers: [
       "Großbritannien",
-      "die Bundesrepublik Deutschland",
       "die DDR",
+      "die Bundesrepublik Deutschland",
       "die USA",
     ],
-    answer: 2,
+    answer: 1,
   },
   {
     id: 151,
@@ -1798,12 +1799,12 @@ export const mainQuestions: Question[] = [
     question:
       "Bei welchen Demonstrationen in Deutschland riefen die Menschen „Wir sind das Volk“?",
     possibleAnswers: [
-      "bei den Montagsdemonstrationen 1989 in der DDR",
       "beim Arbeiteraufstand 1953 in der DDR",
       "bei den Demonstrationen 1968 in der Bundesrepublik Deutschland",
       "bei den Anti-Atomkraft-Demonstrationen 1985 in der Bundesrepublik Deutschland",
+      "bei den Montagsdemonstrationen 1989 in der DDR",
     ],
-    answer: 0,
+    answer: 3,
   },
   {
     id: 166,
@@ -1835,12 +1836,12 @@ export const mainQuestions: Question[] = [
     question:
       "Was gab es während der Zeit des Nationalsozialismus in Deutschland?",
     possibleAnswers: [
+      "das Verbot von Parteien",
       "das Recht zur freien Entfaltung der Persönlichkeit",
       "Pressefreiheit",
-      "das Verbot von Parteien",
       "den Schutz der Menschenwürde",
     ],
-    answer: 2,
+    answer: 0,
   },
   {
     id: 170,
@@ -1891,13 +1892,14 @@ export const mainQuestions: Question[] = [
   {
     id: 175,
     question: "Wie waren die Besatzungszonen Deutschlands nach 1945 verteilt?",
+    image: "https://www.einbuergerungstest-online.de/img/fragen/176@2x.png",
     possibleAnswers: [
       "1=Großbritannien, 2=Sowjetunion, 3=Frankreich, 4=USA",
       "1=Sowjetunion, 2=Großbritannien, 3=USA, 4=Frankreich",
-      "1=Großbritannien, 2=USA, 3=Sowjetunion, 4=Frankreich",
       "1=Großbritannien, 2=Sowjetunion, 3=USA, 4=Frankreich",
+      "1=Großbritannien, 2=USA, 3=Sowjetunion, 4=Frankreich",
     ],
-    answer: 0,
+    answer: 2,
   },
   {
     id: 176,
@@ -1944,6 +1946,7 @@ export const mainQuestions: Question[] = [
     id: 180,
     question:
       "Was wollte Willy Brandt mit seinem Kniefall 1970 im ehemaligen jüdischen Ghetto in Warschau ausdrücken?",
+    image: "https://www.einbuergerungstest-online.de/img/fragen/181.png",
     possibleAnswers: [
       "Er hat sich den ehemaligen Alliierten unterworfen.",
       "Er bat Polen und die polnischen Juden um Vergebung.",
@@ -1975,7 +1978,7 @@ export const mainQuestions: Question[] = [
       "ein Vorschlag der Bundesregierung",
       "ein Vorschlag der UdSSR",
     ],
-    answer: 0,
+    answer: 1,
   },
   {
     id: 184,
@@ -2000,6 +2003,7 @@ export const mainQuestions: Question[] = [
     id: 186,
     question:
       "Welcher deutsche Staat hatte eine schwarz-rot-goldene Flagge mit Hammer, Zirkel und Ährenkranz?",
+    image: "https://www.einbuergerungstest-online.de/img/fragen/187@2x.png",
     possibleAnswers: [
       "Preußen",
       "Bundesrepublik Deutschland",
@@ -2221,12 +2225,8 @@ export const mainQuestions: Question[] = [
   {
     id: 208,
     question: "Welches war das Wappen der Deutschen Demokratischen Republik?",
-    possibleAnswers: [
-      "Vier Symbole: 1) einköpfiger Adler auf einem (gelben) Schild. 2) Zwei vereinigte Symbole. 3) stilisiertes Tatzenkreuz. 4) Ährenkranz mit Hammer und Zirkel",
-      "1",
-      "2",
-      "3",
-    ],
+    image: "https://www.einbuergerungstest-online.de/img/fragen/209@2x.png",
+    possibleAnswers: ["1", "2", "3", "4"],
     answer: 3,
   },
   {
@@ -2268,7 +2268,7 @@ export const mainQuestions: Question[] = [
     possibleAnswers: [
       "70 Millionen",
       "78 Millionen",
-      "83 Millionen",
+      "84 Millionen",
       "90 Millionen",
     ],
     answer: 2,
@@ -2299,13 +2299,14 @@ export const mainQuestions: Question[] = [
     id: 215,
     question:
       "Welches Symbol ist im Plenarsaal des Deutschen Bundestages zu sehen?",
+    image: "https://www.einbuergerungstest-online.de/img/fragen/216.png",
     possibleAnswers: [
-      "die Fahne der Stadt Berlin",
       "der Bundesadler",
+      "die Fahne der Stadt Berlin",
       "der Reichsadler",
       "die Reichskrone",
     ],
-    answer: 1,
+    answer: 0,
   },
   {
     id: 216,
@@ -2314,10 +2315,10 @@ export const mainQuestions: Question[] = [
     possibleAnswers: [
       "1919 bis 1927",
       "1933 bis 1945",
-      "1949 bis 1990",
       "1945 bis 1961",
+      "1949 bis 1990",
     ],
-    answer: 2,
+    answer: 3,
   },
   {
     id: 217,
@@ -2389,6 +2390,7 @@ export const mainQuestions: Question[] = [
   {
     id: 225,
     question: "Welche ist die Flagge der Europäischen Union?",
+    image: "https://www.einbuergerungstest-online.de/img/fragen/226@2x.png",
     possibleAnswers: ["1", "2", "3", "4"],
     answer: 1,
   },
@@ -2405,10 +2407,10 @@ export const mainQuestions: Question[] = [
     possibleAnswers: [
       "NATO-Osterweiterung",
       "EU-Osterweiterung",
-      "Europäische Gemeinschaft",
       "Deutsche Wiedervereinigung",
+      "Europäische Gemeinschaft",
     ],
-    answer: 3,
+    answer: 2,
   },
   {
     id: 228,
@@ -2440,10 +2442,10 @@ export const mainQuestions: Question[] = [
     possibleAnswers: [
       "die Europäische Kommission",
       "die Länder, die in die EU eintreten dürfen",
-      "die europäische Verfassung",
       "die Abgeordneten des Europäischen Parlaments",
+      "die europäische Verfassung",
     ],
-    answer: 3,
+    answer: 2,
   },
   {
     id: 232,
@@ -2461,6 +2463,7 @@ export const mainQuestions: Question[] = [
     id: 234,
     question:
       "Der französische Staatspräsident François Mitterrand und der deutsche Bundeskanzler Helmut Kohl gedenken in Verdun gemeinsam der Toten beider Weltkriege. Welches Ziel der Europäischen Union wird bei diesem Treffen deutlich?",
+    image: "https://www.einbuergerungstest-online.de/img/fragen/235.png",
     possibleAnswers: [
       "Freundschaft zwischen England und Deutschland",
       "Reisefreiheit in alle Länder der EU",
@@ -2522,11 +2525,11 @@ export const mainQuestions: Question[] = [
       "Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?",
     possibleAnswers: [
       "Sie muss an ihre Krankenkasse schreiben.",
-      "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
       "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
+      "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
       "Sie muss das Arbeitsamt um Erlaubnis bitten.",
     ],
-    answer: 2,
+    answer: 1,
   },
   {
     id: 241,
@@ -2545,12 +2548,12 @@ export const mainQuestions: Question[] = [
     question:
       "Maik und Sybille wollen mit Freunden an ihrem deutschen Wohnort eine Demonstration auf der Straße abhalten. Was müssen sie vorher tun?",
     possibleAnswers: [
-      "Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren.",
       "Sie müssen die Demonstration anmelden.",
+      "Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren.",
       "Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten.",
       "Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen.",
     ],
-    answer: 1,
+    answer: 0,
   },
   {
     id: 243,
@@ -2587,11 +2590,11 @@ export const mainQuestions: Question[] = [
       "Eine Frau ist schwanger. Sie ist kurz vor und nach der Geburt ihres Kindes vom Gesetz besonders beschützt. Wie heißt dieser Schutz?",
     possibleAnswers: [
       "Elternzeit",
-      "Geburtsvorbereitung",
       "Mutterschutz",
+      "Geburtsvorbereitung",
       "Wochenbett",
     ],
-    answer: 2,
+    answer: 1,
   },
   {
     id: 247,
@@ -2628,8 +2631,6 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-
-  // need to check the ones above ^^
   {
     id: 250,
     question: "Wenn man in Deutschland ein Kind schlägt, …",
