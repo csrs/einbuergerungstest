@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { mainQuestions, hamburgQuestions } from "../consts/questions.ts";
 import { QuestionAnswerKey, Storage } from "../types/questionAnswerTypes.ts";
-import { chooseRandomQuestions } from "../utils/questionAnswerUtils.ts";
+import {
+  chooseRandomQuestions,
+  isSessionStorageAvailable,
+} from "../utils/questionAnswerUtils.ts";
 import "./../App.css";
 
 export const QuestionGroup = () => {
@@ -66,12 +69,20 @@ export const QuestionGroup = () => {
   };
 
   const handleDeleteSessionStorage = () => {
-    setStorageObject({});
-    sessionStorage.removeItem("correctQuestions");
+    if (isSessionStorageAvailable()) {
+      setStorageObject({});
+      sessionStorage.removeItem("correctQuestions");
+    } else {
+      console.warn("Session storage is not available.");
+    }
   };
 
   useEffect(() => {
-    sessionStorage.setItem("correctQuestions", JSON.stringify(storageObject));
+    if (isSessionStorageAvailable()) {
+      sessionStorage.setItem("correctQuestions", JSON.stringify(storageObject));
+    } else {
+      console.warn("Session storage is not available.");
+    }
   }, [storageObject]);
 
   return (
@@ -181,7 +192,8 @@ export const QuestionGroup = () => {
             </li>
             <li>
               If you correctly answer the same question 3 times, it won't appear
-              again.
+              again. This is kept track of in your browser's Session Storage (if
+              your browser allows it).
             </li>
             <li>
               If you want to delete your session storage, click "Delete Session

@@ -70,3 +70,14 @@ export const compareSubmittedAnswer = (
   }
   return answer.answer === submittedAnswer;
 };
+
+export const isSessionStorageAvailable = () => {
+  try {
+    const testKey = "test";
+    sessionStorage.setItem(testKey, "testValue");
+    sessionStorage.removeItem(testKey);
+    return true;
+  } catch (e) {
+    return false;
+  }
+};
