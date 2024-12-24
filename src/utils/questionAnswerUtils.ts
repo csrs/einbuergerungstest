@@ -1,26 +1,29 @@
-import {
-  Answer,
-  Question,
-  QuestionAnswerKey,
-} from "../types/questionAnswerTypes";
+import { Answer, Question } from "../types/questionAnswerTypes";
 
 export const chooseRandomQuestions = (
   mainQuestions: Question[],
-  hamburgQuestions: Question[]
+  hamburgQuestions: Question[],
+  ommittedQuestionIds?: number[]
 ): Question[] => {
   const newArray: Question[] = [];
   const chosenMainIndices: number[] = [];
   const chosenHamburgIndices: number[] = [];
   while (newArray.length < 30) {
     const randomNumber = Math.floor(Math.random() * mainQuestions.length);
-    if (!chosenMainIndices.includes(randomNumber)) {
+    if (
+      !chosenMainIndices.includes(randomNumber) &&
+      !ommittedQuestionIds?.includes(randomNumber)
+    ) {
       newArray.push(mainQuestions[randomNumber]);
       chosenMainIndices.push(randomNumber);
     }
   }
   while (newArray.length < 33) {
     const randomNumber = Math.floor(Math.random() * hamburgQuestions.length);
-    if (!chosenHamburgIndices.includes(randomNumber)) {
+    if (
+      !chosenHamburgIndices.includes(randomNumber) &&
+      !ommittedQuestionIds?.includes(randomNumber)
+    ) {
       newArray.push(hamburgQuestions[randomNumber]);
       chosenHamburgIndices.push(randomNumber);
     }

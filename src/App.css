@@ -1,3 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  width: 50%;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
+
 .App {
   text-align: center;
 }

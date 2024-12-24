@@ -1,3 +1,7 @@
+export type Storage = {
+  [questionId: number]: number;
+};
+
 export type Question = {
   id: number;
   question: string;
