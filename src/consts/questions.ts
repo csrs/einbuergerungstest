@@ -52,11 +52,11 @@ export const mainQuestions: Question[] = [
     question: "Wahlen in Deutschland sind frei. Was bedeutet das?",
     possibleAnswers: [
       "Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten / eine bestimmte Kandidatin wählt.",
-      "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
       "Nur Personen, die noch nie im Gefängnis waren, dürfen wählen.",
+      "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
       "Alle wahlberechtigten Personen müssen wählen.",
     ],
-    answer: 1,
+    answer: 2,
   },
   {
     id: 5,
@@ -143,11 +143,11 @@ export const mainQuestions: Question[] = [
     question: "Im Parlament steht der Begriff „Opposition“ für…",
     possibleAnswers: [
       "die regierenden Parteien.",
-      "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören.",
       "die Fraktion mit den meisten Abgeordneten.",
       "alle Parteien, die bei der letzten Wahl die 5%-Hürde erreichen konnten.",
+      "alle Abgeordneten, die nicht zu der Regierungspartei/den Regierungsparteien gehören.",
     ],
-    answer: 1,
+    answer: 3,
   },
   {
     id: 13,
@@ -246,12 +246,12 @@ export const mainQuestions: Question[] = [
     id: 22,
     question: "In Deutschland sind die meisten Erwerbstätigen …",
     possibleAnswers: [
-      "bei einer Firma oder Behörde beschäftigt.",
       "in kleinen Familienunternehmen beschäftigt.",
       "ehrenamtlich für ein Bundesland tätig.",
       "selbständig mit einer eigenen Firma tätig.",
+      "bei einer Firma oder Behörde beschäftigt.",
     ],
-    answer: 0,
+    answer: 3,
   },
   {
     id: 23,
@@ -263,12 +263,12 @@ export const mainQuestions: Question[] = [
     id: 24,
     question: "Was ist kein Bundesland der Bundesrepublik Deutschland?",
     possibleAnswers: [
-      "Nordrhein-Westfalen",
       "Elsass-Lothringen",
+      "Nordrhein-Westfalen",
       "Mecklenburg-Vorpommern",
       "Sachsen-Anhalt",
     ],
-    answer: 1,
+    answer: 0,
   },
   {
     id: 25,
@@ -606,10 +606,10 @@ export const mainQuestions: Question[] = [
     possibleAnswers: [
       "der / die älteste Abgeordnete im Parlament",
       "der Ministerpräsident / die Ministerpräsidentin des größten Bundeslandes",
-      "ein Abgeordneter / eine Abgeordnete der stärksten Fraktion",
       "ein ehemaliger Bundeskanzler / eine ehemalige Bundeskanzlerin",
+      "ein Abgeordneter / eine Abgeordnete der stärksten Fraktion",
     ],
-    answer: 2,
+    answer: 3,
   },
   {
     id: 57,
@@ -747,6 +747,7 @@ export const mainQuestions: Question[] = [
     id: 69,
     question:
       "Der deutsche Bundespräsident Gustav Heinemann gibt Helmut Schmidt 1974 die Ernennungsurkunde zum deutschen Bundeskanzler. Was gehört zu den Aufgaben des deutschen Bundespräsidenten / der deutschen Bundespräsidentin?",
+    image: "https://www.einbuergerungstest-online.de/img/fragen/070.png",
     possibleAnswers: [
       "Er / Sie führt die Regierungsgeschäfte.",
       "Er / Sie kontrolliert die Regierungspartei.",
@@ -761,11 +762,11 @@ export const mainQuestions: Question[] = [
       "Wo hält sich der deutsche Bundeskanzler / die deutsche Bundeskanzlerin am häufigsten auf? Am häufigsten ist er / sie …",
     possibleAnswers: [
       "in Bonn, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
-      "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
       "auf Schloss Meseberg, dem Gästehaus der Bundesregierung, um Staatsgäste zu empfangen.",
       "auf Schloss Bellevue, dem Amtssitz des Bundespräsidenten / der Bundespräsidentin, um Staatsgäste zu empfangen.",
+      "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
     ],
-    answer: 1,
+    answer: 3,
   },
   {
     id: 71,
@@ -887,10 +888,10 @@ export const mainQuestions: Question[] = [
     possibleAnswers: [
       "der Bundestagspräsident / die Bundestagspräsidentin",
       "der Bundespräsident / die Bundespräsidentin",
-      "der Bundeskanzler / die Bundeskanzlerin",
       "der Bundesratspräsident / die Bundesratspräsidentin",
+      "der Bundeskanzler / die Bundeskanzlerin",
     ],
-    answer: 2,
+    answer: 3,
   },
   {
     id: 82,
@@ -1008,12 +1009,12 @@ export const mainQuestions: Question[] = [
     question:
       "Je mehr „Zweitstimmen“ eine Partei bei einer Bundestagswahl bekommt, desto …",
     possibleAnswers: [
-      "mehr Sitze erhält die Partei im Parlament.",
       "weniger Erststimmen kann sie haben.",
       "mehr Direktkandidaten der Partei ziehen ins Parlament ein.",
       "größer ist das Risiko, eine Koalition bilden zu müssen.",
+      "mehr Sitze erhält die Partei im Parlament.",
     ],
-    answer: 0,
+    answer: 3,
   },
   {
     id: 93,
@@ -1061,12 +1062,12 @@ export const mainQuestions: Question[] = [
     question:
       "Wenn Abgeordnete im Deutschen Bundestag ihre Fraktion wechseln, ...",
     possibleAnswers: [
-      "kann die Regierung ihre Mehrheit verlieren.",
       "dürfen sie nicht mehr an den Sitzungen des Parlaments teilnehmen.",
+      "kann die Regierung ihre Mehrheit verlieren.",
       "muss der Bundespräsident / die Bundespräsidentin zuvor sein / ihr Einverständnis geben.",
       "dürfen die Wähler / Wählerinnen dieser Abgeordneten noch einmal wählen.",
     ],
-    answer: 0,
+    answer: 1,
   },
   {
     id: 98,
@@ -1083,12 +1084,12 @@ export const mainQuestions: Question[] = [
     id: 99,
     question: "Was gehört nicht zur gesetzlichen Sozialversicherung?",
     possibleAnswers: [
-      "die gesetzliche Rentenversicherung",
       "die Lebensversicherung",
+      "die gesetzliche Rentenversicherung",
       "die Arbeitslosenversicherung",
       "die Pflegeversicherung",
     ],
-    answer: 1,
+    answer: 0,
   },
   {
     id: 100,
@@ -1106,12 +1107,12 @@ export const mainQuestions: Question[] = [
     question:
       "Womit kann man in der Bundesrepublik Deutschland geehrt werden, wenn man auf politischem, wirtschaftlichem, kulturellem, geistigem oder sozialem Gebiet eine besondere Leistung erbracht hat? Mit dem …",
     possibleAnswers: [
-      "Bundesadler.",
       "Bundesverdienstkreuz.",
+      "Bundesadler.",
       "Vaterländischen Verdienstorden.",
       "Ehrentitel „Held der Deutschen Demokratischen Republik“.",
     ],
-    answer: 1,
+    answer: 0,
   },
   {
     id: 102,
@@ -1119,8 +1120,8 @@ export const mainQuestions: Question[] = [
       "Was wird in Deutschland als „Ampelkoalition“ bezeichnet? Die Zusammenarbeit …",
     possibleAnswers: [
       "der Bundestagsfraktionen von CDU und CSU",
-      "von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung",
-      "von CSU, Die LINKE und Bündnis 90/Die Grünen in einer Regierung",
+      "von SPD, FDP und Bündnis 90 / Die Grünen in einer Regierung",
+      "von CSU, Die LINKE und Bündnis 90 / Die Grünen in einer Regierung",
       "der Bundestagsfraktionen von CDU und SPD",
     ],
     answer: 1,
@@ -1413,6 +1414,7 @@ export const mainQuestions: Question[] = [
   {
     id: 129,
     question: "Welcher Stimmzettel wäre bei einer Bundestagswahl gültig?",
+    image: "https://www.einbuergerungstest-online.de/img/fragen/130@2x.png",
     possibleAnswers: ["1", "2", "3", "4"],
     answer: 0,
   },
@@ -1638,7 +1640,6 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  // need to check above here
   {
     id: 150,
     question: "Wer baute die Mauer in Berlin?",
@@ -3025,7 +3026,7 @@ export const mainQuestions: Question[] = [
       "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
       "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert.",
     ],
-    answer: 2,
+    answer: 1,
   },
   {
     id: 284,
