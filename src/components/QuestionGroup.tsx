@@ -160,23 +160,25 @@ export const QuestionGroup = () => {
         </form>
       </div>
       <div className="column instructions">
-        {ommittedQuestions.length > 0 && (
-          <p>
-            Hidden questions:
-            <span style={{ marginLeft: "5px" }}>
-              {ommittedQuestions
-                .map((q) => q + 1)
-                .sort((a, b) => a - b)
-                .join(", ")}
-            </span>
-          </p>
-        )}
         <p>
-          Questions come from <em>Mein Einbürgerungstest</em> by Hans Jörg
-          Schrötter. 30 questions have been randomly chosen from the Allgemeine
-          Fragen question bank, and 3 from the Hamburg question bank. The
-          "Question #" refers to the actual question number in the book.
-          <br />
+          <strong>Hidden questions:</strong>
+          <span style={{ marginLeft: "5px" }}>
+            {ommittedQuestions
+              .map((q) => q + 1)
+              .sort((a, b) => a - b)
+              .join(", ") || "none"}
+          </span>
+        </p>
+        <br />
+        <p>
+          <strong>Info:</strong>
+          <p>
+            Questions come from <em>Mein Einbürgerungstest</em> by Hans Jörg
+            Schrötter. 30 questions have been randomly chosen from the
+            Allgemeine Fragen question bank, and 3 from the Hamburg question
+            bank. The "Question #" refers to the actual question number in the
+            book.
+          </p>
           <br />
           <strong>Instructions:</strong>
           <ol>
