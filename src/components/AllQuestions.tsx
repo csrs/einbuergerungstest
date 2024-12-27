@@ -34,6 +34,7 @@ export const AllQuestions = () => {
     setIncorrectAnswers((prev) =>
       prev.filter((q) => submittedAnswers[q.id] !== q.answer)
     );
+    window.scrollTo(0, 0);
   };
 
   return (

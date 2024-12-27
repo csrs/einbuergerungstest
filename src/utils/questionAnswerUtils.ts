@@ -1,52 +1,5 @@
 import { Answer, Question } from "../types/questionAnswerTypes";
 
-// export const populateArray = (
-//   newArray: Question[],
-//   newArrayLength: number,
-//   originalArray: Question[],
-//   alreadyPopulatedIndices: number[],
-//   omittedQuestionIds: number[]
-// ): Question[] => {
-//   while (newArray.length < newArrayLength) {
-//     const randomIndex = Math.floor(Math.random() * originalArray.length);
-//     if (
-//       !alreadyPopulatedIndices.includes(randomIndex) &&
-//       !omittedQuestionIds?.includes(randomIndex)
-//     ) {
-//       newArray.push(originalArray[randomIndex]);
-//       alreadyPopulatedIndices.push(randomIndex);
-//     }
-//   }
-//   console.log(newArray);
-//   return newArray;
-// };
-
-// export const chooseRandomQuestions = (
-//   mainQuestions: Question[],
-//   hamburgQuestions: Question[],
-//   omittedQuestionIds: number[],
-//   numberOfMainQuestions: number,
-//   numberOfHamburgQuestions: number
-// ): Question[] => {
-//   let newArray: Question[] = [];
-
-//   newArray = populateArray(
-//     newArray,
-//     numberOfMainQuestions,
-//     mainQuestions,
-//     [],
-//     omittedQuestionIds
-//   );
-//   newArray = populateArray(
-//     newArray,
-//     numberOfMainQuestions + numberOfHamburgQuestions,
-//     hamburgQuestions,
-//     [],
-//     omittedQuestionIds
-//   );
-//   return newArray;
-// };
-
 export const chooseRandomQuestions = (
   mainQuestions: Question[],
   hamburgQuestions: Question[],
@@ -69,14 +22,7 @@ export const chooseRandomQuestions = (
     const randomNumber =
       350 + Math.floor(Math.random() * hamburgQuestions.length);
     // todo: refactor how the questions array is structered
-    console.log(
-      "---",
-      "chosenHamburgIndices: ",
-      chosenHamburgIndices,
-      "randomNumber: ",
-      randomNumber - 350,
-      chosenHamburgIndices.includes(randomNumber - 350)
-    );
+
     if (
       !chosenHamburgIndices.includes(randomNumber - 350) &&
       !ommittedQuestionIds?.includes(randomNumber)

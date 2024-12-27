@@ -48,8 +48,7 @@ export const Instructions = ({
               </span>
             </p>
           )}
-          <br />
-          <p>
+          <div>
             <strong>Instructions:</strong>
             <div>
               <ol>
@@ -75,7 +74,7 @@ export const Instructions = ({
                 </li>
               </ol>
             </div>
-          </p>
+          </div>
         </>
       )}
     </div>

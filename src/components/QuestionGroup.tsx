@@ -67,6 +67,7 @@ export const QuestionGroup = () => {
       }
     });
     setScore(newScore);
+    window.scrollTo(0, 0);
   };
 
   const handleReset = (e) => {

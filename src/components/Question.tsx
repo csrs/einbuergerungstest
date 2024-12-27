@@ -37,7 +37,7 @@ export const Question = ({
           return (
             <div key={index}>
               <input
-                // required
+                required
                 type="radio"
                 id={`question${question.id.toString()}-${index}`}
                 name={question.id.toString()}
