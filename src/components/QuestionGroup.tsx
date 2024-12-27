@@ -142,7 +142,10 @@ export const QuestionGroup = () => {
           </fieldset>
         </form>
       </div>
-      <Instructions omittedQuestions={omittedQuestions} />
+      <Instructions
+        omittedQuestions={omittedQuestions}
+        allQuestionsMode={false}
+      />
     </>
   );
 };

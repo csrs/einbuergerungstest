@@ -1,10 +1,11 @@
 import "./App.css";
-import { QuestionGroup } from "./components/QuestionGroup.tsx";
+import { AllQuestions } from "./components/AllQuestions.tsx";
 
 function App() {
   return (
     <div className="container">
-      <QuestionGroup />
+      {/* <QuestionGroup /> */}
+      <AllQuestions />
     </div>
   );
 }
