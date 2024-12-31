@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { allQuestions } from "../consts/questions.ts";
+import { allQuestions, allQuestionsReversed } from "../consts/questions.ts";
 import { QuestionAnswerKey } from "../types/questionAnswerTypes.ts";
 
 import "./../App.css";
@@ -13,7 +13,7 @@ export const AllQuestions = () => {
   );
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [incorrectAnswers, setIncorrectAnswers] =
-    useState<QuestionType[]>(allQuestions);
+    useState<QuestionType[]>(allQuestionsReversed);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -32,13 +32,14 @@ export const AllQuestions = () => {
     setIsSubmitted(true);
 
     setIncorrectAnswers((prev) =>
-      prev.filter((q) => submittedAnswers[q.id] !== q.answer)
+      prev.filter((q) => submittedAnswers[q.id] !== q.answer).reverse()
     );
     window.scrollTo(0, 0);
   };
 
   return (
     <>
+      <Instructions allQuestionsMode />
       <div className="column form">
         <form onSubmit={handleSubmit}>
           <fieldset>
@@ -63,7 +64,6 @@ export const AllQuestions = () => {
           </fieldset>
         </form>
       </div>
-      <Instructions allQuestionsMode />
     </>
   );
 };

@@ -1153,7 +1153,7 @@ export const mainQuestions: Question[] = [
   {
     id: 105,
     question:
-      "Was ist eine Aufgabe von Wahlhelfern / Wahlhelferinnen in Deutschland?",
+      "In Deutschland helfen ehrenamtliche Wahlhelfer und Wahlhelferinnen bei den Wahlen. Was ist eine Aufgabe von Walhelfern / Walhhelferinnen?",
     possibleAnswers: [
       "Sie helfen Kindern und alten Menschen beim Wählen.",
       "Sie schreiben Karten und Briefe mit der Angabe des Wahllokals.",
@@ -6602,3 +6602,5 @@ export const allQuestions: Question[] = [
     answer: 1,
   },
 ];
+
+export const allQuestionsReversed = allQuestions.reverse();

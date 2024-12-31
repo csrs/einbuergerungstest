@@ -12,10 +12,8 @@ export const Instructions = ({
       <strong>Info:</strong>
       <p>
         Questions come from <em>Mein Einbürgerungstest</em> by Hans Jörg
-        Schrötter. 30 questions have been randomly chosen from the Allgemeine
-        Fragenkatalog, and 3 from the Hamburg Fragenkatalog. The "Question #"
-        refers to the actual Allgemeine Fragenkatalog question number in the
-        book.
+        Schrötter. The "Question #" refers to the actual Allgemeine
+        Fragenkatalog question number in the book.
       </p>
       {allQuestionsMode ? (
         <>

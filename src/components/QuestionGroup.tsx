@@ -104,6 +104,10 @@ export const QuestionGroup = () => {
 
   return (
     <>
+      <Instructions
+        omittedQuestions={omittedQuestions}
+        allQuestionsMode={false}
+      />
       <div className="column form">
         <form onSubmit={handleSubmit} onReset={handleReset}>
           <fieldset>
@@ -143,10 +147,6 @@ export const QuestionGroup = () => {
           </fieldset>
         </form>
       </div>
-      <Instructions
-        omittedQuestions={omittedQuestions}
-        allQuestionsMode={false}
-      />
     </>
   );
 };
