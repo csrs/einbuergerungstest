@@ -19,16 +19,16 @@ export const chooseRandomQuestions = (
     }
   }
   while (newArray.length < 33) {
-    const randomNumber =
+    const randomQuestionId =
       350 + Math.floor(Math.random() * hamburgQuestions.length);
     // todo: refactor how the questions array is structered
 
     if (
-      !chosenHamburgIndices.includes(randomNumber - 350) &&
-      !ommittedQuestionIds?.includes(randomNumber)
+      !chosenHamburgIndices.includes(randomQuestionId - 350) &&
+      !ommittedQuestionIds?.includes(randomQuestionId)
     ) {
-      newArray.push(hamburgQuestions[randomNumber - 350]);
-      chosenHamburgIndices.push(randomNumber - 350);
+      newArray.push(hamburgQuestions[randomQuestionId - 350]);
+      chosenHamburgIndices.push(randomQuestionId - 350);
     }
   }
 

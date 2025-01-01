@@ -6,7 +6,6 @@ import {
   isSessionStorageAvailable,
 } from "../utils/questionAnswerUtils.ts";
 import "./../App.css";
-import { Instructions } from "./Instructions.tsx";
 import { GREEN, YELLOW } from "../consts/colors.ts";
 import { Question } from "./Question.tsx";
 
@@ -104,9 +103,28 @@ export const QuestionGroup = () => {
 
   return (
     <div className="column form">
+      {omittedQuestions && omittedQuestions.length > 0 && (
+        <p>
+          <strong>Hidden questions:</strong>
+          <span style={{ marginLeft: "5px" }}>
+            {omittedQuestions
+              .map((q) => q + 1)
+              .sort((a, b) => a - b)
+              .join(", ") || "none"}
+          </span>
+        </p>
+      )}
       <form onSubmit={handleSubmit} onReset={handleReset}>
         <fieldset>
-          <legend>33 Questions</legend>
+          <legend>
+            33 Questions. Hidden questions:
+            <span style={{ marginLeft: "5px" }}>
+              {omittedQuestions
+                .map((q) => q + 1)
+                .sort((a, b) => a - b)
+                .join(", ") || "none"}
+            </span>
+          </legend>
           <div className="questions-container">
             {randomQs.map((q) => {
               const isCorrectlyAnswered = submittedAnswers[q.id] === q.answer;

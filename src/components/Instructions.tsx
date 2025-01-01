@@ -34,46 +34,32 @@ export const Instructions = ({
           </div>
         </>
       ) : (
-        <>
-          {omittedQuestions && omittedQuestions.length > 0 && (
-            <p>
-              <strong>Hidden questions:</strong>
-              <span style={{ marginLeft: "5px" }}>
-                {omittedQuestions
-                  .map((q) => q + 1)
-                  .sort((a, b) => a - b)
-                  .join(", ") || "none"}
-              </span>
-            </p>
-          )}
+        <div>
+          <strong>Instructions:</strong>
           <div>
-            <strong>Instructions:</strong>
-            <div>
-              <ol>
-                <li>Answer all questions.</li>
-                <li>
-                  Click "Submit". Correctly answered questions will be
-                  highlighted in green. Incorrectly answered questions will be
-                  highlighted in yellow.
-                </li>
-                <li>
-                  Click "New questions" to get a set of 33 more randomly chosen
-                  questions.
-                </li>
-                <li>
-                  If you correctly answer the same question 3 times, it won't
-                  appear again. This is kept track of in your browser's Session
-                  Storage (if your browser allows it).
-                </li>
-                <li>
-                  If you want to delete your session storage, click "Delete
-                  Session Storage". You don't need to refresh the page
-                  afterwards.
-                </li>
-              </ol>
-            </div>
+            <ol>
+              <li>Answer all questions.</li>
+              <li>
+                Click "Submit". Correctly answered questions will be highlighted
+                in green. Incorrectly answered questions will be highlighted in
+                yellow.
+              </li>
+              <li>
+                Click "New questions" to get a set of 33 more randomly chosen
+                questions.
+              </li>
+              <li>
+                If you correctly answer the same question 3 times, it won't
+                appear again. This is kept track of in your browser's Session
+                Storage (if your browser allows it).
+              </li>
+              <li>
+                If you want to delete your session storage, click "Delete
+                Session Storage". You don't need to refresh the page afterwards.
+              </li>
+            </ol>
           </div>
-        </>
+        </div>
       )}
     </div>
   );

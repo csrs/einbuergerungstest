@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState } from "react";
 import { QuestionGroup } from "./components/QuestionGroup.tsx";
 import { AllQuestions } from "./components/AllQuestions.tsx";
+import { Instructions } from "./components/Instructions.tsx";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState("randomQuestions");
@@ -45,10 +46,7 @@ function App() {
         </>
       ) : (
         <>
-          <Instructions
-            omittedQuestions={omittedQuestions}
-            allQuestionsMode={false}
-          />
+          <Instructions allQuestionsMode={false} />
           <QuestionGroup />
         </>
       )}
