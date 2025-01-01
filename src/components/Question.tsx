@@ -10,8 +10,8 @@ export const Question = ({
   isCorrectlyAnswered,
 }: {
   question: QuestionType;
-  isSubmitted: boolean;
-  isCorrectlyAnswered: boolean;
+  isSubmitted?: boolean;
+  isCorrectlyAnswered?: boolean;
 }) => {
   return (
     <>

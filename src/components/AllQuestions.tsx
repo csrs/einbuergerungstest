@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { allQuestions, allQuestionsReversed } from "../consts/questions.ts";
-import { QuestionAnswerKey } from "../types/questionAnswerTypes.ts";
+import { allQuestionsReversed } from "../consts/questions.ts";
 
 import "./../App.css";
 import { Instructions } from "./Instructions.tsx";
@@ -8,10 +7,6 @@ import { Question as QuestionType } from "../types/questionAnswerTypes.ts";
 import { Question } from "./Question.tsx";
 
 export const AllQuestions = () => {
-  const [submittedAnswers, setSubmittedAnswers] = useState<QuestionAnswerKey>(
-    {}
-  );
-  const [isSubmitted, setIsSubmitted] = useState(false);
   const [incorrectAnswers, setIncorrectAnswers] =
     useState<QuestionType[]>(allQuestionsReversed);
 
@@ -28,8 +23,6 @@ export const AllQuestions = () => {
       },
       {}
     );
-    setSubmittedAnswers(submittedAnswers);
-    setIsSubmitted(true);
 
     setIncorrectAnswers((prev) =>
       prev.filter((q) => submittedAnswers[q.id] !== q.answer).reverse()
@@ -40,30 +33,29 @@ export const AllQuestions = () => {
   return (
     <>
       <Instructions allQuestionsMode />
-      <div className="column form">
-        <form onSubmit={handleSubmit}>
-          <fieldset>
-            <legend>Questions</legend>
-            <div className="questions-container">
-              {incorrectAnswers.map((q) => {
-                const isCorrectlyAnswered = submittedAnswers[q.id] === q.answer;
-                return (
-                  <Question
-                    question={q}
-                    isSubmitted={isSubmitted}
-                    isCorrectlyAnswered={isCorrectlyAnswered}
-                  />
-                );
-              })}
-            </div>
-            <div className="button-group">
-              <button type="submit">
-                Submit and remove correctly-answered questions
-              </button>
-            </div>
-          </fieldset>
-        </form>
-      </div>
+      {incorrectAnswers.length > 0 ? (
+        <div className="column form">
+          <form onSubmit={handleSubmit}>
+            <fieldset>
+              <legend>{incorrectAnswers.length} Questions remaining</legend>
+              <div className="questions-container">
+                {incorrectAnswers.map((q) => {
+                  return <Question question={q} />;
+                })}
+              </div>
+              <div className="button-group">
+                <button type="submit">
+                  Submit and remove correctly-answered questions
+                </button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      ) : (
+        <div>
+          <p>You answered all questions correctly!</p>
+        </div>
+      )}
     </>
   );
 };

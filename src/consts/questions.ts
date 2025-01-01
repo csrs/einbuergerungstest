@@ -6603,4 +6603,4 @@ export const allQuestions: Question[] = [
   },
 ];
 
-export const allQuestionsReversed = allQuestions.reverse();
+export const allQuestionsReversed = allQuestions.reverse().splice(0, 3);
