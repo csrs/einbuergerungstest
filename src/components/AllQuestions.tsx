@@ -30,32 +30,27 @@ export const AllQuestions = () => {
     window.scrollTo(0, 0);
   };
 
-  return (
-    <>
-      <Instructions allQuestionsMode />
-      {incorrectAnswers.length > 0 ? (
-        <div className="column form">
-          <form onSubmit={handleSubmit}>
-            <fieldset>
-              <legend>{incorrectAnswers.length} Questions remaining</legend>
-              <div className="questions-container">
-                {incorrectAnswers.map((q) => {
-                  return <Question question={q} />;
-                })}
-              </div>
-              <div className="button-group">
-                <button type="submit">
-                  Submit and remove correctly-answered questions
-                </button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-      ) : (
-        <div>
-          <p>You answered all questions correctly!</p>
-        </div>
-      )}
-    </>
+  return incorrectAnswers.length > 0 ? (
+    <div className="column form">
+      <form onSubmit={handleSubmit}>
+        <fieldset>
+          <legend>{incorrectAnswers.length} Questions remaining</legend>
+          <div className="questions-container">
+            {incorrectAnswers.map((q) => {
+              return <Question question={q} />;
+            })}
+          </div>
+          <div className="button-group">
+            <button type="submit">
+              Submit and remove correctly-answered questions
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  ) : (
+    <div>
+      <p>You answered all questions correctly!</p>
+    </div>
   );
 };

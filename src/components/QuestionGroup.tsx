@@ -103,50 +103,44 @@ export const QuestionGroup = () => {
   }, [storageObject]);
 
   return (
-    <>
-      <Instructions
-        omittedQuestions={omittedQuestions}
-        allQuestionsMode={false}
-      />
-      <div className="column form">
-        <form onSubmit={handleSubmit} onReset={handleReset}>
-          <fieldset>
-            <legend>33 Questions</legend>
-            <div className="questions-container">
-              {randomQs.map((q) => {
-                const isCorrectlyAnswered = submittedAnswers[q.id] === q.answer;
-                return (
-                  <Question
-                    question={q}
-                    isSubmitted={isSubmitted}
-                    isCorrectlyAnswered={isCorrectlyAnswered}
-                  />
-                );
-              })}
-            </div>
-            <div className="button-group">
-              <button type="submit">Submit</button>
-              <button type="reset">New Questions</button>
-              <button type="button" onClick={handleDeleteSessionStorage}>
-                Delete Session Storage
-              </button>
-              {score && (
-                <span>
-                  Score:
-                  <span
-                    style={{
-                      backgroundColor: score >= 17 ? GREEN : YELLOW,
-                      marginLeft: "5px",
-                    }}
-                  >
-                    {score}
-                  </span>
+    <div className="column form">
+      <form onSubmit={handleSubmit} onReset={handleReset}>
+        <fieldset>
+          <legend>33 Questions</legend>
+          <div className="questions-container">
+            {randomQs.map((q) => {
+              const isCorrectlyAnswered = submittedAnswers[q.id] === q.answer;
+              return (
+                <Question
+                  question={q}
+                  isSubmitted={isSubmitted}
+                  isCorrectlyAnswered={isCorrectlyAnswered}
+                />
+              );
+            })}
+          </div>
+          <div className="button-group">
+            <button type="submit">Submit</button>
+            <button type="reset">New Questions</button>
+            <button type="button" onClick={handleDeleteSessionStorage}>
+              Delete Session Storage
+            </button>
+            {score && (
+              <span>
+                Score:
+                <span
+                  style={{
+                    backgroundColor: score >= 17 ? GREEN : YELLOW,
+                    marginLeft: "5px",
+                  }}
+                >
+                  {score}
                 </span>
-              )}
-            </div>
-          </fieldset>
-        </form>
-      </div>
-    </>
+              </span>
+            )}
+          </div>
+        </fieldset>
+      </form>
+    </div>
   );
 };

@@ -38,7 +38,20 @@ function App() {
           <label htmlFor="allQuestions">All Questions</label>
         </div>
       </form>
-      {selectedOption === "allQuestions" ? <AllQuestions /> : <QuestionGroup />}
+      {selectedOption === "allQuestions" ? (
+        <>
+          <Instructions allQuestionsMode />
+          <AllQuestions />
+        </>
+      ) : (
+        <>
+          <Instructions
+            omittedQuestions={omittedQuestions}
+            allQuestionsMode={false}
+          />
+          <QuestionGroup />
+        </>
+      )}
     </div>
   );
 }
