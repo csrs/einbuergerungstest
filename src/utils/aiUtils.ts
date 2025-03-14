@@ -1,5 +1,4 @@
 import {
-  GenerateContentRequest,
   GoogleGenerativeAI,
   ObjectSchema,
   SchemaType,
@@ -62,24 +61,7 @@ export const getResponse = async (
     question.possibleAnswers[question.answer]
   }, which is also written in German. `;
 
-  const requestObject: GenerateContentRequest = {
-    contents: [
-      {
-        role: "user",
-        parts: [
-          {
-            text: prompt,
-          },
-        ],
-      },
-    ],
-    generationConfig: {
-      maxOutputTokens: 1000,
-      temperature: 0.1,
-    },
-  };
   try {
-    // const result = await model.generateContent(requestObject);
     const result = await model.generateContent(prompt);
 
     const responseText = result.response.text();

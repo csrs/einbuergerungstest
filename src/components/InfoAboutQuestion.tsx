@@ -1,13 +1,13 @@
 import React from "react";
-import { getResponse } from "../utils/aiUtils.ts";
 import { Question } from "../types/questionAnswerTypes.ts";
+import { useApiContext } from "../context/ApiContext.tsx";
 
-export const InfoAboutQuestion = (question: Question) => {
-  const responseText = getResponse(question);
-  const [];
-  return (
+export const InfoAboutQuestion = () => {
+  const { responseObject } = useApiContext();
+
+  return responseObject ? (
     <div>
-      <p>{responseText}</p>
+      <p>{responseObject.reasoning}</p>
     </div>
-  );
+  ) : null;
 };
