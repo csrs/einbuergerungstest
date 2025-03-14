@@ -6,10 +6,12 @@ import {
   isSessionStorageAvailable,
 } from "../utils/questionAnswerUtils.ts";
 import "./../App.css";
-import { GREEN, YELLOW } from "../consts/colors.ts";
 import { Question } from "./Question.tsx";
+import { useApiContext } from "../context/ApiContext.tsx";
 
 export const QuestionGroup = () => {
+  const { resetResponse } = useApiContext();
+
   const [submittedAnswers, setSubmittedAnswers] = useState<QuestionAnswerKey>(
     {}
   );
@@ -17,13 +19,7 @@ export const QuestionGroup = () => {
   const [omittedQuestions, setOmittedQuestions] = useState<number[]>([]);
 
   const [randomQs, setRandomQs] = useState(() =>
-    chooseRandomQuestions(
-      mainQuestions,
-      hamburgQuestions,
-      omittedQuestions
-      // 3,
-      // 2
-    )
+    chooseRandomQuestions(mainQuestions, hamburgQuestions, omittedQuestions)
   );
   const [score, setScore] = useState<number | undefined>(undefined);
   const [storageObject, setStorageObject] = useState<Storage>(() => {
@@ -72,16 +68,11 @@ export const QuestionGroup = () => {
   const handleReset = (e) => {
     e.preventDefault();
     setRandomQs(
-      chooseRandomQuestions(
-        mainQuestions,
-        hamburgQuestions,
-        omittedQuestions
-        // 3,
-        // 2
-      )
+      chooseRandomQuestions(mainQuestions, hamburgQuestions, omittedQuestions)
     );
     setSubmittedAnswers({});
     setIsSubmitted(false);
+    resetResponse(null, null, false);
   };
 
   const handleDeleteSessionStorage = () => {
@@ -148,7 +139,7 @@ export const QuestionGroup = () => {
                 Score:
                 <span
                   style={{
-                    backgroundColor: score >= 17 ? GREEN : YELLOW,
+                    // backgroundColor: score >= 17 ? Colors.GREEN : Colors.YELLOW,
                     marginLeft: "5px",
                   }}
                 >

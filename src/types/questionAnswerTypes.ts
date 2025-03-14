@@ -7,7 +7,7 @@ export type Question = {
   question: string;
   image?: string;
   possibleAnswers: string[];
-  answer?: number;
+  answer: number;
 };
 
 export type Answer = {

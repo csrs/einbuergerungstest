@@ -1,143 +1,143 @@
 import { Question } from "../types/questionAnswerTypes";
 
 export const mainQuestions: Question[] = [
-  {
-    id: 0,
-    question:
-      "In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …",
-    possibleAnswers: [
-      "hier Religionsfreiheit gilt.",
-      "die Menschen Steuern zahlen.",
-      "die Menschen das Wahlrecht haben.",
-      "hier Meinungsfreiheit gilt.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 1,
-    question:
-      "In Deutschland können Eltern bis zum 14. Lebensjahr ihres Kindes entscheiden, ob es in der Schule am …",
-    possibleAnswers: [
-      "Geschichtsunterricht teilnimmt.",
-      "Religionsunterricht teilnimmt.",
-      "Politikunterricht teilnimmt.",
-      "Sprachunterricht teilnimmt.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 2,
-    question: "Deutschland ist ein Rechtsstaat. Was ist damit gemeint?",
-    possibleAnswers: [
-      "Alle Einwohner / Einwohnerinnen und der Staat müssen sich an die Gesetze halten.",
-      "Der Staat muss sich nicht an die Gesetze halten.",
-      "Nur Deutsche müssen die Gesetze befolgen.",
-      "Die Gerichte machen die Gesetze.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 3,
-    question: "Welches Recht gehört zu den Grundrechten in Deutschland?",
-    possibleAnswers: [
-      "Waffenbesitz",
-      "Faustrecht",
-      "Meinungsfreiheit",
-      "Selbstjustiz",
-    ],
-    answer: 2,
-  },
-  {
-    id: 4,
-    question: "Wahlen in Deutschland sind frei. Was bedeutet das?",
-    possibleAnswers: [
-      "Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten / eine bestimmte Kandidatin wählt.",
-      "Nur Personen, die noch nie im Gefängnis waren, dürfen wählen.",
-      "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
-      "Alle wahlberechtigten Personen müssen wählen.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 5,
-    question: "Wie heißt die deutsche Verfassung?",
-    possibleAnswers: [
-      "Volksgesetz",
-      "Bundesgesetz",
-      "Deutsches Gesetz",
-      "Grundgesetz",
-    ],
-    answer: 3,
-  },
-  {
-    id: 6,
-    question:
-      "Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …",
-    possibleAnswers: [
-      "Glaubens- und Gewissensfreiheit.",
-      "Unterhaltung.",
-      "Arbeit.",
-      "Wohnung.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 7,
-    question: "Was steht nicht im Grundgesetz von Deutschland?",
-    possibleAnswers: [
-      "Die Würde des Menschen ist unantastbar.",
-      "Alle sollen gleich viel Geld haben.",
-      "Jeder Mensch darf seine Meinung sagen.",
-      "Alle sind vor dem Gesetz gleich.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 8,
-    question:
-      "Welches Grundrecht gilt in Deutschland nur für Ausländer / Ausländerinnen? Das Grundrecht auf …",
-    possibleAnswers: [
-      "Schutz der Familie",
-      "Menschenwürde",
-      "Asyl",
-      "Meinungsfreiheit",
-    ],
-    answer: 2,
-  },
-  {
-    id: 9,
-    question: "Was ist mit dem deutschen Grundgesetz vereinbar?",
-    possibleAnswers: [
-      "die Prügelstrafe",
-      "die Folter",
-      "die Todesstrafe",
-      "die Geldstrafe",
-    ],
-    answer: 3,
-  },
-  {
-    id: 10,
-    question: "Wie wird die Verfassung der Bundesrepublik Deutschland genannt?",
-    possibleAnswers: [
-      "Grundgesetz",
-      "Bundesverfassung",
-      "Gesetzbuch",
-      "Verfassungsvertrag",
-    ],
-    answer: 0,
-  },
-  {
-    id: 11,
-    question:
-      "Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?",
-    possibleAnswers: [
-      "Ja, wenn mehr als die Hälfte der Abgeordneten im Bundestag dafür sind.",
-      "Ja, aber dazu müssen zwei Drittel der Abgeordneten im Bundestag dafür sein.",
-      "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
-      "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen.",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 0,
+  //   question:
+  //     "In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …",
+  //   possibleAnswers: [
+  //     "hier Religionsfreiheit gilt.",
+  //     "die Menschen Steuern zahlen.",
+  //     "die Menschen das Wahlrecht haben.",
+  //     "hier Meinungsfreiheit gilt.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 1,
+  //   question:
+  //     "In Deutschland können Eltern bis zum 14. Lebensjahr ihres Kindes entscheiden, ob es in der Schule am …",
+  //   possibleAnswers: [
+  //     "Geschichtsunterricht teilnimmt.",
+  //     "Religionsunterricht teilnimmt.",
+  //     "Politikunterricht teilnimmt.",
+  //     "Sprachunterricht teilnimmt.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 2,
+  //   question: "Deutschland ist ein Rechtsstaat. Was ist damit gemeint?",
+  //   possibleAnswers: [
+  //     "Alle Einwohner / Einwohnerinnen und der Staat müssen sich an die Gesetze halten.",
+  //     "Der Staat muss sich nicht an die Gesetze halten.",
+  //     "Nur Deutsche müssen die Gesetze befolgen.",
+  //     "Die Gerichte machen die Gesetze.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 3,
+  //   question: "Welches Recht gehört zu den Grundrechten in Deutschland?",
+  //   possibleAnswers: [
+  //     "Waffenbesitz",
+  //     "Faustrecht",
+  //     "Meinungsfreiheit",
+  //     "Selbstjustiz",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 4,
+  //   question: "Wahlen in Deutschland sind frei. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten / eine bestimmte Kandidatin wählt.",
+  //     "Nur Personen, die noch nie im Gefängnis waren, dürfen wählen.",
+  //     "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
+  //     "Alle wahlberechtigten Personen müssen wählen.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 5,
+  //   question: "Wie heißt die deutsche Verfassung?",
+  //   possibleAnswers: [
+  //     "Volksgesetz",
+  //     "Bundesgesetz",
+  //     "Deutsches Gesetz",
+  //     "Grundgesetz",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 6,
+  //   question:
+  //     "Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …",
+  //   possibleAnswers: [
+  //     "Glaubens- und Gewissensfreiheit.",
+  //     "Unterhaltung.",
+  //     "Arbeit.",
+  //     "Wohnung.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 7,
+  //   question: "Was steht nicht im Grundgesetz von Deutschland?",
+  //   possibleAnswers: [
+  //     "Die Würde des Menschen ist unantastbar.",
+  //     "Alle sollen gleich viel Geld haben.",
+  //     "Jeder Mensch darf seine Meinung sagen.",
+  //     "Alle sind vor dem Gesetz gleich.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 8,
+  //   question:
+  //     "Welches Grundrecht gilt in Deutschland nur für Ausländer / Ausländerinnen? Das Grundrecht auf …",
+  //   possibleAnswers: [
+  //     "Schutz der Familie",
+  //     "Menschenwürde",
+  //     "Asyl",
+  //     "Meinungsfreiheit",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 9,
+  //   question: "Was ist mit dem deutschen Grundgesetz vereinbar?",
+  //   possibleAnswers: [
+  //     "die Prügelstrafe",
+  //     "die Folter",
+  //     "die Todesstrafe",
+  //     "die Geldstrafe",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 10,
+  //   question: "Wie wird die Verfassung der Bundesrepublik Deutschland genannt?",
+  //   possibleAnswers: [
+  //     "Grundgesetz",
+  //     "Bundesverfassung",
+  //     "Gesetzbuch",
+  //     "Verfassungsvertrag",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 11,
+  //   question:
+  //     "Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?",
+  //   possibleAnswers: [
+  //     "Ja, wenn mehr als die Hälfte der Abgeordneten im Bundestag dafür sind.",
+  //     "Ja, aber dazu müssen zwei Drittel der Abgeordneten im Bundestag dafür sein.",
+  //     "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
+  //     "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen.",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 12,
     question: "Im Parlament steht der Begriff „Opposition“ für…",
@@ -149,74 +149,74 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 13,
-    question: "Meinungsfreiheit in Deutschland heißt zum Beispiel, dass ich …",
-    possibleAnswers: [
-      "Passanten auf der Straße beschimpfen darf.",
-      "meine Meinung im Internet äußern kann.",
-      "Nazi-, Hamas- oder Islamischer Staat-Symbole öffentlich tragen darf.",
-      "meine Meinung nur dann äußern darf, solange ich der Regierung nicht widerspreche.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 14,
-    question: "Was verbietet das deutsche Grundgesetz?",
-    possibleAnswers: [
-      "Militärdienst",
-      "Zwangsarbeit",
-      "freie Berufswahl",
-      "Arbeit im Ausland",
-    ],
-    answer: 1,
-  },
-  {
-    id: 15,
-    question: "Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?",
-    possibleAnswers: [
-      "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen",
-      "bei Meinungsäußerungen über die Bundesregierung",
-      "bei Diskussionen über Religionen",
-      "bei Kritik am Staat",
-    ],
-    answer: 0,
-  },
-  {
-    id: 16,
-    question: "Die deutschen Gesetze verbieten …",
-    possibleAnswers: [
-      "Meinungsfreiheit der Einwohner und Einwohnerinnen.",
-      "Petitionen der Bürger und Bürgerinnen.",
-      "Versammlungsfreiheit der Einwohner und Einwohnerinnen.",
-      "Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 17,
-    question:
-      "Welches Grundrecht ist in Artikel 1 des Grundgesetzes der Bundesrepublik Deutschland garantiert?",
-    possibleAnswers: [
-      "die Unantastbarkeit der Menschenwürde",
-      "das Recht auf Leben",
-      "Religionsfreiheit",
-      "Meinungsfreiheit",
-    ],
-    answer: 0,
-  },
-  {
-    id: 18,
-    question:
-      "Was versteht man unter dem Recht der „Freizügigkeit“ in Deutschland?",
-    possibleAnswers: [
-      "Man darf sich seinen Wohnort selbst aussuchen.",
-      "Man kann seinen Beruf wechseln.",
-      "Man darf sich für eine andere Religion entscheiden.",
-      "Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 13,
+  //   question: "Meinungsfreiheit in Deutschland heißt zum Beispiel, dass ich …",
+  //   possibleAnswers: [
+  //     "Passanten auf der Straße beschimpfen darf.",
+  //     "meine Meinung im Internet äußern kann.",
+  //     "Nazi-, Hamas- oder Islamischer Staat-Symbole öffentlich tragen darf.",
+  //     "meine Meinung nur dann äußern darf, solange ich der Regierung nicht widerspreche.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 14,
+  //   question: "Was verbietet das deutsche Grundgesetz?",
+  //   possibleAnswers: [
+  //     "Militärdienst",
+  //     "Zwangsarbeit",
+  //     "freie Berufswahl",
+  //     "Arbeit im Ausland",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 15,
+  //   question: "Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?",
+  //   possibleAnswers: [
+  //     "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen",
+  //     "bei Meinungsäußerungen über die Bundesregierung",
+  //     "bei Diskussionen über Religionen",
+  //     "bei Kritik am Staat",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 16,
+  //   question: "Die deutschen Gesetze verbieten …",
+  //   possibleAnswers: [
+  //     "Meinungsfreiheit der Einwohner und Einwohnerinnen.",
+  //     "Petitionen der Bürger und Bürgerinnen.",
+  //     "Versammlungsfreiheit der Einwohner und Einwohnerinnen.",
+  //     "Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 17,
+  //   question:
+  //     "Welches Grundrecht ist in Artikel 1 des Grundgesetzes der Bundesrepublik Deutschland garantiert?",
+  //   possibleAnswers: [
+  //     "die Unantastbarkeit der Menschenwürde",
+  //     "das Recht auf Leben",
+  //     "Religionsfreiheit",
+  //     "Meinungsfreiheit",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 18,
+  //   question:
+  //     "Was versteht man unter dem Recht der „Freizügigkeit“ in Deutschland?",
+  //   possibleAnswers: [
+  //     "Man darf sich seinen Wohnort selbst aussuchen.",
+  //     "Man kann seinen Beruf wechseln.",
+  //     "Man darf sich für eine andere Religion entscheiden.",
+  //     "Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 19,
     question:
@@ -236,90 +236,90 @@ export const mainQuestions: Question[] = [
     possibleAnswers: ["1", "2", "3", "4"],
     answer: 0,
   },
-  {
-    id: 21,
-    question: "Was für eine Staatsform hat Deutschland?",
-    possibleAnswers: ["Monarchie", "Diktatur", "Republik", "Fürstentum"],
-    answer: 2,
-  },
-  {
-    id: 22,
-    question: "In Deutschland sind die meisten Erwerbstätigen …",
-    possibleAnswers: [
-      "in kleinen Familienunternehmen beschäftigt.",
-      "ehrenamtlich für ein Bundesland tätig.",
-      "selbständig mit einer eigenen Firma tätig.",
-      "bei einer Firma oder Behörde beschäftigt.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 21,
+  //   question: "Was für eine Staatsform hat Deutschland?",
+  //   possibleAnswers: ["Monarchie", "Diktatur", "Republik", "Fürstentum"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 22,
+  //   question: "In Deutschland sind die meisten Erwerbstätigen …",
+  //   possibleAnswers: [
+  //     "in kleinen Familienunternehmen beschäftigt.",
+  //     "ehrenamtlich für ein Bundesland tätig.",
+  //     "selbständig mit einer eigenen Firma tätig.",
+  //     "bei einer Firma oder Behörde beschäftigt.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 23,
     question: "Wie viele Bundesländer hat die Bundesrepublik Deutschland?",
     possibleAnswers: ["14", "15", "16", "17"],
     answer: 2,
   },
-  {
-    id: 24,
-    question: "Was ist kein Bundesland der Bundesrepublik Deutschland?",
-    possibleAnswers: [
-      "Elsass-Lothringen",
-      "Nordrhein-Westfalen",
-      "Mecklenburg-Vorpommern",
-      "Sachsen-Anhalt",
-    ],
-    answer: 0,
-  },
-  {
-    id: 25,
-    question: "Deutschland ist …",
-    possibleAnswers: [
-      "eine kommunistische Republik.",
-      "ein demokratischer und sozialer Bundesstaat.",
-      "eine kapitalistische und soziale Monarchie.",
-      "ein sozialer und sozialistischer Bundesstaat.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 26,
-    question: "Deutschland ist …",
-    possibleAnswers: [
-      "ein sozialistischer Staat.",
-      "ein Bundesstaat.",
-      "eine Diktatur.",
-      "eine Monarchie.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 27,
-    question: "Wer wählt in Deutschland die Abgeordneten zum Bundestag?",
-    possibleAnswers: [
-      "das Militär",
-      "die Wirtschaft",
-      "das wahlberechtigte Volk",
-      "die Verwaltung",
-    ],
-    answer: 2,
-  },
-  {
-    id: 28,
-    question: "Welches Tier ist das Wappentier der Bundesrepublik Deutschland?",
-    possibleAnswers: ["Löwe", "Adler", "Bär", "Pferd"],
-    answer: 1,
-  },
-  {
-    id: 29,
-    question: "Was ist kein Merkmal unserer Demokratie?",
-    possibleAnswers: [
-      "regelmäßige Wahlen",
-      "Pressezensur",
-      "Meinungsfreiheit",
-      "verschiedene Parteien",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 24,
+  //   question: "Was ist kein Bundesland der Bundesrepublik Deutschland?",
+  //   possibleAnswers: [
+  //     "Elsass-Lothringen",
+  //     "Nordrhein-Westfalen",
+  //     "Mecklenburg-Vorpommern",
+  //     "Sachsen-Anhalt",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 25,
+  //   question: "Deutschland ist …",
+  //   possibleAnswers: [
+  //     "eine kommunistische Republik.",
+  //     "ein demokratischer und sozialer Bundesstaat.",
+  //     "eine kapitalistische und soziale Monarchie.",
+  //     "ein sozialer und sozialistischer Bundesstaat.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 26,
+  //   question: "Deutschland ist …",
+  //   possibleAnswers: [
+  //     "ein sozialistischer Staat.",
+  //     "ein Bundesstaat.",
+  //     "eine Diktatur.",
+  //     "eine Monarchie.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 27,
+  //   question: "Wer wählt in Deutschland die Abgeordneten zum Bundestag?",
+  //   possibleAnswers: [
+  //     "das Militär",
+  //     "die Wirtschaft",
+  //     "das wahlberechtigte Volk",
+  //     "die Verwaltung",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 28,
+  //   question: "Welches Tier ist das Wappentier der Bundesrepublik Deutschland?",
+  //   possibleAnswers: ["Löwe", "Adler", "Bär", "Pferd"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 29,
+  //   question: "Was ist kein Merkmal unserer Demokratie?",
+  //   possibleAnswers: [
+  //     "regelmäßige Wahlen",
+  //     "Pressezensur",
+  //     "Meinungsfreiheit",
+  //     "verschiedene Parteien",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 30,
     question:
@@ -327,56 +327,56 @@ export const mainQuestions: Question[] = [
     possibleAnswers: ["Einheit.", "Koalition.", "Ministerium.", "Fraktion."],
     answer: 1,
   },
-  {
-    id: 31,
-    question: "Was ist keine staatliche Gewalt in Deutschland?",
-    possibleAnswers: ["Gesetzgebung", "Regierung", "Presse", "Rechtsprechung"],
-    answer: 2,
-  },
-  {
-    id: 32,
-    question: "Welche Aussage ist richtig? In Deutschland …",
-    possibleAnswers: [
-      "sind Staat und Religionsgemeinschaften voneinander getrennt.",
-      "bilden die Religionsgemeinschaften den Staat.",
-      "ist der Staat abhängig von den Religionsgemeinschaften.",
-      "bilden Staat und Religionsgemeinschaften eine Einheit.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 33,
-    question: "Was ist Deutschland nicht?",
-    possibleAnswers: [
-      "eine Demokratie",
-      "ein Rechtsstaat",
-      "eine Monarchie",
-      "ein Sozialstaat",
-    ],
-    answer: 2,
-  },
-  {
-    id: 34,
-    question: "Womit finanziert der deutsche Staat die Sozialversicherung?",
-    possibleAnswers: [
-      "Kirchensteuern",
-      "Sozialabgaben",
-      "Spendengeldern",
-      "Vereinsbeiträgen",
-    ],
-    answer: 1,
-  },
-  {
-    id: 35,
-    question: "Welche Maßnahme schafft in Deutschland soziale Sicherheit?",
-    possibleAnswers: [
-      "die Krankenversicherung",
-      "die Autoversicherung",
-      "die Gebäudeversicherung",
-      "die Haftpflichtversicherung",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 31,
+  //   question: "Was ist keine staatliche Gewalt in Deutschland?",
+  //   possibleAnswers: ["Gesetzgebung", "Regierung", "Presse", "Rechtsprechung"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 32,
+  //   question: "Welche Aussage ist richtig? In Deutschland …",
+  //   possibleAnswers: [
+  //     "sind Staat und Religionsgemeinschaften voneinander getrennt.",
+  //     "bilden die Religionsgemeinschaften den Staat.",
+  //     "ist der Staat abhängig von den Religionsgemeinschaften.",
+  //     "bilden Staat und Religionsgemeinschaften eine Einheit.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 33,
+  //   question: "Was ist Deutschland nicht?",
+  //   possibleAnswers: [
+  //     "eine Demokratie",
+  //     "ein Rechtsstaat",
+  //     "eine Monarchie",
+  //     "ein Sozialstaat",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 34,
+  //   question: "Womit finanziert der deutsche Staat die Sozialversicherung?",
+  //   possibleAnswers: [
+  //     "Kirchensteuern",
+  //     "Sozialabgaben",
+  //     "Spendengeldern",
+  //     "Vereinsbeiträgen",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 35,
+  //   question: "Welche Maßnahme schafft in Deutschland soziale Sicherheit?",
+  //   possibleAnswers: [
+  //     "die Krankenversicherung",
+  //     "die Autoversicherung",
+  //     "die Gebäudeversicherung",
+  //     "die Haftpflichtversicherung",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 36,
     question:
@@ -401,28 +401,28 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 38,
-    question: "Was hat jedes deutsche Bundesland?",
-    possibleAnswers: [
-      "einen eigenen Außenminister / eine eigene Außenministerin",
-      "eine eigene Währung",
-      "eine eigene Armee",
-      "eine eigene Regierung",
-    ],
-    answer: 3,
-  },
-  {
-    id: 39,
-    question: "Mit welchen Worten beginnt die deutsche Nationalhymne?",
-    possibleAnswers: [
-      "Völker, hört die Signale …",
-      "Einigkeit und Recht und Freiheit …",
-      "Freude schöner Götterfunken …",
-      "Deutschland einig Vaterland …",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 38,
+  //   question: "Was hat jedes deutsche Bundesland?",
+  //   possibleAnswers: [
+  //     "einen eigenen Außenminister / eine eigene Außenministerin",
+  //     "eine eigene Währung",
+  //     "eine eigene Armee",
+  //     "eine eigene Regierung",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 39,
+  //   question: "Mit welchen Worten beginnt die deutsche Nationalhymne?",
+  //   possibleAnswers: [
+  //     "Völker, hört die Signale …",
+  //     "Einigkeit und Recht und Freiheit …",
+  //     "Freude schöner Götterfunken …",
+  //     "Deutschland einig Vaterland …",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 40,
     question: "Warum gibt es in einer Demokratie mehr als eine Partei?",
@@ -445,17 +445,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 42,
-    question: "Wann kann in Deutschland eine Partei verboten werden?",
-    possibleAnswers: [
-      "wenn ihr Wahlkampf zu teuer ist",
-      "wenn sie gegen die Verfassung kämpft",
-      "wenn sie Kritik am Staatsoberhaupt äußert",
-      "wenn ihr Programm eine neue Richtung vorschlägt",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 42,
+  //   question: "Wann kann in Deutschland eine Partei verboten werden?",
+  //   possibleAnswers: [
+  //     "wenn ihr Wahlkampf zu teuer ist",
+  //     "wenn sie gegen die Verfassung kämpft",
+  //     "wenn sie Kritik am Staatsoberhaupt äußert",
+  //     "wenn ihr Programm eine neue Richtung vorschlägt",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 43,
     question:
@@ -468,41 +468,41 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 44,
-    question: "Zu welcher Versicherung gehört die Pflegeversicherung?",
-    possibleAnswers: [
-      "Sozialversicherung",
-      "Unfallversicherung",
-      "Hausratversicherung",
-      "Haftpflicht- und Feuerversicherung",
-    ],
-    answer: 0,
-  },
-  {
-    id: 45,
-    question:
-      "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?",
-    possibleAnswers: [
-      "Er baut Straßen und Schulen.",
-      "Er verkauft Lebensmittel und Kleidung.",
-      "Er versorgt alle Einwohner und Einwohnerinnen kostenlos mit Zeitungen.",
-      "Er produziert Autos und Busse.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 46,
-    question:
-      "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört nicht dazu?",
-    possibleAnswers: [
-      "Er bezahlt für alle Staatsangehörigen Urlaubsreisen.",
-      "Er zahlt Kindergeld.",
-      "Er unterstützt Museen.",
-      "Er fördert Sportler und Sportlerinnen.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 44,
+  //   question: "Zu welcher Versicherung gehört die Pflegeversicherung?",
+  //   possibleAnswers: [
+  //     "Sozialversicherung",
+  //     "Unfallversicherung",
+  //     "Hausratversicherung",
+  //     "Haftpflicht- und Feuerversicherung",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 45,
+  //   question:
+  //     "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?",
+  //   possibleAnswers: [
+  //     "Er baut Straßen und Schulen.",
+  //     "Er verkauft Lebensmittel und Kleidung.",
+  //     "Er versorgt alle Einwohner und Einwohnerinnen kostenlos mit Zeitungen.",
+  //     "Er produziert Autos und Busse.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 46,
+  //   question:
+  //     "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört nicht dazu?",
+  //   possibleAnswers: [
+  //     "Er bezahlt für alle Staatsangehörigen Urlaubsreisen.",
+  //     "Er zahlt Kindergeld.",
+  //     "Er unterstützt Museen.",
+  //     "Er fördert Sportler und Sportlerinnen.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 47,
     question:
@@ -526,39 +526,39 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 49,
-    question: "Die Wirtschaftsform in Deutschland nennt man …",
-    possibleAnswers: [
-      "freie Zentralwirtschaft.",
-      "soziale Marktwirtschaft.",
-      "gelenkte Zentralwirtschaft.",
-      "Planwirtschaft.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 50,
-    question: "Zu einem demokratischen Rechtsstaat gehört es nicht, dass …",
-    possibleAnswers: [
-      "Menschen sich kritisch über die Regierung äußern können.",
-      "Bürger friedlich demonstrieren gehen dürfen.",
-      "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
-      "jemand ein Verbrechen begeht und deshalb verhaftet wird.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 51,
-    question: "Was bedeutet „Volkssouveränität“? Alle Staatsgewalt geht vom …",
-    possibleAnswers: [
-      "Volke aus.",
-      "Bundestag aus.",
-      "preußischen König aus.",
-      "Bundesverfassungsgericht aus.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 49,
+  //   question: "Die Wirtschaftsform in Deutschland nennt man …",
+  //   possibleAnswers: [
+  //     "freie Zentralwirtschaft.",
+  //     "soziale Marktwirtschaft.",
+  //     "gelenkte Zentralwirtschaft.",
+  //     "Planwirtschaft.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 50,
+  //   question: "Zu einem demokratischen Rechtsstaat gehört es nicht, dass …",
+  //   possibleAnswers: [
+  //     "Menschen sich kritisch über die Regierung äußern können.",
+  //     "Bürger friedlich demonstrieren gehen dürfen.",
+  //     "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
+  //     "jemand ein Verbrechen begeht und deshalb verhaftet wird.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 51,
+  //   question: "Was bedeutet „Volkssouveränität“? Alle Staatsgewalt geht vom …",
+  //   possibleAnswers: [
+  //     "Volke aus.",
+  //     "Bundestag aus.",
+  //     "preußischen König aus.",
+  //     "Bundesverfassungsgericht aus.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 52,
     question: "Was bedeutet „Rechtsstaat“ in Deutschland?",
@@ -570,12 +570,12 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 53,
-    question: "Was ist keine staatliche Gewalt in Deutschland?",
-    possibleAnswers: ["Legislative", "Judikative", "Exekutive", "Direktive"],
-    answer: 3,
-  },
+  // {
+  //   id: 53,
+  //   question: "Was ist keine staatliche Gewalt in Deutschland?",
+  //   possibleAnswers: ["Legislative", "Judikative", "Exekutive", "Direktive"],
+  //   answer: 3,
+  // },
   {
     id: 54,
     question: "Was zeigt dieses Bild?",
@@ -646,17 +646,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 60,
-    question: "Was bedeutet „Volkssouveränität“?",
-    possibleAnswers: [
-      "Der König / die Königin herrscht über das Volk.",
-      "Das Bundesverfassungsgericht steht über der Verfassung.",
-      "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
-      "Die Staatsgewalt geht vom Volke aus.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 60,
+  //   question: "Was bedeutet „Volkssouveränität“?",
+  //   possibleAnswers: [
+  //     "Der König / die Königin herrscht über das Volk.",
+  //     "Das Bundesverfassungsgericht steht über der Verfassung.",
+  //     "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
+  //     "Die Staatsgewalt geht vom Volke aus.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 61,
     question:
@@ -768,18 +768,18 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 71,
-    question:
-      "Wie heißt der jetzige Bundeskanzler / die jetzige Bundeskanzlerin von Deutschland?",
-    possibleAnswers: [
-      "Gerhard Schröder",
-      "Angela Merkel",
-      "Franziska Giffey",
-      "Olaf Scholz",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 71,
+  //   question:
+  //     "Wie heißt der jetzige Bundeskanzler / die jetzige Bundeskanzlerin von Deutschland?",
+  //   possibleAnswers: [
+  //     "Gerhard Schröder",
+  //     "Angela Merkel",
+  //     "Franziska Giffey",
+  //     "Olaf Scholz",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 72,
     question:
@@ -847,17 +847,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 78,
-    question: "Was bedeutet die Abkürzung FDP in Deutschland?",
-    possibleAnswers: [
-      "Friedliche Demonstrative Partei",
-      "Freie Deutschland Partei",
-      "Führende Demokratische Partei",
-      "Freie Demokratische Partei",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 78,
+  //   question: "Was bedeutet die Abkürzung FDP in Deutschland?",
+  //   possibleAnswers: [
+  //     "Friedliche Demonstrative Partei",
+  //     "Freie Deutschland Partei",
+  //     "Führende Demokratische Partei",
+  //     "Freie Demokratische Partei",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 79,
     question:
@@ -993,17 +993,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 91,
-    question: "Was bedeutet die Abkürzung CSU in Deutschland?",
-    possibleAnswers: [
-      "Christlich Sichere Union",
-      "Christlich Süddeutsche Union",
-      "Christlich Sozialer Unternehmerverband",
-      "Christlich Soziale Union",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 91,
+  //   question: "Was bedeutet die Abkürzung CSU in Deutschland?",
+  //   possibleAnswers: [
+  //     "Christlich Sichere Union",
+  //     "Christlich Süddeutsche Union",
+  //     "Christlich Sozialer Unternehmerverband",
+  //     "Christlich Soziale Union",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 92,
     question:
@@ -1016,13 +1016,13 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 93,
-    question:
-      "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
-    possibleAnswers: ["16", "18", "21", "23"],
-    answer: 1,
-  },
+  // {
+  //   id: 93,
+  //   question:
+  //     "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
+  //   possibleAnswers: ["16", "18", "21", "23"],
+  //   answer: 1,
+  // },
   {
     id: 94,
     question: "Was gilt für die meisten Kinder in Deutschland?",
@@ -1034,29 +1034,29 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 95,
-    question: "Wie kann jemand, der den Holocaust leugnet, bestraft werden?",
-    possibleAnswers: [
-      "Kürzung sozialer Leistungen",
-      "bis zu 100 Sozialstunden",
-      "gar nicht, Holocaustleugnung ist erlaubt",
-      "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe",
-    ],
-    answer: 3,
-  },
-  {
-    id: 96,
-    question:
-      "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
-    possibleAnswers: [
-      "Sozialversicherung",
-      "Sozialhilfe",
-      "Kindergeld",
-      "Wohngeld",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 95,
+  //   question: "Wie kann jemand, der den Holocaust leugnet, bestraft werden?",
+  //   possibleAnswers: [
+  //     "Kürzung sozialer Leistungen",
+  //     "bis zu 100 Sozialstunden",
+  //     "gar nicht, Holocaustleugnung ist erlaubt",
+  //     "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 96,
+  //   question:
+  //     "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
+  //   possibleAnswers: [
+  //     "Sozialversicherung",
+  //     "Sozialhilfe",
+  //     "Kindergeld",
+  //     "Wohngeld",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 97,
     question:
@@ -1069,28 +1069,28 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 98,
-    question: "Wer bezahlt in Deutschland die Sozialversicherungen?",
-    possibleAnswers: [
-      "Arbeitgeber / Arbeitgeberinnen und Arbeitnehmer / Arbeitnehmerinnen",
-      "nur Arbeitnehmer / Arbeitnehmerinnen",
-      "alle Staatsangehörigen",
-      "nur Arbeitgeber / Arbeitgeberinnen",
-    ],
-    answer: 0,
-  },
-  {
-    id: 99,
-    question: "Was gehört nicht zur gesetzlichen Sozialversicherung?",
-    possibleAnswers: [
-      "die Lebensversicherung",
-      "die gesetzliche Rentenversicherung",
-      "die Arbeitslosenversicherung",
-      "die Pflegeversicherung",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 98,
+  //   question: "Wer bezahlt in Deutschland die Sozialversicherungen?",
+  //   possibleAnswers: [
+  //     "Arbeitgeber / Arbeitgeberinnen und Arbeitnehmer / Arbeitnehmerinnen",
+  //     "nur Arbeitnehmer / Arbeitnehmerinnen",
+  //     "alle Staatsangehörigen",
+  //     "nur Arbeitgeber / Arbeitgeberinnen",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 99,
+  //   question: "Was gehört nicht zur gesetzlichen Sozialversicherung?",
+  //   possibleAnswers: [
+  //     "die Lebensversicherung",
+  //     "die gesetzliche Rentenversicherung",
+  //     "die Arbeitslosenversicherung",
+  //     "die Pflegeversicherung",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 100,
     question: "Gewerkschaften sind Interessenverbände der …",
@@ -1126,18 +1126,18 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 103,
-    question:
-      "Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht der Grund für diese Entlassung sein?",
-    possibleAnswers: [
-      "Die Frau ist lange krank und arbeitsunfähig.",
-      "Die Frau kam oft zu spät zur Arbeit.",
-      "Die Frau erledigt private Sachen während der Arbeitszeit.",
-      "Die Frau bekommt ein Kind und ihr Chef weiß das.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 103,
+  //   question:
+  //     "Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht der Grund für diese Entlassung sein?",
+  //   possibleAnswers: [
+  //     "Die Frau ist lange krank und arbeitsunfähig.",
+  //     "Die Frau kam oft zu spät zur Arbeit.",
+  //     "Die Frau erledigt private Sachen während der Arbeitszeit.",
+  //     "Die Frau bekommt ein Kind und ihr Chef weiß das.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 104,
     question:
@@ -1153,7 +1153,7 @@ export const mainQuestions: Question[] = [
   {
     id: 105,
     question:
-      "In Deutschland helfen ehrenamtliche Wahlhelfer und Wahlhelferinnen bei den Wahlen. Was ist eine Aufgabe von Walhelfern / Walhhelferinnen?",
+      "Was ist eine Aufgabe von Wahlhelfern / Wahlhelferinnen in Deutschland?",
     possibleAnswers: [
       "Sie helfen Kindern und alten Menschen beim Wählen.",
       "Sie schreiben Karten und Briefe mit der Angabe des Wahllokals.",
@@ -1197,29 +1197,29 @@ export const mainQuestions: Question[] = [
     possibleAnswers: ["2 Jahre", "3 Jahre", "4 Jahre", "5 Jahre"],
     answer: 2,
   },
-  {
-    id: 110,
-    question:
-      "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten?",
-    possibleAnswers: [
-      "Die Politik Israels öffentlich kritisieren.",
-      "Das Aufhängen einer israelischen Flagge auf dem Privatgrundstück.",
-      "Eine Diskussion über die Politik Israels.",
-      "Der öffentliche Aufruf zur Vernichtung Israels.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 111,
-    question: "Die Wahlen in Deutschland sind …",
-    possibleAnswers: [
-      "speziell.",
-      "geheim.",
-      "berufsbezogen.",
-      "geschlechtsabhängig.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 110,
+  //   question:
+  //     "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten?",
+  //   possibleAnswers: [
+  //     "Die Politik Israels öffentlich kritisieren.",
+  //     "Das Aufhängen einer israelischen Flagge auf dem Privatgrundstück.",
+  //     "Eine Diskussion über die Politik Israels.",
+  //     "Der öffentliche Aufruf zur Vernichtung Israels.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 111,
+  //   question: "Die Wahlen in Deutschland sind …",
+  //   possibleAnswers: [
+  //     "speziell.",
+  //     "geheim.",
+  //     "berufsbezogen.",
+  //     "geschlechtsabhängig.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 112,
     question: "Wahlen in Deutschland gewinnt die Partei, die …",
@@ -1231,116 +1231,116 @@ export const mainQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 113,
-    question: "An demokratischen Wahlen in Deutschland teilzunehmen ist …",
-    possibleAnswers: [
-      "eine Pflicht.",
-      "ein Recht.",
-      "ein Zwang.",
-      "eine Last.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 114,
-    question: "Was bedeutet „aktives Wahlrecht“ in Deutschland?",
-    possibleAnswers: [
-      "Man kann gewählt werden.",
-      "Man muss wählen gehen.",
-      "Man kann wählen.",
-      "Man muss zur Auszählung der Stimmen gehen.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 115,
-    question:
-      "Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …",
-    possibleAnswers: [
-      "aktive Wahlkampagne.",
-      "aktives Wahlverfahren.",
-      "aktiver Wahlkampf.",
-      "aktives Wahlrecht.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 116,
-    question:
-      "Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?",
-    possibleAnswers: ["3 %", "4 %", "5 %", "6 %"],
-    answer: 2,
-  },
-  {
-    id: 117,
-    question:
-      "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?",
-    possibleAnswers: [
-      "nur Deutsche",
-      "nur Israelis",
-      "nur religiöse Menschen",
-      "alle Menschen",
-    ],
-    answer: 3,
-  },
-  {
-    id: 118,
-    question: "Wahlen in Deutschland sind frei. Was bedeutet das?",
-    possibleAnswers: [
-      "Alle verurteilten Straftäter / Straftäterinnen dürfen nicht wählen.",
-      "Wenn ich wählen gehen möchte, muss mein Arbeitgeber / meine Arbeitgeberin mir frei geben.",
-      "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
-      "Ich kann frei entscheiden, wo ich wählen gehen möchte.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 119,
-    question: "Das Wahlsystem in Deutschland ist ein …",
-    possibleAnswers: [
-      "Zensuswahlrecht.",
-      "Dreiklassenwahlrecht.",
-      "Mehrheits- und Verhältniswahlrecht.",
-      "allgemeines Männerwahlrecht.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 120,
-    question:
-      "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen haben. Das heißt …",
-    possibleAnswers: [
-      "5 %-Hürde.",
-      "Zulassungsgrenze.",
-      "Basiswert.",
-      "Richtlinie.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 121,
-    question:
-      "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …",
-    possibleAnswers: [
-      "frei, gleich, geheim.",
-      "offen, sicher, frei.",
-      "geschlossen, gleich, sicher.",
-      "sicher, offen, freiwillig.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 122,
-    question: "Was ist in Deutschland die „5 %-Hürde“?",
-    possibleAnswers: [
-      "Abstimmungsregelung im Bundestag für kleine Parteien",
-      "Anwesenheitskontrolle im Bundestag für Abstimmungen",
-      "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen",
-      "Anwesenheitskontrolle im Bundesrat für Abstimmungen",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 113,
+  //   question: "An demokratischen Wahlen in Deutschland teilzunehmen ist …",
+  //   possibleAnswers: [
+  //     "eine Pflicht.",
+  //     "ein Recht.",
+  //     "ein Zwang.",
+  //     "eine Last.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 114,
+  //   question: "Was bedeutet „aktives Wahlrecht“ in Deutschland?",
+  //   possibleAnswers: [
+  //     "Man kann gewählt werden.",
+  //     "Man muss wählen gehen.",
+  //     "Man kann wählen.",
+  //     "Man muss zur Auszählung der Stimmen gehen.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 115,
+  //   question:
+  //     "Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …",
+  //   possibleAnswers: [
+  //     "aktive Wahlkampagne.",
+  //     "aktives Wahlverfahren.",
+  //     "aktiver Wahlkampf.",
+  //     "aktives Wahlrecht.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 116,
+  //   question:
+  //     "Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?",
+  //   possibleAnswers: ["3 %", "4 %", "5 %", "6 %"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 117,
+  //   question:
+  //     "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?",
+  //   possibleAnswers: [
+  //     "nur Deutsche",
+  //     "nur Israelis",
+  //     "nur religiöse Menschen",
+  //     "alle Menschen",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 118,
+  //   question: "Wahlen in Deutschland sind frei. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Alle verurteilten Straftäter / Straftäterinnen dürfen nicht wählen.",
+  //     "Wenn ich wählen gehen möchte, muss mein Arbeitgeber / meine Arbeitgeberin mir frei geben.",
+  //     "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
+  //     "Ich kann frei entscheiden, wo ich wählen gehen möchte.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 119,
+  //   question: "Das Wahlsystem in Deutschland ist ein …",
+  //   possibleAnswers: [
+  //     "Zensuswahlrecht.",
+  //     "Dreiklassenwahlrecht.",
+  //     "Mehrheits- und Verhältniswahlrecht.",
+  //     "allgemeines Männerwahlrecht.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 120,
+  //   question:
+  //     "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen haben. Das heißt …",
+  //   possibleAnswers: [
+  //     "5 %-Hürde.",
+  //     "Zulassungsgrenze.",
+  //     "Basiswert.",
+  //     "Richtlinie.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 121,
+  //   question:
+  //     "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …",
+  //   possibleAnswers: [
+  //     "frei, gleich, geheim.",
+  //     "offen, sicher, frei.",
+  //     "geschlossen, gleich, sicher.",
+  //     "sicher, offen, freiwillig.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 122,
+  //   question: "Was ist in Deutschland die „5 %-Hürde“?",
+  //   possibleAnswers: [
+  //     "Abstimmungsregelung im Bundestag für kleine Parteien",
+  //     "Anwesenheitskontrolle im Bundestag für Abstimmungen",
+  //     "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen",
+  //     "Anwesenheitskontrolle im Bundesrat für Abstimmungen",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 123,
     question: "Die Bundestagswahl in Deutschland ist die Wahl …",
@@ -1352,18 +1352,18 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 124,
-    question:
-      "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
-    possibleAnswers: [
-      "die Bürger und Bürgerinnen zu zwingen, ihre Stimme abzugeben.",
-      "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.",
-      "im Land bestehende Gesetze beizubehalten.",
-      "den Armen mehr Macht zu geben.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 124,
+  //   question:
+  //     "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
+  //   possibleAnswers: [
+  //     "die Bürger und Bürgerinnen zu zwingen, ihre Stimme abzugeben.",
+  //     "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.",
+  //     "im Land bestehende Gesetze beizubehalten.",
+  //     "den Armen mehr Macht zu geben.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 125,
     question:
@@ -1429,42 +1429,42 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 131,
-    question:
-      "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
-    possibleAnswers: [
-      "Sie arbeiten als Soldaten / Soldatinnen.",
-      "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
-      "Sie arbeiten in der Bundesregierung.",
-      "Sie arbeiten in einem Krankenhaus und verdienen dabei Geld.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 132,
-    question:
-      "Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?",
-    possibleAnswers: [
-      "Der Ehemann wählt für seine Frau mit.",
-      "Man kann durch Briefwahl seine Stimme abgeben.",
-      "Man kann am Wahltag telefonisch seine Stimme abgeben.",
-      "Kinder ab dem Alter von 14 Jahren dürfen wählen.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 133,
-    question:
-      "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?",
-    possibleAnswers: [
-      "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.",
-      "Ich werde Mitglied in einem Sportverein und trainiere Radfahren.",
-      "Ich wende mich an das Finanzamt, weil ich als Steuerzahler / Steuerzahlerin ein Recht auf die Buslinie habe.",
-      "Ich schreibe einen Brief an das Forstamt der Gemeinde.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 131,
+  //   question:
+  //     "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Sie arbeiten als Soldaten / Soldatinnen.",
+  //     "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
+  //     "Sie arbeiten in der Bundesregierung.",
+  //     "Sie arbeiten in einem Krankenhaus und verdienen dabei Geld.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 132,
+  //   question:
+  //     "Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?",
+  //   possibleAnswers: [
+  //     "Der Ehemann wählt für seine Frau mit.",
+  //     "Man kann durch Briefwahl seine Stimme abgeben.",
+  //     "Man kann am Wahltag telefonisch seine Stimme abgeben.",
+  //     "Kinder ab dem Alter von 14 Jahren dürfen wählen.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 133,
+  //   question:
+  //     "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?",
+  //   possibleAnswers: [
+  //     "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.",
+  //     "Ich werde Mitglied in einem Sportverein und trainiere Radfahren.",
+  //     "Ich wende mich an das Finanzamt, weil ich als Steuerzahler / Steuerzahlerin ein Recht auf die Buslinie habe.",
+  //     "Ich schreibe einen Brief an das Forstamt der Gemeinde.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 134,
     question: "Wen vertreten die Gewerkschaften in Deutschland?",
@@ -1476,41 +1476,41 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 135,
-    question: "Sie gehen in Deutschland zum Arbeitsgericht bei …",
-    possibleAnswers: [
-      "falscher Nebenkostenabrechnung.",
-      "ungerechtfertigter Kündigung durch Ihren Chef / Ihre Chefin.",
-      "Problemen mit den Nachbarn / Nachbarinnen.",
-      "Schwierigkeiten nach einem Verkehrsunfall.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 136,
-    question:
-      "Welches Gericht ist in Deutschland bei Konflikten in der Arbeitswelt zuständig?",
-    possibleAnswers: [
-      "das Familiengericht",
-      "das Strafgericht",
-      "das Arbeitsgericht",
-      "das Amtsgericht",
-    ],
-    answer: 2,
-  },
-  {
-    id: 137,
-    question:
-      "Was kann ich in Deutschland machen, wenn mir mein Arbeitgeber / meine Arbeitgeberin zu Unrecht gekündigt hat?",
-    possibleAnswers: [
-      "weiter arbeiten und freundlich zum Chef / zur Chefin sein",
-      "ein Mahnverfahren gegen den Arbeitgeber / die Arbeitgeberin führen",
-      "Kündigungsschutzklage erheben",
-      "den Arbeitgeber / die Arbeitgeberin bei der Polizei anzeigen",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 135,
+  //   question: "Sie gehen in Deutschland zum Arbeitsgericht bei …",
+  //   possibleAnswers: [
+  //     "falscher Nebenkostenabrechnung.",
+  //     "ungerechtfertigter Kündigung durch Ihren Chef / Ihre Chefin.",
+  //     "Problemen mit den Nachbarn / Nachbarinnen.",
+  //     "Schwierigkeiten nach einem Verkehrsunfall.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 136,
+  //   question:
+  //     "Welches Gericht ist in Deutschland bei Konflikten in der Arbeitswelt zuständig?",
+  //   possibleAnswers: [
+  //     "das Familiengericht",
+  //     "das Strafgericht",
+  //     "das Arbeitsgericht",
+  //     "das Amtsgericht",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 137,
+  //   question:
+  //     "Was kann ich in Deutschland machen, wenn mir mein Arbeitgeber / meine Arbeitgeberin zu Unrecht gekündigt hat?",
+  //   possibleAnswers: [
+  //     "weiter arbeiten und freundlich zum Chef / zur Chefin sein",
+  //     "ein Mahnverfahren gegen den Arbeitgeber / die Arbeitgeberin führen",
+  //     "Kündigungsschutzklage erheben",
+  //     "den Arbeitgeber / die Arbeitgeberin bei der Polizei anzeigen",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 138,
     question:
@@ -1559,17 +1559,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 142,
-    question: "Ein Richter / eine Richterin in Deutschland gehört zur …",
-    possibleAnswers: [
-      "Judikative.",
-      "Exekutive.",
-      "Operative.",
-      "Legislative.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 142,
+  //   question: "Ein Richter / eine Richterin in Deutschland gehört zur …",
+  //   possibleAnswers: [
+  //     "Judikative.",
+  //     "Exekutive.",
+  //     "Operative.",
+  //     "Legislative.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 143,
     question: "Ein Richter / eine Richterin gehört in Deutschland zur …",
@@ -1581,31 +1581,31 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 144,
-    question:
-      "In Deutschland wird die Staatsgewalt geteilt. Für welche Staatsgewalt arbeitet ein Richter / eine Richterin? Für die …",
-    possibleAnswers: ["Judikative.", "Exekutive.", "Presse.", "Legislative."],
-    answer: 0,
-  },
+  // {
+  //   id: 144,
+  //   question:
+  //     "In Deutschland wird die Staatsgewalt geteilt. Für welche Staatsgewalt arbeitet ein Richter / eine Richterin? Für die …",
+  //   possibleAnswers: ["Judikative.", "Exekutive.", "Presse.", "Legislative."],
+  //   answer: 0,
+  // },
   {
     id: 145,
     question: "Wie nennt man in Deutschland ein Verfahren vor einem Gericht?",
     possibleAnswers: ["Programm", "Prozedur", "Protokoll", "Prozess"],
     answer: 3,
   },
-  {
-    id: 146,
-    question:
-      "Was ist die Arbeit eines Richters / einer Richterin in Deutschland?",
-    possibleAnswers: [
-      "Deutschland regieren",
-      "Recht sprechen",
-      "Pläne erstellen",
-      "Gesetze erlassen",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 146,
+  //   question:
+  //     "Was ist die Arbeit eines Richters / einer Richterin in Deutschland?",
+  //   possibleAnswers: [
+  //     "Deutschland regieren",
+  //     "Recht sprechen",
+  //     "Pläne erstellen",
+  //     "Gesetze erlassen",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 147,
     question: "Was ist eine Aufgabe der Polizei in Deutschland?",
@@ -1617,17 +1617,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 148,
-    question: "Was ist ein Beispiel für antisemitisches Verhalten?",
-    possibleAnswers: [
-      "ein jüdisches Fest besuchen",
-      "die israelische Regierung kritisieren",
-      "den Holocaust leugnen",
-      "gegen Juden Fußball spielen",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 148,
+  //   question: "Was ist ein Beispiel für antisemitisches Verhalten?",
+  //   possibleAnswers: [
+  //     "ein jüdisches Fest besuchen",
+  //     "die israelische Regierung kritisieren",
+  //     "den Holocaust leugnen",
+  //     "gegen Juden Fußball spielen",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 149,
     question:
@@ -1640,29 +1640,29 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 150,
-    question: "Wer baute die Mauer in Berlin?",
-    possibleAnswers: [
-      "Großbritannien",
-      "die DDR",
-      "die Bundesrepublik Deutschland",
-      "die USA",
-    ],
-    answer: 1,
-  },
-  {
-    id: 151,
-    question:
-      "Wann waren die Nationalsozialisten mit Adolf Hitler in Deutschland an der Macht?",
-    possibleAnswers: [
-      "1918 bis 1923",
-      "1932 bis 1950",
-      "1933 bis 1945",
-      "1945 bis 1989",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 150,
+  //   question: "Wer baute die Mauer in Berlin?",
+  //   possibleAnswers: [
+  //     "Großbritannien",
+  //     "die DDR",
+  //     "die Bundesrepublik Deutschland",
+  //     "die USA",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 151,
+  //   question:
+  //     "Wann waren die Nationalsozialisten mit Adolf Hitler in Deutschland an der Macht?",
+  //   possibleAnswers: [
+  //     "1918 bis 1923",
+  //     "1932 bis 1950",
+  //     "1933 bis 1945",
+  //     "1945 bis 1989",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 152,
     question: "Was war am 8. Mai 1945?",
@@ -1674,86 +1674,86 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 153,
-    question: "Wann war der Zweite Weltkrieg zu Ende?",
-    possibleAnswers: ["1933", "1945", "1949", "1961"],
-    answer: 1,
-  },
-  {
-    id: 154,
-    question: "Wann waren die Nationalsozialisten in Deutschland an der Macht?",
-    possibleAnswers: [
-      "1888 bis 1918",
-      "1921 bis 1934",
-      "1933 bis 1945",
-      "1949 bis 1963",
-    ],
-    answer: 2,
-  },
-  {
-    id: 155,
-    question: "In welchem Jahr wurde Hitler Reichskanzler?",
-    possibleAnswers: ["1923", "1927", "1933", "1936"],
-    answer: 2,
-  },
-  {
-    id: 156,
-    question:
-      "Die Nationalsozialisten mit Adolf Hitler errichteten 1933 in Deutschland …",
-    possibleAnswers: [
-      "eine Diktatur.",
-      "einen demokratischen Staat.",
-      "eine Monarchie.",
-      "ein Fürstentum.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 157,
-    question: "Das „Dritte Reich“ war eine …",
-    possibleAnswers: [
-      "Diktatur.",
-      "Demokratie.",
-      "Monarchie.",
-      "Räterepublik.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 158,
-    question:
-      "Was gab es in Deutschland nicht während der Zeit des Nationalsozialismus?",
-    possibleAnswers: [
-      "freie Wahlen",
-      "Pressezensur",
-      "willkürliche Verhaftungen",
-      "Verfolgung der Juden",
-    ],
-    answer: 0,
-  },
-  {
-    id: 159,
-    question: "Welcher Krieg dauerte von 1939 bis 1945?",
-    possibleAnswers: [
-      "der Erste Weltkrieg",
-      "der Zweite Weltkrieg",
-      "der Vietnamkrieg",
-      "der Golfkrieg",
-    ],
-    answer: 1,
-  },
-  {
-    id: 160,
-    question: "Was kennzeichnete den NS-Staat? Eine Politik …",
-    possibleAnswers: [
-      "des staatlichen Rassismus",
-      "der Meinungsfreiheit",
-      "der allgemeinen Religionsfreiheit",
-      "der Entwicklung der Demokratie",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 153,
+  //   question: "Wann war der Zweite Weltkrieg zu Ende?",
+  //   possibleAnswers: ["1933", "1945", "1949", "1961"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 154,
+  //   question: "Wann waren die Nationalsozialisten in Deutschland an der Macht?",
+  //   possibleAnswers: [
+  //     "1888 bis 1918",
+  //     "1921 bis 1934",
+  //     "1933 bis 1945",
+  //     "1949 bis 1963",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 155,
+  //   question: "In welchem Jahr wurde Hitler Reichskanzler?",
+  //   possibleAnswers: ["1923", "1927", "1933", "1936"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 156,
+  //   question:
+  //     "Die Nationalsozialisten mit Adolf Hitler errichteten 1933 in Deutschland …",
+  //   possibleAnswers: [
+  //     "eine Diktatur.",
+  //     "einen demokratischen Staat.",
+  //     "eine Monarchie.",
+  //     "ein Fürstentum.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 157,
+  //   question: "Das „Dritte Reich“ war eine …",
+  //   possibleAnswers: [
+  //     "Diktatur.",
+  //     "Demokratie.",
+  //     "Monarchie.",
+  //     "Räterepublik.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 158,
+  //   question:
+  //     "Was gab es in Deutschland nicht während der Zeit des Nationalsozialismus?",
+  //   possibleAnswers: [
+  //     "freie Wahlen",
+  //     "Pressezensur",
+  //     "willkürliche Verhaftungen",
+  //     "Verfolgung der Juden",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 159,
+  //   question: "Welcher Krieg dauerte von 1939 bis 1945?",
+  //   possibleAnswers: [
+  //     "der Erste Weltkrieg",
+  //     "der Zweite Weltkrieg",
+  //     "der Vietnamkrieg",
+  //     "der Golfkrieg",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 160,
+  //   question: "Was kennzeichnete den NS-Staat? Eine Politik …",
+  //   possibleAnswers: [
+  //     "des staatlichen Rassismus",
+  //     "der Meinungsfreiheit",
+  //     "der allgemeinen Religionsfreiheit",
+  //     "der Entwicklung der Demokratie",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 161,
     question: "Claus Schenk Graf von Stauffenberg wurde bekannt durch …",
@@ -1832,29 +1832,29 @@ export const mainQuestions: Question[] = [
     possibleAnswers: ["1939", "1945", "1949", "1951"],
     answer: 2,
   },
-  {
-    id: 169,
-    question:
-      "Was gab es während der Zeit des Nationalsozialismus in Deutschland?",
-    possibleAnswers: [
-      "das Verbot von Parteien",
-      "das Recht zur freien Entfaltung der Persönlichkeit",
-      "Pressefreiheit",
-      "den Schutz der Menschenwürde",
-    ],
-    answer: 0,
-  },
-  {
-    id: 170,
-    question: "Soziale Marktwirtschaft bedeutet, die Wirtschaft …",
-    possibleAnswers: [
-      "steuert sich allein nach Angebot und Nachfrage.",
-      "wird vom Staat geplant und gesteuert, Angebot und Nachfrage werden nicht berücksichtigt.",
-      "richtet sich nach der Nachfrage im Ausland.",
-      "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 169,
+  //   question:
+  //     "Was gab es während der Zeit des Nationalsozialismus in Deutschland?",
+  //   possibleAnswers: [
+  //     "das Verbot von Parteien",
+  //     "das Recht zur freien Entfaltung der Persönlichkeit",
+  //     "Pressefreiheit",
+  //     "den Schutz der Menschenwürde",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 170,
+  //   question: "Soziale Marktwirtschaft bedeutet, die Wirtschaft …",
+  //   possibleAnswers: [
+  //     "steuert sich allein nach Angebot und Nachfrage.",
+  //     "wird vom Staat geplant und gesteuert, Angebot und Nachfrage werden nicht berücksichtigt.",
+  //     "richtet sich nach der Nachfrage im Ausland.",
+  //     "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 171,
     question: "In welcher Besatzungszone wurde die DDR gegründet? In der …",
@@ -1902,13 +1902,13 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 176,
-    question:
-      "Welche deutsche Stadt wurde nach dem Zweiten Weltkrieg in vier Sektoren aufgeteilt?",
-    possibleAnswers: ["München", "Berlin", "Dresden", "Frankfurt/Oder"],
-    answer: 1,
-  },
+  // {
+  //   id: 176,
+  //   question:
+  //     "Welche deutsche Stadt wurde nach dem Zweiten Weltkrieg in vier Sektoren aufgeteilt?",
+  //   possibleAnswers: ["München", "Berlin", "Dresden", "Frankfurt/Oder"],
+  //   answer: 1,
+  // },
   {
     id: 177,
     question:
@@ -1956,12 +1956,12 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 181,
-    question: "Wie heißt das jüdische Gebetshaus?",
-    possibleAnswers: ["Basilika", "Moschee", "Synagoge", "Kirche"],
-    answer: 2,
-  },
+  // {
+  //   id: 181,
+  //   question: "Wie heißt das jüdische Gebetshaus?",
+  //   possibleAnswers: ["Basilika", "Moschee", "Synagoge", "Kirche"],
+  //   answer: 2,
+  // },
   {
     id: 182,
     question:
@@ -1969,18 +1969,18 @@ export const mainQuestions: Question[] = [
     possibleAnswers: ["40er Jahre", "50er Jahre", "70er Jahre", "80er Jahre"],
     answer: 1,
   },
-  {
-    id: 183,
-    question:
-      "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
-    possibleAnswers: [
-      "eine Resolution der Vereinten Nationen",
-      "ein Beschluss des Zionistenkongresses",
-      "ein Vorschlag der Bundesregierung",
-      "ein Vorschlag der UdSSR",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 183,
+  //   question:
+  //     "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
+  //   possibleAnswers: [
+  //     "eine Resolution der Vereinten Nationen",
+  //     "ein Beschluss des Zionistenkongresses",
+  //     "ein Vorschlag der Bundesregierung",
+  //     "ein Vorschlag der UdSSR",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 184,
     question:
@@ -2049,23 +2049,23 @@ export const mainQuestions: Question[] = [
     possibleAnswers: ["Brandenburg", "Bayern", "Saarland", "Hessen"],
     answer: 0,
   },
-  {
-    id: 192,
-    question: "Von 1961 bis 1989 war Berlin …",
-    possibleAnswers: [
-      "ohne Bürgermeister.",
-      "ein eigener Staat.",
-      "durch eine Mauer geteilt.",
-      "nur mit dem Flugzeug erreichbar.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 193,
-    question: "Am 3. Oktober feiert man in Deutschland den Tag der Deutschen …",
-    possibleAnswers: ["Einheit.", "Nation.", "Bundesländer.", "Städte."],
-    answer: 0,
-  },
+  // {
+  //   id: 192,
+  //   question: "Von 1961 bis 1989 war Berlin …",
+  //   possibleAnswers: [
+  //     "ohne Bürgermeister.",
+  //     "ein eigener Staat.",
+  //     "durch eine Mauer geteilt.",
+  //     "nur mit dem Flugzeug erreichbar.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 193,
+  //   question: "Am 3. Oktober feiert man in Deutschland den Tag der Deutschen …",
+  //   possibleAnswers: ["Einheit.", "Nation.", "Bundesländer.", "Städte."],
+  //   answer: 0,
+  // },
   {
     id: 194,
     question:
@@ -2155,17 +2155,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 202,
-    question: "Wie hieß das Wirtschaftssystem der DDR?",
-    possibleAnswers: [
-      "Marktwirtschaft",
-      "Planwirtschaft",
-      "Angebot und Nachfrage",
-      "Kapitalismus",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 202,
+  //   question: "Wie hieß das Wirtschaftssystem der DDR?",
+  //   possibleAnswers: [
+  //     "Marktwirtschaft",
+  //     "Planwirtschaft",
+  //     "Angebot und Nachfrage",
+  //     "Kapitalismus",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 203,
     question:
@@ -2190,17 +2190,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 205,
-    question: "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
-    possibleAnswers: [
-      "an berühmte deutsche Politikerinnen und Politiker",
-      "an die Opfer des Nationalsozialismus",
-      "an Verkehrstote",
-      "an bekannte jüdische Musiker",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 205,
+  //   question: "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
+  //   possibleAnswers: [
+  //     "an berühmte deutsche Politikerinnen und Politiker",
+  //     "an die Opfer des Nationalsozialismus",
+  //     "an Verkehrstote",
+  //     "an bekannte jüdische Musiker",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 206,
     question: "In welchem Militärbündnis war die DDR Mitglied?",
@@ -2252,39 +2252,39 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 211,
-    question: "Wie heißt Deutschland mit vollem Namen?",
-    possibleAnswers: [
-      "Bundesstaat Deutschland",
-      "Bundesländer Deutschland",
-      "Bundesrepublik Deutschland",
-      "Bundesbezirk Deutschland",
-    ],
-    answer: 2,
-  },
-  {
-    id: 212,
-    question: "Wie viele Einwohner hat Deutschland?",
-    possibleAnswers: [
-      "70 Millionen",
-      "78 Millionen",
-      "84 Millionen",
-      "90 Millionen",
-    ],
-    answer: 2,
-  },
-  {
-    id: 213,
-    question: "Welche Farben hat die deutsche Flagge?",
-    possibleAnswers: [
-      "schwarz-rot-gold",
-      "rot-weiß-schwarz",
-      "schwarz-rot-grün",
-      "schwarz-gelb-rot",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 211,
+  //   question: "Wie heißt Deutschland mit vollem Namen?",
+  //   possibleAnswers: [
+  //     "Bundesstaat Deutschland",
+  //     "Bundesländer Deutschland",
+  //     "Bundesrepublik Deutschland",
+  //     "Bundesbezirk Deutschland",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 212,
+  //   question: "Wie viele Einwohner hat Deutschland?",
+  //   possibleAnswers: [
+  //     "70 Millionen",
+  //     "78 Millionen",
+  //     "84 Millionen",
+  //     "90 Millionen",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 213,
+  //   question: "Welche Farben hat die deutsche Flagge?",
+  //   possibleAnswers: [
+  //     "schwarz-rot-gold",
+  //     "rot-weiß-schwarz",
+  //     "schwarz-rot-grün",
+  //     "schwarz-gelb-rot",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 214,
     question: "Wer wird als „Kanzler der Deutschen Einheit“ bezeichnet?",
@@ -2346,61 +2346,61 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 220,
-    question:
-      "Deutschland ist Mitglied des Schengener Abkommens. Was bedeutet das?",
-    possibleAnswers: [
-      "Deutsche können in viele Länder Europas ohne Passkontrolle reisen.",
-      "Alle Menschen können ohne Personenkontrolle in Deutschland einreisen.",
-      "Deutsche können ohne Passkontrolle in jedes Land reisen.",
-      "Deutsche können in jedem Land mit dem Euro bezahlen.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 221,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Ungarn", "Portugal", "Spanien", "Schweiz"],
-    answer: 3,
-  },
-  {
-    id: 222,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Rumänien", "Bulgarien", "Polen", "Griechenland"],
-    answer: 2,
-  },
-  {
-    id: 223,
-    question: "Was bedeutet die Abkürzung EU?",
-    possibleAnswers: [
-      "Europäische Unternehmen",
-      "Europäische Union",
-      "Einheitliche Union",
-      "Euro Union",
-    ],
-    answer: 1,
-  },
-  {
-    id: 224,
-    question:
-      "In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?",
-    possibleAnswers: ["Tschechien", "Norwegen", "Spanien", "Österreich"],
-    answer: 3,
-  },
-  {
-    id: 225,
-    question: "Welche ist die Flagge der Europäischen Union?",
-    image: "https://www.einbuergerungstest-online.de/img/fragen/226@2x.png",
-    possibleAnswers: ["1", "2", "3", "4"],
-    answer: 1,
-  },
-  {
-    id: 226,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Finnland", "Dänemark", "Norwegen", "Schweden"],
-    answer: 1,
-  },
+  // {
+  //   id: 220,
+  //   question:
+  //     "Deutschland ist Mitglied des Schengener Abkommens. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Deutsche können in viele Länder Europas ohne Passkontrolle reisen.",
+  //     "Alle Menschen können ohne Personenkontrolle in Deutschland einreisen.",
+  //     "Deutsche können ohne Passkontrolle in jedes Land reisen.",
+  //     "Deutsche können in jedem Land mit dem Euro bezahlen.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 221,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Ungarn", "Portugal", "Spanien", "Schweiz"],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 222,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Rumänien", "Bulgarien", "Polen", "Griechenland"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 223,
+  //   question: "Was bedeutet die Abkürzung EU?",
+  //   possibleAnswers: [
+  //     "Europäische Unternehmen",
+  //     "Europäische Union",
+  //     "Einheitliche Union",
+  //     "Euro Union",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 224,
+  //   question:
+  //     "In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?",
+  //   possibleAnswers: ["Tschechien", "Norwegen", "Spanien", "Österreich"],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 225,
+  //   question: "Welche ist die Flagge der Europäischen Union?",
+  //   image: "https://www.einbuergerungstest-online.de/img/fragen/226@2x.png",
+  //   possibleAnswers: ["1", "2", "3", "4"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 226,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Finnland", "Dänemark", "Norwegen", "Schweden"],
+  //   answer: 1,
+  // },
   {
     id: 227,
     question:
@@ -2413,12 +2413,12 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 228,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Spanien", "Bulgarien", "Norwegen", "Luxemburg"],
-    answer: 3,
-  },
+  // {
+  //   id: 228,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Spanien", "Bulgarien", "Norwegen", "Luxemburg"],
+  //   answer: 3,
+  // },
   {
     id: 229,
     question:
@@ -2426,17 +2426,17 @@ export const mainQuestions: Question[] = [
     possibleAnswers: ["5 Jahre.", "6 Jahre.", "7 Jahre.", "8 Jahre."],
     answer: 0,
   },
-  {
-    id: 230,
-    question: "Was bedeutet der Begriff „europäische Integration“?",
-    possibleAnswers: [
-      "Damit sind amerikanische Einwanderer in Europa gemeint.",
-      "Der Begriff meint den Einwanderungsstopp nach Europa.",
-      "Damit sind europäische Auswanderer in den USA gemeint.",
-      "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 230,
+  //   question: "Was bedeutet der Begriff „europäische Integration“?",
+  //   possibleAnswers: [
+  //     "Damit sind amerikanische Einwanderer in Europa gemeint.",
+  //     "Der Begriff meint den Einwanderungsstopp nach Europa.",
+  //     "Damit sind europäische Auswanderer in den USA gemeint.",
+  //     "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 231,
     question: "Wer wird bei der Europawahl gewählt?",
@@ -2448,18 +2448,18 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 232,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Tschechien", "Bulgarien", "Griechenland", "Portugal"],
-    answer: 0,
-  },
-  {
-    id: 233,
-    question: "Wo ist der Sitz des Europäischen Parlaments?",
-    possibleAnswers: ["London", "Paris", "Berlin", "Straßburg"],
-    answer: 3,
-  },
+  // {
+  //   id: 232,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Tschechien", "Bulgarien", "Griechenland", "Portugal"],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 233,
+  //   question: "Wo ist der Sitz des Europäischen Parlaments?",
+  //   possibleAnswers: ["London", "Paris", "Berlin", "Straßburg"],
+  //   answer: 3,
+  // },
   {
     id: 234,
     question:
@@ -2491,17 +2491,17 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 237,
-    question: "An welchen Orten arbeitet das Europäische Parlament?",
-    possibleAnswers: [
-      "Paris, London und Den Haag",
-      "Straßburg, Luxemburg und Brüssel",
-      "Rom, Bern und Wien",
-      "Bonn, Zürich und Mailand",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 237,
+  //   question: "An welchen Orten arbeitet das Europäische Parlament?",
+  //   possibleAnswers: [
+  //     "Paris, London und Den Haag",
+  //     "Straßburg, Luxemburg und Brüssel",
+  //     "Rom, Bern und Wien",
+  //     "Bonn, Zürich und Mailand",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 238,
     question:
@@ -2520,18 +2520,18 @@ export const mainQuestions: Question[] = [
     possibleAnswers: ["1995", "1998", "2002", "2005"],
     answer: 2,
   },
-  {
-    id: 240,
-    question:
-      "Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?",
-    possibleAnswers: [
-      "Sie muss an ihre Krankenkasse schreiben.",
-      "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
-      "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
-      "Sie muss das Arbeitsamt um Erlaubnis bitten.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 240,
+  //   question:
+  //     "Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?",
+  //   possibleAnswers: [
+  //     "Sie muss an ihre Krankenkasse schreiben.",
+  //     "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
+  //     "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
+  //     "Sie muss das Arbeitsamt um Erlaubnis bitten.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 241,
     question:
@@ -2544,59 +2544,59 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 242,
-    question:
-      "Maik und Sybille wollen mit Freunden an ihrem deutschen Wohnort eine Demonstration auf der Straße abhalten. Was müssen sie vorher tun?",
-    possibleAnswers: [
-      "Sie müssen die Demonstration anmelden.",
-      "Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren.",
-      "Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten.",
-      "Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 243,
-    question:
-      "Welchen Schulabschluss braucht man normalerweise, um an einer Universität in Deutschland ein Studium zu beginnen?",
-    possibleAnswers: [
-      "das Abitur",
-      "ein Diplom",
-      "die Prokura",
-      "eine Gesellenprüfung",
-    ],
-    answer: 0,
-  },
-  {
-    id: 244,
-    question: "Wer darf in Deutschland nicht als Paar zusammenleben?",
-    possibleAnswers: [
-      "Hans (20 Jahre) und Marie (19 Jahre)",
-      "Tom (20 Jahre) und Klaus (45 Jahre)",
-      "Sofie (35 Jahre) und Lisa (40 Jahre)",
-      "Anne (13 Jahre) und Tim (25 Jahre)",
-    ],
-    answer: 3,
-  },
-  {
-    id: 245,
-    question: "Ab welchem Alter ist man in Deutschland volljährig?",
-    possibleAnswers: ["16", "18", "19", "21"],
-    answer: 1,
-  },
-  {
-    id: 246,
-    question:
-      "Eine Frau ist schwanger. Sie ist kurz vor und nach der Geburt ihres Kindes vom Gesetz besonders beschützt. Wie heißt dieser Schutz?",
-    possibleAnswers: [
-      "Elternzeit",
-      "Mutterschutz",
-      "Geburtsvorbereitung",
-      "Wochenbett",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 242,
+  //   question:
+  //     "Maik und Sybille wollen mit Freunden an ihrem deutschen Wohnort eine Demonstration auf der Straße abhalten. Was müssen sie vorher tun?",
+  //   possibleAnswers: [
+  //     "Sie müssen die Demonstration anmelden.",
+  //     "Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren.",
+  //     "Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten.",
+  //     "Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 243,
+  //   question:
+  //     "Welchen Schulabschluss braucht man normalerweise, um an einer Universität in Deutschland ein Studium zu beginnen?",
+  //   possibleAnswers: [
+  //     "das Abitur",
+  //     "ein Diplom",
+  //     "die Prokura",
+  //     "eine Gesellenprüfung",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 244,
+  //   question: "Wer darf in Deutschland nicht als Paar zusammenleben?",
+  //   possibleAnswers: [
+  //     "Hans (20 Jahre) und Marie (19 Jahre)",
+  //     "Tom (20 Jahre) und Klaus (45 Jahre)",
+  //     "Sofie (35 Jahre) und Lisa (40 Jahre)",
+  //     "Anne (13 Jahre) und Tim (25 Jahre)",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 245,
+  //   question: "Ab welchem Alter ist man in Deutschland volljährig?",
+  //   possibleAnswers: ["16", "18", "19", "21"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 246,
+  //   question:
+  //     "Eine Frau ist schwanger. Sie ist kurz vor und nach der Geburt ihres Kindes vom Gesetz besonders beschützt. Wie heißt dieser Schutz?",
+  //   possibleAnswers: [
+  //     "Elternzeit",
+  //     "Mutterschutz",
+  //     "Geburtsvorbereitung",
+  //     "Wochenbett",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 247,
     question: "Die Erziehung der Kinder ist in Deutschland vor allem Aufgabe …",
@@ -2620,40 +2620,40 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 249,
-    question:
-      "In Deutschland hat man die besten Chancen auf einen gut bezahlten Arbeitsplatz, wenn man …",
-    possibleAnswers: [
-      "katholisch ist.",
-      "gut ausgebildet ist.",
-      "eine Frau ist.",
-      "Mitglied einer Partei ist.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 250,
-    question: "Wenn man in Deutschland ein Kind schlägt, …",
-    possibleAnswers: [
-      "geht das niemanden etwas an.",
-      "geht das nur die Familie etwas an.",
-      "kann man dafür nicht bestraft werden.",
-      "kann man dafür bestraft werden.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 251,
-    question: "In Deutschland …",
-    possibleAnswers: [
-      "darf man zur gleichen Zeit nur mit einem Partner / einer Partnerin verheiratet sein.",
-      "kann man mehrere Ehepartner / Ehepartnerinnen gleichzeitig haben.",
-      "darf man nicht wieder heiraten, wenn man einmal verheiratet war.",
-      "darf eine Frau nicht wieder heiraten, wenn ihr Mann gestorben ist.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 249,
+  //   question:
+  //     "In Deutschland hat man die besten Chancen auf einen gut bezahlten Arbeitsplatz, wenn man …",
+  //   possibleAnswers: [
+  //     "katholisch ist.",
+  //     "gut ausgebildet ist.",
+  //     "eine Frau ist.",
+  //     "Mitglied einer Partei ist.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 250,
+  //   question: "Wenn man in Deutschland ein Kind schlägt, …",
+  //   possibleAnswers: [
+  //     "geht das niemanden etwas an.",
+  //     "geht das nur die Familie etwas an.",
+  //     "kann man dafür nicht bestraft werden.",
+  //     "kann man dafür bestraft werden.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 251,
+  //   question: "In Deutschland …",
+  //   possibleAnswers: [
+  //     "darf man zur gleichen Zeit nur mit einem Partner / einer Partnerin verheiratet sein.",
+  //     "kann man mehrere Ehepartner / Ehepartnerinnen gleichzeitig haben.",
+  //     "darf man nicht wieder heiraten, wenn man einmal verheiratet war.",
+  //     "darf eine Frau nicht wieder heiraten, wenn ihr Mann gestorben ist.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 252,
     question: "Wo müssen Sie sich anmelden, wenn Sie in Deutschland umziehen?",
@@ -2665,30 +2665,30 @@ export const mainQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 253,
-    question:
-      "In Deutschland dürfen Ehepaare sich scheiden lassen. Meistens müssen sie dazu das „Trennungsjahr“ einhalten. Was bedeutet das?",
-    possibleAnswers: [
-      "Der Scheidungsprozess dauert ein Jahr.",
-      "Die Ehegatten sind ein Jahr verheiratet, dann ist die Scheidung möglich.",
-      "Das Besuchsrecht für die Kinder gilt ein Jahr.",
-      "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 254,
-    question:
-      "Bei Erziehungsproblemen können Eltern in Deutschland Hilfe erhalten vom …",
-    possibleAnswers: [
-      "Ordnungsamt.",
-      "Schulamt.",
-      "Jugendamt.",
-      "Gesundheitsamt.",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 253,
+  //   question:
+  //     "In Deutschland dürfen Ehepaare sich scheiden lassen. Meistens müssen sie dazu das „Trennungsjahr“ einhalten. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Der Scheidungsprozess dauert ein Jahr.",
+  //     "Die Ehegatten sind ein Jahr verheiratet, dann ist die Scheidung möglich.",
+  //     "Das Besuchsrecht für die Kinder gilt ein Jahr.",
+  //     "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 254,
+  //   question:
+  //     "Bei Erziehungsproblemen können Eltern in Deutschland Hilfe erhalten vom …",
+  //   possibleAnswers: [
+  //     "Ordnungsamt.",
+  //     "Schulamt.",
+  //     "Jugendamt.",
+  //     "Gesundheitsamt.",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 255,
     question:
@@ -2701,41 +2701,41 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 256,
-    question:
-      "Eine erwachsene Frau möchte in Deutschland das Abitur nachholen. Das kann sie an …",
-    possibleAnswers: [
-      "einer Hochschule.",
-      "einem Abendgymnasium.",
-      "einer Hauptschule.",
-      "einer Privatuniversität.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 257,
-    question: "Was darf das Jugendamt in Deutschland?",
-    possibleAnswers: [
-      "Es entscheidet, welche Schule das Kind besucht.",
-      "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen.",
-      "Es bezahlt das Kindergeld an die Eltern.",
-      "Es kontrolliert, ob das Kind einen Kindergarten besucht.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 258,
-    question:
-      "Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft bei der …",
-    possibleAnswers: [
-      "Rentenberechnung.",
-      "Lehrstellensuche.",
-      "Steuererklärung.",
-      "Krankenversicherung.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 256,
+  //   question:
+  //     "Eine erwachsene Frau möchte in Deutschland das Abitur nachholen. Das kann sie an …",
+  //   possibleAnswers: [
+  //     "einer Hochschule.",
+  //     "einem Abendgymnasium.",
+  //     "einer Hauptschule.",
+  //     "einer Privatuniversität.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 257,
+  //   question: "Was darf das Jugendamt in Deutschland?",
+  //   possibleAnswers: [
+  //     "Es entscheidet, welche Schule das Kind besucht.",
+  //     "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen.",
+  //     "Es bezahlt das Kindergeld an die Eltern.",
+  //     "Es kontrolliert, ob das Kind einen Kindergarten besucht.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 258,
+  //   question:
+  //     "Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft bei der …",
+  //   possibleAnswers: [
+  //     "Rentenberechnung.",
+  //     "Lehrstellensuche.",
+  //     "Steuererklärung.",
+  //     "Krankenversicherung.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 259,
     question: "In Deutschland hat ein Kind in der Schule …",
@@ -2747,29 +2747,29 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 260,
-    question:
-      "Ein Mann möchte mit 30 Jahren in Deutschland sein Abitur nachholen. Wo kann er das tun? An …",
-    possibleAnswers: [
-      "einer Hochschule",
-      "einem Abendgymnasium",
-      "einer Hauptschule",
-      "einer Privatuniversität",
-    ],
-    answer: 1,
-  },
-  {
-    id: 261,
-    question: "Was bedeutet in Deutschland der Grundsatz der Gleichbehandlung?",
-    possibleAnswers: [
-      "Niemand darf z.B. wegen einer Behinderung benachteiligt werden.",
-      "Man darf andere Personen benachteiligen, wenn ausreichende persönliche Gründe hierfür vorliegen.",
-      "Niemand darf gegen Personen klagen, wenn sie benachteiligt wurden.",
-      "Es ist für alle Gesetz, benachteiligten Gruppen jährlich Geld zu spenden.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 260,
+  //   question:
+  //     "Ein Mann möchte mit 30 Jahren in Deutschland sein Abitur nachholen. Wo kann er das tun? An …",
+  //   possibleAnswers: [
+  //     "einer Hochschule",
+  //     "einem Abendgymnasium",
+  //     "einer Hauptschule",
+  //     "einer Privatuniversität",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 261,
+  //   question: "Was bedeutet in Deutschland der Grundsatz der Gleichbehandlung?",
+  //   possibleAnswers: [
+  //     "Niemand darf z.B. wegen einer Behinderung benachteiligt werden.",
+  //     "Man darf andere Personen benachteiligen, wenn ausreichende persönliche Gründe hierfür vorliegen.",
+  //     "Niemand darf gegen Personen klagen, wenn sie benachteiligt wurden.",
+  //     "Es ist für alle Gesetz, benachteiligten Gruppen jährlich Geld zu spenden.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 262,
     question:
@@ -2782,18 +2782,18 @@ export const mainQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 263,
-    question:
-      "Zu welchem Fest tragen Menschen in Deutschland bunte Kostüme und Masken?",
-    possibleAnswers: [
-      "am Rosenmontag",
-      "am Maifeiertag",
-      "beim Oktoberfest",
-      "an Pfingsten",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 263,
+  //   question:
+  //     "Zu welchem Fest tragen Menschen in Deutschland bunte Kostüme und Masken?",
+  //   possibleAnswers: [
+  //     "am Rosenmontag",
+  //     "am Maifeiertag",
+  //     "beim Oktoberfest",
+  //     "an Pfingsten",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 264,
     question:
@@ -2806,41 +2806,41 @@ export const mainQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 265,
-    question: "Wann beginnt die gesetzliche Nachtruhe in Deutschland?",
-    possibleAnswers: [
-      "wenn die Sonne untergeht",
-      "wenn die Nachbarn schlafen gehen",
-      "Mitternacht, um 0 Uhr",
-      "um 22 Uhr",
-    ],
-    answer: 3,
-  },
-  {
-    id: 266,
-    question:
-      "Eine junge Frau in Deutschland, 22 Jahre alt, lebt mit ihrem Freund zusammen. Die Eltern der Frau finden das nicht gut, weil ihnen der Freund nicht gefällt. Was können die Eltern tun?",
-    possibleAnswers: [
-      "Sie müssen die Entscheidung der volljährigen Tochter respektieren.",
-      "Sie haben das Recht, die Tochter in die elterliche Wohnung zurückzuholen.",
-      "Sie können zur Polizei gehen und die Tochter anzeigen.",
-      "Sie suchen einen anderen Mann für die Tochter.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 267,
-    question:
-      "Eine junge Frau will den Führerschein machen. Sie hat Angst vor der Prüfung, weil ihre Muttersprache nicht Deutsch ist. Was ist richtig?",
-    possibleAnswers: [
-      "Sie muss mindestens zehn Jahre in Deutschland leben, bevor sie den Führerschein machen kann.",
-      "Wenn sie kein Deutsch kann, darf sie keinen Führerschein haben.",
-      "Sie muss den Führerschein in dem Land machen, in dem man ihre Sprache spricht.",
-      "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 265,
+  //   question: "Wann beginnt die gesetzliche Nachtruhe in Deutschland?",
+  //   possibleAnswers: [
+  //     "wenn die Sonne untergeht",
+  //     "wenn die Nachbarn schlafen gehen",
+  //     "Mitternacht, um 0 Uhr",
+  //     "um 22 Uhr",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 266,
+  //   question:
+  //     "Eine junge Frau in Deutschland, 22 Jahre alt, lebt mit ihrem Freund zusammen. Die Eltern der Frau finden das nicht gut, weil ihnen der Freund nicht gefällt. Was können die Eltern tun?",
+  //   possibleAnswers: [
+  //     "Sie müssen die Entscheidung der volljährigen Tochter respektieren.",
+  //     "Sie haben das Recht, die Tochter in die elterliche Wohnung zurückzuholen.",
+  //     "Sie können zur Polizei gehen und die Tochter anzeigen.",
+  //     "Sie suchen einen anderen Mann für die Tochter.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 267,
+  //   question:
+  //     "Eine junge Frau will den Führerschein machen. Sie hat Angst vor der Prüfung, weil ihre Muttersprache nicht Deutsch ist. Was ist richtig?",
+  //   possibleAnswers: [
+  //     "Sie muss mindestens zehn Jahre in Deutschland leben, bevor sie den Führerschein machen kann.",
+  //     "Wenn sie kein Deutsch kann, darf sie keinen Führerschein haben.",
+  //     "Sie muss den Führerschein in dem Land machen, in dem man ihre Sprache spricht.",
+  //     "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 268,
     question:
@@ -2853,121 +2853,121 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 269,
-    question: "Die Volkshochschule in Deutschland ist ein Einrichtung …",
-    possibleAnswers: [
-      "für den Religionsunterricht.",
-      "nur für Jungendliche.",
-      "zur Weiterbildung.",
-      "nur für Rentner und Rentnerinnen.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 270,
-    question: "Was ist in Deutschland ein Brauch zu Weihnachten?",
-    possibleAnswers: [
-      "bunte Eier verstecken",
-      "einen Tannenbaum schmücken",
-      "sich mit Masken und Kostümen verkleiden",
-      "Kürbisse vor die Tür stellen",
-    ],
-    answer: 1,
-  },
-  {
-    id: 271,
-    question: "Welche Lebensform ist in Deutschland nicht erlaubt?",
-    possibleAnswers: [
-      "Mann und Frau sind geschieden und leben mit neuen Partnern zusammen.",
-      "Zwei Frauen leben zusammen.",
-      "Ein alleinerziehender Vater lebt mit seinen zwei Kindern zusammen.",
-      "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 272,
-    question: "Bei Erziehungsproblemen gehen Sie in Deutschland …",
-    possibleAnswers: [
-      "zum Arzt / zur Ärztin.",
-      "zum Gesundheitsamt.",
-      "zum Einwohnermeldeamt.",
-      "zum Jugendamt.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 273,
-    question:
-      "Sie haben in Deutschland absichtlich einen Brief geöffnet, der an eine andere Person adressiert ist. Was haben Sie nicht beachtet?",
-    possibleAnswers: [
-      "das Schweigerecht",
-      "das Briefgeheimnis",
-      "die Schweigepflicht",
-      "die Meinungsfreiheit",
-    ],
-    answer: 1,
-  },
-  {
-    id: 274,
-    question: "Was braucht man in Deutschland für eine Ehescheidung?",
-    possibleAnswers: [
-      "die Einwilligung der Eltern",
-      "ein Attest eines Arztes / einer Ärztin",
-      "die Einwilligung der Kinder",
-      "die Unterstützung eines Anwalts / einer Anwältin",
-    ],
-    answer: 3,
-  },
-  {
-    id: 275,
-    question:
-      "Was sollten Sie tun, wenn Sie von Ihrem Ansprechpartner / Ihrer Ansprechpartnerin in einer deutschen Behörde schlecht behandelt werden?",
-    possibleAnswers: [
-      "Ich kann nichts tun.",
-      "Ich muss mir diese Behandlung gefallen lassen.",
-      "Ich drohe der Person.",
-      "Ich kann mich beim Behördenleiter / bei der Behördenleiterin beschweren.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 276,
-    question:
-      "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …",
-    possibleAnswers: [
-      "kein Englisch spricht.",
-      "zu hohe Gehaltsvorstellungen hat.",
-      "keine Erfahrungen in diesem Beruf hat.",
-      "Mutter ist.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 277,
-    question:
-      "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …",
-    possibleAnswers: [
-      "im Rollstuhl sitzt.",
-      "keine Erfahrung hat.",
-      "zu hohe Gehaltsvorstellungen hat.",
-      "kein Englisch spricht.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 278,
-    question:
-      "In den meisten Mietshäusern in Deutschland gibt es eine „Hausordnung“. Was steht in einer solchen „Hausordnung“? Sie nennt …",
-    possibleAnswers: [
-      "Regeln für die Benutzung öffentlicher Verkehrsmittel.",
-      "alle Mieter und Mieterinnen im Haus.",
-      "Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen.",
-      "die Adresse des nächsten Ordnungsamtes.",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 269,
+  //   question: "Die Volkshochschule in Deutschland ist ein Einrichtung …",
+  //   possibleAnswers: [
+  //     "für den Religionsunterricht.",
+  //     "nur für Jungendliche.",
+  //     "zur Weiterbildung.",
+  //     "nur für Rentner und Rentnerinnen.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 270,
+  //   question: "Was ist in Deutschland ein Brauch zu Weihnachten?",
+  //   possibleAnswers: [
+  //     "bunte Eier verstecken",
+  //     "einen Tannenbaum schmücken",
+  //     "sich mit Masken und Kostümen verkleiden",
+  //     "Kürbisse vor die Tür stellen",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 271,
+  //   question: "Welche Lebensform ist in Deutschland nicht erlaubt?",
+  //   possibleAnswers: [
+  //     "Mann und Frau sind geschieden und leben mit neuen Partnern zusammen.",
+  //     "Zwei Frauen leben zusammen.",
+  //     "Ein alleinerziehender Vater lebt mit seinen zwei Kindern zusammen.",
+  //     "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 272,
+  //   question: "Bei Erziehungsproblemen gehen Sie in Deutschland …",
+  //   possibleAnswers: [
+  //     "zum Arzt / zur Ärztin.",
+  //     "zum Gesundheitsamt.",
+  //     "zum Einwohnermeldeamt.",
+  //     "zum Jugendamt.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 273,
+  //   question:
+  //     "Sie haben in Deutschland absichtlich einen Brief geöffnet, der an eine andere Person adressiert ist. Was haben Sie nicht beachtet?",
+  //   possibleAnswers: [
+  //     "das Schweigerecht",
+  //     "das Briefgeheimnis",
+  //     "die Schweigepflicht",
+  //     "die Meinungsfreiheit",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 274,
+  //   question: "Was braucht man in Deutschland für eine Ehescheidung?",
+  //   possibleAnswers: [
+  //     "die Einwilligung der Eltern",
+  //     "ein Attest eines Arztes / einer Ärztin",
+  //     "die Einwilligung der Kinder",
+  //     "die Unterstützung eines Anwalts / einer Anwältin",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 275,
+  //   question:
+  //     "Was sollten Sie tun, wenn Sie von Ihrem Ansprechpartner / Ihrer Ansprechpartnerin in einer deutschen Behörde schlecht behandelt werden?",
+  //   possibleAnswers: [
+  //     "Ich kann nichts tun.",
+  //     "Ich muss mir diese Behandlung gefallen lassen.",
+  //     "Ich drohe der Person.",
+  //     "Ich kann mich beim Behördenleiter / bei der Behördenleiterin beschweren.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 276,
+  //   question:
+  //     "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …",
+  //   possibleAnswers: [
+  //     "kein Englisch spricht.",
+  //     "zu hohe Gehaltsvorstellungen hat.",
+  //     "keine Erfahrungen in diesem Beruf hat.",
+  //     "Mutter ist.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 277,
+  //   question:
+  //     "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …",
+  //   possibleAnswers: [
+  //     "im Rollstuhl sitzt.",
+  //     "keine Erfahrung hat.",
+  //     "zu hohe Gehaltsvorstellungen hat.",
+  //     "kein Englisch spricht.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 278,
+  //   question:
+  //     "In den meisten Mietshäusern in Deutschland gibt es eine „Hausordnung“. Was steht in einer solchen „Hausordnung“? Sie nennt …",
+  //   possibleAnswers: [
+  //     "Regeln für die Benutzung öffentlicher Verkehrsmittel.",
+  //     "alle Mieter und Mieterinnen im Haus.",
+  //     "Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen.",
+  //     "die Adresse des nächsten Ordnungsamtes.",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 279,
     question:
@@ -2980,18 +2980,18 @@ export const mainQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 280,
-    question:
-      "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …",
-    possibleAnswers: [
-      "Meinungsfreiheit.",
-      "Gleichbehandlung.",
-      "Versammlungsfreiheit.",
-      "Freizügigkeit.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 280,
+  //   question:
+  //     "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …",
+  //   possibleAnswers: [
+  //     "Meinungsfreiheit.",
+  //     "Gleichbehandlung.",
+  //     "Versammlungsfreiheit.",
+  //     "Freizügigkeit.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 281,
     question:
@@ -3016,90 +3016,90 @@ export const mainQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 283,
-    question:
-      "Was man für die Arbeit können muss, ändert sich in der Zukunft sehr schnell. Was kann man tun?",
-    possibleAnswers: [
-      "Es ist egal, was man lernt.",
-      "Erwachsene müssen auch nach der Ausbildung immer weiter lernen.",
-      "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
-      "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 284,
-    question:
-      "Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?",
-    possibleAnswers: [
-      "Lohnsteuer",
-      "Beiträge zur Arbeitslosenversicherung",
-      "Beiträge zur Renten- und Krankenversicherung",
-      "Umsatzsteuer",
-    ],
-    answer: 3,
-  },
-  {
-    id: 285,
-    question:
-      "Welche Organisation in einer Firma hilft den Arbeitnehmern und Arbeitnehmerinnen bei Problemen mit dem Arbeitgeber / der Arbeitgeberin?",
-    possibleAnswers: [
-      "der Betriebsrat",
-      "der Betriebsprüfer / die Betriebsprüferin",
-      "die Betriebsgruppe",
-      "das Betriebsmanagement",
-    ],
-    answer: 0,
-  },
-  {
-    id: 286,
-    question:
-      "Sie möchten bei einer Firma in Deutschland Ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?",
-    possibleAnswers: [
-      "die Gehaltszahlungen",
-      "die Arbeitszeit",
-      "die Kündigungsfrist",
-      "die Versicherungspflicht",
-    ],
-    answer: 2,
-  },
-  {
-    id: 287,
-    question:
-      "Woraus begründet sich Deutschlands besondere Verantwortung für Israel?",
-    possibleAnswers: [
-      "aus der Mitgliedschaft in der Europäischen Union (EU)",
-      "aus den nationalsozialistischen Verbrechen gegen Juden",
-      "aus dem Grundgesetz der Bundesrepublik Deutschland",
-      "aus der christlichen Tradition",
-    ],
-    answer: 1,
-  },
-  {
-    id: 288,
-    question:
-      "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …",
-    possibleAnswers: [
-      "seine Deutschkenntnisse zu gering sind.",
-      "er zu hohe Gehaltsvorstellungen hat.",
-      "er eine dunkle Haut hat.",
-      "er keine Erfahrungen im Beruf hat.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 289,
-    question:
-      "Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?",
-    possibleAnswers: [
-      "eine Anzeige schreiben",
-      "den Fernseher reklamieren",
-      "das Gerät ungefragt austauschen",
-      "die Garantie verlängern",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 283,
+  //   question:
+  //     "Was man für die Arbeit können muss, ändert sich in der Zukunft sehr schnell. Was kann man tun?",
+  //   possibleAnswers: [
+  //     "Es ist egal, was man lernt.",
+  //     "Erwachsene müssen auch nach der Ausbildung immer weiter lernen.",
+  //     "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
+  //     "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 284,
+  //   question:
+  //     "Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?",
+  //   possibleAnswers: [
+  //     "Lohnsteuer",
+  //     "Beiträge zur Arbeitslosenversicherung",
+  //     "Beiträge zur Renten- und Krankenversicherung",
+  //     "Umsatzsteuer",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 285,
+  //   question:
+  //     "Welche Organisation in einer Firma hilft den Arbeitnehmern und Arbeitnehmerinnen bei Problemen mit dem Arbeitgeber / der Arbeitgeberin?",
+  //   possibleAnswers: [
+  //     "der Betriebsrat",
+  //     "der Betriebsprüfer / die Betriebsprüferin",
+  //     "die Betriebsgruppe",
+  //     "das Betriebsmanagement",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 286,
+  //   question:
+  //     "Sie möchten bei einer Firma in Deutschland Ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?",
+  //   possibleAnswers: [
+  //     "die Gehaltszahlungen",
+  //     "die Arbeitszeit",
+  //     "die Kündigungsfrist",
+  //     "die Versicherungspflicht",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 287,
+  //   question:
+  //     "Woraus begründet sich Deutschlands besondere Verantwortung für Israel?",
+  //   possibleAnswers: [
+  //     "aus der Mitgliedschaft in der Europäischen Union (EU)",
+  //     "aus den nationalsozialistischen Verbrechen gegen Juden",
+  //     "aus dem Grundgesetz der Bundesrepublik Deutschland",
+  //     "aus der christlichen Tradition",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 288,
+  //   question:
+  //     "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …",
+  //   possibleAnswers: [
+  //     "seine Deutschkenntnisse zu gering sind.",
+  //     "er zu hohe Gehaltsvorstellungen hat.",
+  //     "er eine dunkle Haut hat.",
+  //     "er keine Erfahrungen im Beruf hat.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 289,
+  //   question:
+  //     "Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?",
+  //   possibleAnswers: [
+  //     "eine Anzeige schreiben",
+  //     "den Fernseher reklamieren",
+  //     "das Gerät ungefragt austauschen",
+  //     "die Garantie verlängern",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 290,
     question:
@@ -3112,29 +3112,29 @@ export const mainQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 291,
-    question:
-      "Die Menschen in Deutschland leben nach dem Grundsatz der religiösen Toleranz. Was bedeutet das?",
-    possibleAnswers: [
-      "Es dürfen keine Moscheen gebaut werden.",
-      "Alle Menschen glauben an Gott.",
-      "Jeder kann glauben, was er möchte.",
-      "Der Staat entscheidet, an welchen Gott die Menschen glauben.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 292,
-    question: "Was ist in Deutschland ein Brauch an Ostern?",
-    possibleAnswers: [
-      "Kürbisse vor die Tür stellen",
-      "einen Tannenbaum schmücken",
-      "Eier bemalen",
-      "Raketen in die Luft schießen",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 291,
+  //   question:
+  //     "Die Menschen in Deutschland leben nach dem Grundsatz der religiösen Toleranz. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Es dürfen keine Moscheen gebaut werden.",
+  //     "Alle Menschen glauben an Gott.",
+  //     "Jeder kann glauben, was er möchte.",
+  //     "Der Staat entscheidet, an welchen Gott die Menschen glauben.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 292,
+  //   question: "Was ist in Deutschland ein Brauch an Ostern?",
+  //   possibleAnswers: [
+  //     "Kürbisse vor die Tür stellen",
+  //     "einen Tannenbaum schmücken",
+  //     "Eier bemalen",
+  //     "Raketen in die Luft schießen",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 293,
     question: "Pfingsten ist ein …",
@@ -3146,37 +3146,37 @@ export const mainQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 294,
-    question:
-      "Welche Religion hat die europäische und deutsche Kultur geprägt?",
-    possibleAnswers: [
-      "der Hinduismus",
-      "das Christentum",
-      "der Buddhismus",
-      "der Islam",
-    ],
-    answer: 1,
-  },
-  {
-    id: 295,
-    question:
-      "In Deutschland nennt man die letzten vier Wochen vor Weihnachten …",
-    possibleAnswers: [
-      "den Buß- und Bettag.",
-      "das Erntedankfest.",
-      "die Adventszeit.",
-      "Allerheiligen.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 296,
-    question:
-      "Aus welchem Land sind die meisten Migranten / Migrantinnen nach Deutschland gekommen?",
-    possibleAnswers: ["Italien", "Polen", "Marokko", "Türkei"],
-    answer: 3,
-  },
+  // {
+  //   id: 294,
+  //   question:
+  //     "Welche Religion hat die europäische und deutsche Kultur geprägt?",
+  //   possibleAnswers: [
+  //     "der Hinduismus",
+  //     "das Christentum",
+  //     "der Buddhismus",
+  //     "der Islam",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 295,
+  //   question:
+  //     "In Deutschland nennt man die letzten vier Wochen vor Weihnachten …",
+  //   possibleAnswers: [
+  //     "den Buß- und Bettag.",
+  //     "das Erntedankfest.",
+  //     "die Adventszeit.",
+  //     "Allerheiligen.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 296,
+  //   question:
+  //     "Aus welchem Land sind die meisten Migranten / Migrantinnen nach Deutschland gekommen?",
+  //   possibleAnswers: ["Italien", "Polen", "Marokko", "Türkei"],
+  //   answer: 3,
+  // },
   {
     id: 297,
     question: "In der DDR lebten vor allem Migranten aus …",
@@ -3188,25 +3188,25 @@ export const mainQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 298,
-    question:
-      "Ausländische Arbeitnehmer und Arbeitnehmerinnen, die in den 50er und 60er Jahren von der Bundesrepublik Deutschland angeworben wurden, nannte man …",
-    possibleAnswers: [
-      "Schwarzarbeiter / Schwarzarbeiterinnen.",
-      "Gastarbeiter / Gastarbeiterinnen.",
-      "Zeitarbeiter / Zeitarbeiterinnen.",
-      "Schichtarbeiter / Schichtarbeiterinnen.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 299,
-    question:
-      "Aus welchem Land kamen die ersten Gastarbeiter / Gastarbeiterinnen in die Bundesrepublik Deutschland?",
-    possibleAnswers: ["Italien", "Spanien", "Portugal", "Türkei"],
-    answer: 0,
-  },
+  // {
+  //   id: 298,
+  //   question:
+  //     "Ausländische Arbeitnehmer und Arbeitnehmerinnen, die in den 50er und 60er Jahren von der Bundesrepublik Deutschland angeworben wurden, nannte man …",
+  //   possibleAnswers: [
+  //     "Schwarzarbeiter / Schwarzarbeiterinnen.",
+  //     "Gastarbeiter / Gastarbeiterinnen.",
+  //     "Zeitarbeiter / Zeitarbeiterinnen.",
+  //     "Schichtarbeiter / Schichtarbeiterinnen.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 299,
+  //   question:
+  //     "Aus welchem Land kamen die ersten Gastarbeiter / Gastarbeiterinnen in die Bundesrepublik Deutschland?",
+  //   possibleAnswers: ["Italien", "Spanien", "Portugal", "Türkei"],
+  //   answer: 0,
+  // },
 ];
 
 export const hamburgQuestions: Question[] = [
@@ -3304,143 +3304,143 @@ export const hamburgQuestions: Question[] = [
 ];
 
 export const allQuestions: Question[] = [
-  {
-    id: 0,
-    question:
-      "In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …",
-    possibleAnswers: [
-      "hier Religionsfreiheit gilt.",
-      "die Menschen Steuern zahlen.",
-      "die Menschen das Wahlrecht haben.",
-      "hier Meinungsfreiheit gilt.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 1,
-    question:
-      "In Deutschland können Eltern bis zum 14. Lebensjahr ihres Kindes entscheiden, ob es in der Schule am …",
-    possibleAnswers: [
-      "Geschichtsunterricht teilnimmt.",
-      "Religionsunterricht teilnimmt.",
-      "Politikunterricht teilnimmt.",
-      "Sprachunterricht teilnimmt.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 2,
-    question: "Deutschland ist ein Rechtsstaat. Was ist damit gemeint?",
-    possibleAnswers: [
-      "Alle Einwohner / Einwohnerinnen und der Staat müssen sich an die Gesetze halten.",
-      "Der Staat muss sich nicht an die Gesetze halten.",
-      "Nur Deutsche müssen die Gesetze befolgen.",
-      "Die Gerichte machen die Gesetze.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 3,
-    question: "Welches Recht gehört zu den Grundrechten in Deutschland?",
-    possibleAnswers: [
-      "Waffenbesitz",
-      "Faustrecht",
-      "Meinungsfreiheit",
-      "Selbstjustiz",
-    ],
-    answer: 2,
-  },
-  {
-    id: 4,
-    question: "Wahlen in Deutschland sind frei. Was bedeutet das?",
-    possibleAnswers: [
-      "Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten / eine bestimmte Kandidatin wählt.",
-      "Nur Personen, die noch nie im Gefängnis waren, dürfen wählen.",
-      "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
-      "Alle wahlberechtigten Personen müssen wählen.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 5,
-    question: "Wie heißt die deutsche Verfassung?",
-    possibleAnswers: [
-      "Volksgesetz",
-      "Bundesgesetz",
-      "Deutsches Gesetz",
-      "Grundgesetz",
-    ],
-    answer: 3,
-  },
-  {
-    id: 6,
-    question:
-      "Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …",
-    possibleAnswers: [
-      "Glaubens- und Gewissensfreiheit.",
-      "Unterhaltung.",
-      "Arbeit.",
-      "Wohnung.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 7,
-    question: "Was steht nicht im Grundgesetz von Deutschland?",
-    possibleAnswers: [
-      "Die Würde des Menschen ist unantastbar.",
-      "Alle sollen gleich viel Geld haben.",
-      "Jeder Mensch darf seine Meinung sagen.",
-      "Alle sind vor dem Gesetz gleich.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 8,
-    question:
-      "Welches Grundrecht gilt in Deutschland nur für Ausländer / Ausländerinnen? Das Grundrecht auf …",
-    possibleAnswers: [
-      "Schutz der Familie",
-      "Menschenwürde",
-      "Asyl",
-      "Meinungsfreiheit",
-    ],
-    answer: 2,
-  },
-  {
-    id: 9,
-    question: "Was ist mit dem deutschen Grundgesetz vereinbar?",
-    possibleAnswers: [
-      "die Prügelstrafe",
-      "die Folter",
-      "die Todesstrafe",
-      "die Geldstrafe",
-    ],
-    answer: 3,
-  },
-  {
-    id: 10,
-    question: "Wie wird die Verfassung der Bundesrepublik Deutschland genannt?",
-    possibleAnswers: [
-      "Grundgesetz",
-      "Bundesverfassung",
-      "Gesetzbuch",
-      "Verfassungsvertrag",
-    ],
-    answer: 0,
-  },
-  {
-    id: 11,
-    question:
-      "Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?",
-    possibleAnswers: [
-      "Ja, wenn mehr als die Hälfte der Abgeordneten im Bundestag dafür sind.",
-      "Ja, aber dazu müssen zwei Drittel der Abgeordneten im Bundestag dafür sein.",
-      "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
-      "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen.",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 0,
+  //   question:
+  //     "In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …",
+  //   possibleAnswers: [
+  //     "hier Religionsfreiheit gilt.",
+  //     "die Menschen Steuern zahlen.",
+  //     "die Menschen das Wahlrecht haben.",
+  //     "hier Meinungsfreiheit gilt.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 1,
+  //   question:
+  //     "In Deutschland können Eltern bis zum 14. Lebensjahr ihres Kindes entscheiden, ob es in der Schule am …",
+  //   possibleAnswers: [
+  //     "Geschichtsunterricht teilnimmt.",
+  //     "Religionsunterricht teilnimmt.",
+  //     "Politikunterricht teilnimmt.",
+  //     "Sprachunterricht teilnimmt.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 2,
+  //   question: "Deutschland ist ein Rechtsstaat. Was ist damit gemeint?",
+  //   possibleAnswers: [
+  //     "Alle Einwohner / Einwohnerinnen und der Staat müssen sich an die Gesetze halten.",
+  //     "Der Staat muss sich nicht an die Gesetze halten.",
+  //     "Nur Deutsche müssen die Gesetze befolgen.",
+  //     "Die Gerichte machen die Gesetze.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 3,
+  //   question: "Welches Recht gehört zu den Grundrechten in Deutschland?",
+  //   possibleAnswers: [
+  //     "Waffenbesitz",
+  //     "Faustrecht",
+  //     "Meinungsfreiheit",
+  //     "Selbstjustiz",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 4,
+  //   question: "Wahlen in Deutschland sind frei. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten / eine bestimmte Kandidatin wählt.",
+  //     "Nur Personen, die noch nie im Gefängnis waren, dürfen wählen.",
+  //     "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
+  //     "Alle wahlberechtigten Personen müssen wählen.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 5,
+  //   question: "Wie heißt die deutsche Verfassung?",
+  //   possibleAnswers: [
+  //     "Volksgesetz",
+  //     "Bundesgesetz",
+  //     "Deutsches Gesetz",
+  //     "Grundgesetz",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 6,
+  //   question:
+  //     "Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …",
+  //   possibleAnswers: [
+  //     "Glaubens- und Gewissensfreiheit.",
+  //     "Unterhaltung.",
+  //     "Arbeit.",
+  //     "Wohnung.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 7,
+  //   question: "Was steht nicht im Grundgesetz von Deutschland?",
+  //   possibleAnswers: [
+  //     "Die Würde des Menschen ist unantastbar.",
+  //     "Alle sollen gleich viel Geld haben.",
+  //     "Jeder Mensch darf seine Meinung sagen.",
+  //     "Alle sind vor dem Gesetz gleich.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 8,
+  //   question:
+  //     "Welches Grundrecht gilt in Deutschland nur für Ausländer / Ausländerinnen? Das Grundrecht auf …",
+  //   possibleAnswers: [
+  //     "Schutz der Familie",
+  //     "Menschenwürde",
+  //     "Asyl",
+  //     "Meinungsfreiheit",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 9,
+  //   question: "Was ist mit dem deutschen Grundgesetz vereinbar?",
+  //   possibleAnswers: [
+  //     "die Prügelstrafe",
+  //     "die Folter",
+  //     "die Todesstrafe",
+  //     "die Geldstrafe",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 10,
+  //   question: "Wie wird die Verfassung der Bundesrepublik Deutschland genannt?",
+  //   possibleAnswers: [
+  //     "Grundgesetz",
+  //     "Bundesverfassung",
+  //     "Gesetzbuch",
+  //     "Verfassungsvertrag",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 11,
+  //   question:
+  //     "Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?",
+  //   possibleAnswers: [
+  //     "Ja, wenn mehr als die Hälfte der Abgeordneten im Bundestag dafür sind.",
+  //     "Ja, aber dazu müssen zwei Drittel der Abgeordneten im Bundestag dafür sein.",
+  //     "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
+  //     "Nein, denn nur der Bundesrat kann die Pressefreiheit abschaffen.",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 12,
     question: "Im Parlament steht der Begriff „Opposition“ für…",
@@ -3452,74 +3452,74 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 13,
-    question: "Meinungsfreiheit in Deutschland heißt zum Beispiel, dass ich …",
-    possibleAnswers: [
-      "Passanten auf der Straße beschimpfen darf.",
-      "meine Meinung im Internet äußern kann.",
-      "Nazi-, Hamas- oder Islamischer Staat-Symbole öffentlich tragen darf.",
-      "meine Meinung nur dann äußern darf, solange ich der Regierung nicht widerspreche.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 14,
-    question: "Was verbietet das deutsche Grundgesetz?",
-    possibleAnswers: [
-      "Militärdienst",
-      "Zwangsarbeit",
-      "freie Berufswahl",
-      "Arbeit im Ausland",
-    ],
-    answer: 1,
-  },
-  {
-    id: 15,
-    question: "Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?",
-    possibleAnswers: [
-      "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen",
-      "bei Meinungsäußerungen über die Bundesregierung",
-      "bei Diskussionen über Religionen",
-      "bei Kritik am Staat",
-    ],
-    answer: 0,
-  },
-  {
-    id: 16,
-    question: "Die deutschen Gesetze verbieten …",
-    possibleAnswers: [
-      "Meinungsfreiheit der Einwohner und Einwohnerinnen.",
-      "Petitionen der Bürger und Bürgerinnen.",
-      "Versammlungsfreiheit der Einwohner und Einwohnerinnen.",
-      "Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 17,
-    question:
-      "Welches Grundrecht ist in Artikel 1 des Grundgesetzes der Bundesrepublik Deutschland garantiert?",
-    possibleAnswers: [
-      "die Unantastbarkeit der Menschenwürde",
-      "das Recht auf Leben",
-      "Religionsfreiheit",
-      "Meinungsfreiheit",
-    ],
-    answer: 0,
-  },
-  {
-    id: 18,
-    question:
-      "Was versteht man unter dem Recht der „Freizügigkeit“ in Deutschland?",
-    possibleAnswers: [
-      "Man darf sich seinen Wohnort selbst aussuchen.",
-      "Man kann seinen Beruf wechseln.",
-      "Man darf sich für eine andere Religion entscheiden.",
-      "Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 13,
+  //   question: "Meinungsfreiheit in Deutschland heißt zum Beispiel, dass ich …",
+  //   possibleAnswers: [
+  //     "Passanten auf der Straße beschimpfen darf.",
+  //     "meine Meinung im Internet äußern kann.",
+  //     "Nazi-, Hamas- oder Islamischer Staat-Symbole öffentlich tragen darf.",
+  //     "meine Meinung nur dann äußern darf, solange ich der Regierung nicht widerspreche.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 14,
+  //   question: "Was verbietet das deutsche Grundgesetz?",
+  //   possibleAnswers: [
+  //     "Militärdienst",
+  //     "Zwangsarbeit",
+  //     "freie Berufswahl",
+  //     "Arbeit im Ausland",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 15,
+  //   question: "Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?",
+  //   possibleAnswers: [
+  //     "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen",
+  //     "bei Meinungsäußerungen über die Bundesregierung",
+  //     "bei Diskussionen über Religionen",
+  //     "bei Kritik am Staat",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 16,
+  //   question: "Die deutschen Gesetze verbieten …",
+  //   possibleAnswers: [
+  //     "Meinungsfreiheit der Einwohner und Einwohnerinnen.",
+  //     "Petitionen der Bürger und Bürgerinnen.",
+  //     "Versammlungsfreiheit der Einwohner und Einwohnerinnen.",
+  //     "Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 17,
+  //   question:
+  //     "Welches Grundrecht ist in Artikel 1 des Grundgesetzes der Bundesrepublik Deutschland garantiert?",
+  //   possibleAnswers: [
+  //     "die Unantastbarkeit der Menschenwürde",
+  //     "das Recht auf Leben",
+  //     "Religionsfreiheit",
+  //     "Meinungsfreiheit",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 18,
+  //   question:
+  //     "Was versteht man unter dem Recht der „Freizügigkeit“ in Deutschland?",
+  //   possibleAnswers: [
+  //     "Man darf sich seinen Wohnort selbst aussuchen.",
+  //     "Man kann seinen Beruf wechseln.",
+  //     "Man darf sich für eine andere Religion entscheiden.",
+  //     "Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 19,
     question:
@@ -3539,90 +3539,90 @@ export const allQuestions: Question[] = [
     possibleAnswers: ["1", "2", "3", "4"],
     answer: 0,
   },
-  {
-    id: 21,
-    question: "Was für eine Staatsform hat Deutschland?",
-    possibleAnswers: ["Monarchie", "Diktatur", "Republik", "Fürstentum"],
-    answer: 2,
-  },
-  {
-    id: 22,
-    question: "In Deutschland sind die meisten Erwerbstätigen …",
-    possibleAnswers: [
-      "in kleinen Familienunternehmen beschäftigt.",
-      "ehrenamtlich für ein Bundesland tätig.",
-      "selbständig mit einer eigenen Firma tätig.",
-      "bei einer Firma oder Behörde beschäftigt.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 21,
+  //   question: "Was für eine Staatsform hat Deutschland?",
+  //   possibleAnswers: ["Monarchie", "Diktatur", "Republik", "Fürstentum"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 22,
+  //   question: "In Deutschland sind die meisten Erwerbstätigen …",
+  //   possibleAnswers: [
+  //     "in kleinen Familienunternehmen beschäftigt.",
+  //     "ehrenamtlich für ein Bundesland tätig.",
+  //     "selbständig mit einer eigenen Firma tätig.",
+  //     "bei einer Firma oder Behörde beschäftigt.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 23,
     question: "Wie viele Bundesländer hat die Bundesrepublik Deutschland?",
     possibleAnswers: ["14", "15", "16", "17"],
     answer: 2,
   },
-  {
-    id: 24,
-    question: "Was ist kein Bundesland der Bundesrepublik Deutschland?",
-    possibleAnswers: [
-      "Elsass-Lothringen",
-      "Nordrhein-Westfalen",
-      "Mecklenburg-Vorpommern",
-      "Sachsen-Anhalt",
-    ],
-    answer: 0,
-  },
-  {
-    id: 25,
-    question: "Deutschland ist …",
-    possibleAnswers: [
-      "eine kommunistische Republik.",
-      "ein demokratischer und sozialer Bundesstaat.",
-      "eine kapitalistische und soziale Monarchie.",
-      "ein sozialer und sozialistischer Bundesstaat.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 26,
-    question: "Deutschland ist …",
-    possibleAnswers: [
-      "ein sozialistischer Staat.",
-      "ein Bundesstaat.",
-      "eine Diktatur.",
-      "eine Monarchie.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 27,
-    question: "Wer wählt in Deutschland die Abgeordneten zum Bundestag?",
-    possibleAnswers: [
-      "das Militär",
-      "die Wirtschaft",
-      "das wahlberechtigte Volk",
-      "die Verwaltung",
-    ],
-    answer: 2,
-  },
-  {
-    id: 28,
-    question: "Welches Tier ist das Wappentier der Bundesrepublik Deutschland?",
-    possibleAnswers: ["Löwe", "Adler", "Bär", "Pferd"],
-    answer: 1,
-  },
-  {
-    id: 29,
-    question: "Was ist kein Merkmal unserer Demokratie?",
-    possibleAnswers: [
-      "regelmäßige Wahlen",
-      "Pressezensur",
-      "Meinungsfreiheit",
-      "verschiedene Parteien",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 24,
+  //   question: "Was ist kein Bundesland der Bundesrepublik Deutschland?",
+  //   possibleAnswers: [
+  //     "Elsass-Lothringen",
+  //     "Nordrhein-Westfalen",
+  //     "Mecklenburg-Vorpommern",
+  //     "Sachsen-Anhalt",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 25,
+  //   question: "Deutschland ist …",
+  //   possibleAnswers: [
+  //     "eine kommunistische Republik.",
+  //     "ein demokratischer und sozialer Bundesstaat.",
+  //     "eine kapitalistische und soziale Monarchie.",
+  //     "ein sozialer und sozialistischer Bundesstaat.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 26,
+  //   question: "Deutschland ist …",
+  //   possibleAnswers: [
+  //     "ein sozialistischer Staat.",
+  //     "ein Bundesstaat.",
+  //     "eine Diktatur.",
+  //     "eine Monarchie.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 27,
+  //   question: "Wer wählt in Deutschland die Abgeordneten zum Bundestag?",
+  //   possibleAnswers: [
+  //     "das Militär",
+  //     "die Wirtschaft",
+  //     "das wahlberechtigte Volk",
+  //     "die Verwaltung",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 28,
+  //   question: "Welches Tier ist das Wappentier der Bundesrepublik Deutschland?",
+  //   possibleAnswers: ["Löwe", "Adler", "Bär", "Pferd"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 29,
+  //   question: "Was ist kein Merkmal unserer Demokratie?",
+  //   possibleAnswers: [
+  //     "regelmäßige Wahlen",
+  //     "Pressezensur",
+  //     "Meinungsfreiheit",
+  //     "verschiedene Parteien",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 30,
     question:
@@ -3630,56 +3630,56 @@ export const allQuestions: Question[] = [
     possibleAnswers: ["Einheit.", "Koalition.", "Ministerium.", "Fraktion."],
     answer: 1,
   },
-  {
-    id: 31,
-    question: "Was ist keine staatliche Gewalt in Deutschland?",
-    possibleAnswers: ["Gesetzgebung", "Regierung", "Presse", "Rechtsprechung"],
-    answer: 2,
-  },
-  {
-    id: 32,
-    question: "Welche Aussage ist richtig? In Deutschland …",
-    possibleAnswers: [
-      "sind Staat und Religionsgemeinschaften voneinander getrennt.",
-      "bilden die Religionsgemeinschaften den Staat.",
-      "ist der Staat abhängig von den Religionsgemeinschaften.",
-      "bilden Staat und Religionsgemeinschaften eine Einheit.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 33,
-    question: "Was ist Deutschland nicht?",
-    possibleAnswers: [
-      "eine Demokratie",
-      "ein Rechtsstaat",
-      "eine Monarchie",
-      "ein Sozialstaat",
-    ],
-    answer: 2,
-  },
-  {
-    id: 34,
-    question: "Womit finanziert der deutsche Staat die Sozialversicherung?",
-    possibleAnswers: [
-      "Kirchensteuern",
-      "Sozialabgaben",
-      "Spendengeldern",
-      "Vereinsbeiträgen",
-    ],
-    answer: 1,
-  },
-  {
-    id: 35,
-    question: "Welche Maßnahme schafft in Deutschland soziale Sicherheit?",
-    possibleAnswers: [
-      "die Krankenversicherung",
-      "die Autoversicherung",
-      "die Gebäudeversicherung",
-      "die Haftpflichtversicherung",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 31,
+  //   question: "Was ist keine staatliche Gewalt in Deutschland?",
+  //   possibleAnswers: ["Gesetzgebung", "Regierung", "Presse", "Rechtsprechung"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 32,
+  //   question: "Welche Aussage ist richtig? In Deutschland …",
+  //   possibleAnswers: [
+  //     "sind Staat und Religionsgemeinschaften voneinander getrennt.",
+  //     "bilden die Religionsgemeinschaften den Staat.",
+  //     "ist der Staat abhängig von den Religionsgemeinschaften.",
+  //     "bilden Staat und Religionsgemeinschaften eine Einheit.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 33,
+  //   question: "Was ist Deutschland nicht?",
+  //   possibleAnswers: [
+  //     "eine Demokratie",
+  //     "ein Rechtsstaat",
+  //     "eine Monarchie",
+  //     "ein Sozialstaat",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 34,
+  //   question: "Womit finanziert der deutsche Staat die Sozialversicherung?",
+  //   possibleAnswers: [
+  //     "Kirchensteuern",
+  //     "Sozialabgaben",
+  //     "Spendengeldern",
+  //     "Vereinsbeiträgen",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 35,
+  //   question: "Welche Maßnahme schafft in Deutschland soziale Sicherheit?",
+  //   possibleAnswers: [
+  //     "die Krankenversicherung",
+  //     "die Autoversicherung",
+  //     "die Gebäudeversicherung",
+  //     "die Haftpflichtversicherung",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 36,
     question:
@@ -3704,28 +3704,28 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 38,
-    question: "Was hat jedes deutsche Bundesland?",
-    possibleAnswers: [
-      "einen eigenen Außenminister / eine eigene Außenministerin",
-      "eine eigene Währung",
-      "eine eigene Armee",
-      "eine eigene Regierung",
-    ],
-    answer: 3,
-  },
-  {
-    id: 39,
-    question: "Mit welchen Worten beginnt die deutsche Nationalhymne?",
-    possibleAnswers: [
-      "Völker, hört die Signale …",
-      "Einigkeit und Recht und Freiheit …",
-      "Freude schöner Götterfunken …",
-      "Deutschland einig Vaterland …",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 38,
+  //   question: "Was hat jedes deutsche Bundesland?",
+  //   possibleAnswers: [
+  //     "einen eigenen Außenminister / eine eigene Außenministerin",
+  //     "eine eigene Währung",
+  //     "eine eigene Armee",
+  //     "eine eigene Regierung",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 39,
+  //   question: "Mit welchen Worten beginnt die deutsche Nationalhymne?",
+  //   possibleAnswers: [
+  //     "Völker, hört die Signale …",
+  //     "Einigkeit und Recht und Freiheit …",
+  //     "Freude schöner Götterfunken …",
+  //     "Deutschland einig Vaterland …",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 40,
     question: "Warum gibt es in einer Demokratie mehr als eine Partei?",
@@ -3748,17 +3748,17 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 42,
-    question: "Wann kann in Deutschland eine Partei verboten werden?",
-    possibleAnswers: [
-      "wenn ihr Wahlkampf zu teuer ist",
-      "wenn sie gegen die Verfassung kämpft",
-      "wenn sie Kritik am Staatsoberhaupt äußert",
-      "wenn ihr Programm eine neue Richtung vorschlägt",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 42,
+  //   question: "Wann kann in Deutschland eine Partei verboten werden?",
+  //   possibleAnswers: [
+  //     "wenn ihr Wahlkampf zu teuer ist",
+  //     "wenn sie gegen die Verfassung kämpft",
+  //     "wenn sie Kritik am Staatsoberhaupt äußert",
+  //     "wenn ihr Programm eine neue Richtung vorschlägt",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 43,
     question:
@@ -3771,41 +3771,41 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 44,
-    question: "Zu welcher Versicherung gehört die Pflegeversicherung?",
-    possibleAnswers: [
-      "Sozialversicherung",
-      "Unfallversicherung",
-      "Hausratversicherung",
-      "Haftpflicht- und Feuerversicherung",
-    ],
-    answer: 0,
-  },
-  {
-    id: 45,
-    question:
-      "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?",
-    possibleAnswers: [
-      "Er baut Straßen und Schulen.",
-      "Er verkauft Lebensmittel und Kleidung.",
-      "Er versorgt alle Einwohner und Einwohnerinnen kostenlos mit Zeitungen.",
-      "Er produziert Autos und Busse.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 46,
-    question:
-      "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört nicht dazu?",
-    possibleAnswers: [
-      "Er bezahlt für alle Staatsangehörigen Urlaubsreisen.",
-      "Er zahlt Kindergeld.",
-      "Er unterstützt Museen.",
-      "Er fördert Sportler und Sportlerinnen.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 44,
+  //   question: "Zu welcher Versicherung gehört die Pflegeversicherung?",
+  //   possibleAnswers: [
+  //     "Sozialversicherung",
+  //     "Unfallversicherung",
+  //     "Hausratversicherung",
+  //     "Haftpflicht- und Feuerversicherung",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 45,
+  //   question:
+  //     "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?",
+  //   possibleAnswers: [
+  //     "Er baut Straßen und Schulen.",
+  //     "Er verkauft Lebensmittel und Kleidung.",
+  //     "Er versorgt alle Einwohner und Einwohnerinnen kostenlos mit Zeitungen.",
+  //     "Er produziert Autos und Busse.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 46,
+  //   question:
+  //     "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört nicht dazu?",
+  //   possibleAnswers: [
+  //     "Er bezahlt für alle Staatsangehörigen Urlaubsreisen.",
+  //     "Er zahlt Kindergeld.",
+  //     "Er unterstützt Museen.",
+  //     "Er fördert Sportler und Sportlerinnen.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 47,
     question:
@@ -3829,39 +3829,39 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 49,
-    question: "Die Wirtschaftsform in Deutschland nennt man …",
-    possibleAnswers: [
-      "freie Zentralwirtschaft.",
-      "soziale Marktwirtschaft.",
-      "gelenkte Zentralwirtschaft.",
-      "Planwirtschaft.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 50,
-    question: "Zu einem demokratischen Rechtsstaat gehört es nicht, dass …",
-    possibleAnswers: [
-      "Menschen sich kritisch über die Regierung äußern können.",
-      "Bürger friedlich demonstrieren gehen dürfen.",
-      "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
-      "jemand ein Verbrechen begeht und deshalb verhaftet wird.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 51,
-    question: "Was bedeutet „Volkssouveränität“? Alle Staatsgewalt geht vom …",
-    possibleAnswers: [
-      "Volke aus.",
-      "Bundestag aus.",
-      "preußischen König aus.",
-      "Bundesverfassungsgericht aus.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 49,
+  //   question: "Die Wirtschaftsform in Deutschland nennt man …",
+  //   possibleAnswers: [
+  //     "freie Zentralwirtschaft.",
+  //     "soziale Marktwirtschaft.",
+  //     "gelenkte Zentralwirtschaft.",
+  //     "Planwirtschaft.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 50,
+  //   question: "Zu einem demokratischen Rechtsstaat gehört es nicht, dass …",
+  //   possibleAnswers: [
+  //     "Menschen sich kritisch über die Regierung äußern können.",
+  //     "Bürger friedlich demonstrieren gehen dürfen.",
+  //     "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
+  //     "jemand ein Verbrechen begeht und deshalb verhaftet wird.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 51,
+  //   question: "Was bedeutet „Volkssouveränität“? Alle Staatsgewalt geht vom …",
+  //   possibleAnswers: [
+  //     "Volke aus.",
+  //     "Bundestag aus.",
+  //     "preußischen König aus.",
+  //     "Bundesverfassungsgericht aus.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 52,
     question: "Was bedeutet „Rechtsstaat“ in Deutschland?",
@@ -3873,12 +3873,12 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 53,
-    question: "Was ist keine staatliche Gewalt in Deutschland?",
-    possibleAnswers: ["Legislative", "Judikative", "Exekutive", "Direktive"],
-    answer: 3,
-  },
+  // {
+  //   id: 53,
+  //   question: "Was ist keine staatliche Gewalt in Deutschland?",
+  //   possibleAnswers: ["Legislative", "Judikative", "Exekutive", "Direktive"],
+  //   answer: 3,
+  // },
   {
     id: 54,
     question: "Was zeigt dieses Bild?",
@@ -3949,17 +3949,17 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 60,
-    question: "Was bedeutet „Volkssouveränität“?",
-    possibleAnswers: [
-      "Der König / die Königin herrscht über das Volk.",
-      "Das Bundesverfassungsgericht steht über der Verfassung.",
-      "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
-      "Die Staatsgewalt geht vom Volke aus.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 60,
+  //   question: "Was bedeutet „Volkssouveränität“?",
+  //   possibleAnswers: [
+  //     "Der König / die Königin herrscht über das Volk.",
+  //     "Das Bundesverfassungsgericht steht über der Verfassung.",
+  //     "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
+  //     "Die Staatsgewalt geht vom Volke aus.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 61,
     question:
@@ -4071,18 +4071,18 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 71,
-    question:
-      "Wie heißt der jetzige Bundeskanzler / die jetzige Bundeskanzlerin von Deutschland?",
-    possibleAnswers: [
-      "Gerhard Schröder",
-      "Angela Merkel",
-      "Franziska Giffey",
-      "Olaf Scholz",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 71,
+  //   question:
+  //     "Wie heißt der jetzige Bundeskanzler / die jetzige Bundeskanzlerin von Deutschland?",
+  //   possibleAnswers: [
+  //     "Gerhard Schröder",
+  //     "Angela Merkel",
+  //     "Franziska Giffey",
+  //     "Olaf Scholz",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 72,
     question:
@@ -4150,17 +4150,17 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 78,
-    question: "Was bedeutet die Abkürzung FDP in Deutschland?",
-    possibleAnswers: [
-      "Friedliche Demonstrative Partei",
-      "Freie Deutschland Partei",
-      "Führende Demokratische Partei",
-      "Freie Demokratische Partei",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 78,
+  //   question: "Was bedeutet die Abkürzung FDP in Deutschland?",
+  //   possibleAnswers: [
+  //     "Friedliche Demonstrative Partei",
+  //     "Freie Deutschland Partei",
+  //     "Führende Demokratische Partei",
+  //     "Freie Demokratische Partei",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 79,
     question:
@@ -4296,17 +4296,17 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 91,
-    question: "Was bedeutet die Abkürzung CSU in Deutschland?",
-    possibleAnswers: [
-      "Christlich Sichere Union",
-      "Christlich Süddeutsche Union",
-      "Christlich Sozialer Unternehmerverband",
-      "Christlich Soziale Union",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 91,
+  //   question: "Was bedeutet die Abkürzung CSU in Deutschland?",
+  //   possibleAnswers: [
+  //     "Christlich Sichere Union",
+  //     "Christlich Süddeutsche Union",
+  //     "Christlich Sozialer Unternehmerverband",
+  //     "Christlich Soziale Union",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 92,
     question:
@@ -4319,13 +4319,13 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 93,
-    question:
-      "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
-    possibleAnswers: ["16", "18", "21", "23"],
-    answer: 1,
-  },
+  // {
+  //   id: 93,
+  //   question:
+  //     "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
+  //   possibleAnswers: ["16", "18", "21", "23"],
+  //   answer: 1,
+  // },
   {
     id: 94,
     question: "Was gilt für die meisten Kinder in Deutschland?",
@@ -4337,29 +4337,29 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 95,
-    question: "Wie kann jemand, der den Holocaust leugnet, bestraft werden?",
-    possibleAnswers: [
-      "Kürzung sozialer Leistungen",
-      "bis zu 100 Sozialstunden",
-      "gar nicht, Holocaustleugnung ist erlaubt",
-      "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe",
-    ],
-    answer: 3,
-  },
-  {
-    id: 96,
-    question:
-      "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
-    possibleAnswers: [
-      "Sozialversicherung",
-      "Sozialhilfe",
-      "Kindergeld",
-      "Wohngeld",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 95,
+  //   question: "Wie kann jemand, der den Holocaust leugnet, bestraft werden?",
+  //   possibleAnswers: [
+  //     "Kürzung sozialer Leistungen",
+  //     "bis zu 100 Sozialstunden",
+  //     "gar nicht, Holocaustleugnung ist erlaubt",
+  //     "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 96,
+  //   question:
+  //     "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
+  //   possibleAnswers: [
+  //     "Sozialversicherung",
+  //     "Sozialhilfe",
+  //     "Kindergeld",
+  //     "Wohngeld",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 97,
     question:
@@ -4372,28 +4372,28 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 98,
-    question: "Wer bezahlt in Deutschland die Sozialversicherungen?",
-    possibleAnswers: [
-      "Arbeitgeber / Arbeitgeberinnen und Arbeitnehmer / Arbeitnehmerinnen",
-      "nur Arbeitnehmer / Arbeitnehmerinnen",
-      "alle Staatsangehörigen",
-      "nur Arbeitgeber / Arbeitgeberinnen",
-    ],
-    answer: 0,
-  },
-  {
-    id: 99,
-    question: "Was gehört nicht zur gesetzlichen Sozialversicherung?",
-    possibleAnswers: [
-      "die Lebensversicherung",
-      "die gesetzliche Rentenversicherung",
-      "die Arbeitslosenversicherung",
-      "die Pflegeversicherung",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 98,
+  //   question: "Wer bezahlt in Deutschland die Sozialversicherungen?",
+  //   possibleAnswers: [
+  //     "Arbeitgeber / Arbeitgeberinnen und Arbeitnehmer / Arbeitnehmerinnen",
+  //     "nur Arbeitnehmer / Arbeitnehmerinnen",
+  //     "alle Staatsangehörigen",
+  //     "nur Arbeitgeber / Arbeitgeberinnen",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 99,
+  //   question: "Was gehört nicht zur gesetzlichen Sozialversicherung?",
+  //   possibleAnswers: [
+  //     "die Lebensversicherung",
+  //     "die gesetzliche Rentenversicherung",
+  //     "die Arbeitslosenversicherung",
+  //     "die Pflegeversicherung",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 100,
     question: "Gewerkschaften sind Interessenverbände der …",
@@ -4429,18 +4429,18 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 103,
-    question:
-      "Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht der Grund für diese Entlassung sein?",
-    possibleAnswers: [
-      "Die Frau ist lange krank und arbeitsunfähig.",
-      "Die Frau kam oft zu spät zur Arbeit.",
-      "Die Frau erledigt private Sachen während der Arbeitszeit.",
-      "Die Frau bekommt ein Kind und ihr Chef weiß das.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 103,
+  //   question:
+  //     "Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht der Grund für diese Entlassung sein?",
+  //   possibleAnswers: [
+  //     "Die Frau ist lange krank und arbeitsunfähig.",
+  //     "Die Frau kam oft zu spät zur Arbeit.",
+  //     "Die Frau erledigt private Sachen während der Arbeitszeit.",
+  //     "Die Frau bekommt ein Kind und ihr Chef weiß das.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 104,
     question:
@@ -4500,29 +4500,29 @@ export const allQuestions: Question[] = [
     possibleAnswers: ["2 Jahre", "3 Jahre", "4 Jahre", "5 Jahre"],
     answer: 2,
   },
-  {
-    id: 110,
-    question:
-      "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten?",
-    possibleAnswers: [
-      "Die Politik Israels öffentlich kritisieren.",
-      "Das Aufhängen einer israelischen Flagge auf dem Privatgrundstück.",
-      "Eine Diskussion über die Politik Israels.",
-      "Der öffentliche Aufruf zur Vernichtung Israels.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 111,
-    question: "Die Wahlen in Deutschland sind …",
-    possibleAnswers: [
-      "speziell.",
-      "geheim.",
-      "berufsbezogen.",
-      "geschlechtsabhängig.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 110,
+  //   question:
+  //     "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten?",
+  //   possibleAnswers: [
+  //     "Die Politik Israels öffentlich kritisieren.",
+  //     "Das Aufhängen einer israelischen Flagge auf dem Privatgrundstück.",
+  //     "Eine Diskussion über die Politik Israels.",
+  //     "Der öffentliche Aufruf zur Vernichtung Israels.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 111,
+  //   question: "Die Wahlen in Deutschland sind …",
+  //   possibleAnswers: [
+  //     "speziell.",
+  //     "geheim.",
+  //     "berufsbezogen.",
+  //     "geschlechtsabhängig.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 112,
     question: "Wahlen in Deutschland gewinnt die Partei, die …",
@@ -4534,116 +4534,116 @@ export const allQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 113,
-    question: "An demokratischen Wahlen in Deutschland teilzunehmen ist …",
-    possibleAnswers: [
-      "eine Pflicht.",
-      "ein Recht.",
-      "ein Zwang.",
-      "eine Last.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 114,
-    question: "Was bedeutet „aktives Wahlrecht“ in Deutschland?",
-    possibleAnswers: [
-      "Man kann gewählt werden.",
-      "Man muss wählen gehen.",
-      "Man kann wählen.",
-      "Man muss zur Auszählung der Stimmen gehen.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 115,
-    question:
-      "Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …",
-    possibleAnswers: [
-      "aktive Wahlkampagne.",
-      "aktives Wahlverfahren.",
-      "aktiver Wahlkampf.",
-      "aktives Wahlrecht.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 116,
-    question:
-      "Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?",
-    possibleAnswers: ["3 %", "4 %", "5 %", "6 %"],
-    answer: 2,
-  },
-  {
-    id: 117,
-    question:
-      "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?",
-    possibleAnswers: [
-      "nur Deutsche",
-      "nur Israelis",
-      "nur religiöse Menschen",
-      "alle Menschen",
-    ],
-    answer: 3,
-  },
-  {
-    id: 118,
-    question: "Wahlen in Deutschland sind frei. Was bedeutet das?",
-    possibleAnswers: [
-      "Alle verurteilten Straftäter / Straftäterinnen dürfen nicht wählen.",
-      "Wenn ich wählen gehen möchte, muss mein Arbeitgeber / meine Arbeitgeberin mir frei geben.",
-      "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
-      "Ich kann frei entscheiden, wo ich wählen gehen möchte.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 119,
-    question: "Das Wahlsystem in Deutschland ist ein …",
-    possibleAnswers: [
-      "Zensuswahlrecht.",
-      "Dreiklassenwahlrecht.",
-      "Mehrheits- und Verhältniswahlrecht.",
-      "allgemeines Männerwahlrecht.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 120,
-    question:
-      "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen haben. Das heißt …",
-    possibleAnswers: [
-      "5 %-Hürde.",
-      "Zulassungsgrenze.",
-      "Basiswert.",
-      "Richtlinie.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 121,
-    question:
-      "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …",
-    possibleAnswers: [
-      "frei, gleich, geheim.",
-      "offen, sicher, frei.",
-      "geschlossen, gleich, sicher.",
-      "sicher, offen, freiwillig.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 122,
-    question: "Was ist in Deutschland die „5 %-Hürde“?",
-    possibleAnswers: [
-      "Abstimmungsregelung im Bundestag für kleine Parteien",
-      "Anwesenheitskontrolle im Bundestag für Abstimmungen",
-      "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen",
-      "Anwesenheitskontrolle im Bundesrat für Abstimmungen",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 113,
+  //   question: "An demokratischen Wahlen in Deutschland teilzunehmen ist …",
+  //   possibleAnswers: [
+  //     "eine Pflicht.",
+  //     "ein Recht.",
+  //     "ein Zwang.",
+  //     "eine Last.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 114,
+  //   question: "Was bedeutet „aktives Wahlrecht“ in Deutschland?",
+  //   possibleAnswers: [
+  //     "Man kann gewählt werden.",
+  //     "Man muss wählen gehen.",
+  //     "Man kann wählen.",
+  //     "Man muss zur Auszählung der Stimmen gehen.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 115,
+  //   question:
+  //     "Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …",
+  //   possibleAnswers: [
+  //     "aktive Wahlkampagne.",
+  //     "aktives Wahlverfahren.",
+  //     "aktiver Wahlkampf.",
+  //     "aktives Wahlrecht.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 116,
+  //   question:
+  //     "Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?",
+  //   possibleAnswers: ["3 %", "4 %", "5 %", "6 %"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 117,
+  //   question:
+  //     "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?",
+  //   possibleAnswers: [
+  //     "nur Deutsche",
+  //     "nur Israelis",
+  //     "nur religiöse Menschen",
+  //     "alle Menschen",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 118,
+  //   question: "Wahlen in Deutschland sind frei. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Alle verurteilten Straftäter / Straftäterinnen dürfen nicht wählen.",
+  //     "Wenn ich wählen gehen möchte, muss mein Arbeitgeber / meine Arbeitgeberin mir frei geben.",
+  //     "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
+  //     "Ich kann frei entscheiden, wo ich wählen gehen möchte.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 119,
+  //   question: "Das Wahlsystem in Deutschland ist ein …",
+  //   possibleAnswers: [
+  //     "Zensuswahlrecht.",
+  //     "Dreiklassenwahlrecht.",
+  //     "Mehrheits- und Verhältniswahlrecht.",
+  //     "allgemeines Männerwahlrecht.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 120,
+  //   question:
+  //     "Eine Partei möchte in den Deutschen Bundestag. Sie muss aber einen Mindestanteil an Wählerstimmen haben. Das heißt …",
+  //   possibleAnswers: [
+  //     "5 %-Hürde.",
+  //     "Zulassungsgrenze.",
+  //     "Basiswert.",
+  //     "Richtlinie.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 121,
+  //   question:
+  //     "Welchem Grundsatz unterliegen Wahlen in Deutschland? Wahlen in Deutschland sind …",
+  //   possibleAnswers: [
+  //     "frei, gleich, geheim.",
+  //     "offen, sicher, frei.",
+  //     "geschlossen, gleich, sicher.",
+  //     "sicher, offen, freiwillig.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 122,
+  //   question: "Was ist in Deutschland die „5 %-Hürde“?",
+  //   possibleAnswers: [
+  //     "Abstimmungsregelung im Bundestag für kleine Parteien",
+  //     "Anwesenheitskontrolle im Bundestag für Abstimmungen",
+  //     "Mindestanteil an Wählerstimmen, um ins Parlament zu kommen",
+  //     "Anwesenheitskontrolle im Bundesrat für Abstimmungen",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 123,
     question: "Die Bundestagswahl in Deutschland ist die Wahl …",
@@ -4655,18 +4655,18 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 124,
-    question:
-      "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
-    possibleAnswers: [
-      "die Bürger und Bürgerinnen zu zwingen, ihre Stimme abzugeben.",
-      "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.",
-      "im Land bestehende Gesetze beizubehalten.",
-      "den Armen mehr Macht zu geben.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 124,
+  //   question:
+  //     "In einer Demokratie ist eine Funktion von regelmäßigen Wahlen, …",
+  //   possibleAnswers: [
+  //     "die Bürger und Bürgerinnen zu zwingen, ihre Stimme abzugeben.",
+  //     "nach dem Willen der Wählermehrheit den Wechsel der Regierung zu ermöglichen.",
+  //     "im Land bestehende Gesetze beizubehalten.",
+  //     "den Armen mehr Macht zu geben.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 125,
     question:
@@ -4732,42 +4732,42 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 131,
-    question:
-      "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
-    possibleAnswers: [
-      "Sie arbeiten als Soldaten / Soldatinnen.",
-      "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
-      "Sie arbeiten in der Bundesregierung.",
-      "Sie arbeiten in einem Krankenhaus und verdienen dabei Geld.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 132,
-    question:
-      "Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?",
-    possibleAnswers: [
-      "Der Ehemann wählt für seine Frau mit.",
-      "Man kann durch Briefwahl seine Stimme abgeben.",
-      "Man kann am Wahltag telefonisch seine Stimme abgeben.",
-      "Kinder ab dem Alter von 14 Jahren dürfen wählen.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 133,
-    question:
-      "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?",
-    possibleAnswers: [
-      "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.",
-      "Ich werde Mitglied in einem Sportverein und trainiere Radfahren.",
-      "Ich wende mich an das Finanzamt, weil ich als Steuerzahler / Steuerzahlerin ein Recht auf die Buslinie habe.",
-      "Ich schreibe einen Brief an das Forstamt der Gemeinde.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 131,
+  //   question:
+  //     "Viele Menschen in Deutschland arbeiten in ihrer Freizeit ehrenamtlich. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Sie arbeiten als Soldaten / Soldatinnen.",
+  //     "Sie arbeiten freiwillig und unbezahlt in Vereinen und Verbänden.",
+  //     "Sie arbeiten in der Bundesregierung.",
+  //     "Sie arbeiten in einem Krankenhaus und verdienen dabei Geld.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 132,
+  //   question:
+  //     "Was ist bei Bundestags- und Landtagswahlen in Deutschland erlaubt?",
+  //   possibleAnswers: [
+  //     "Der Ehemann wählt für seine Frau mit.",
+  //     "Man kann durch Briefwahl seine Stimme abgeben.",
+  //     "Man kann am Wahltag telefonisch seine Stimme abgeben.",
+  //     "Kinder ab dem Alter von 14 Jahren dürfen wählen.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 133,
+  //   question:
+  //     "Man will die Buslinie abschaffen, mit der Sie immer zur Arbeit fahren. Was können Sie machen, um die Buslinie zu erhalten?",
+  //   possibleAnswers: [
+  //     "Ich beteilige mich an einer Bürgerinitiative für die Erhaltung der Buslinie oder gründe selber eine Initiative.",
+  //     "Ich werde Mitglied in einem Sportverein und trainiere Radfahren.",
+  //     "Ich wende mich an das Finanzamt, weil ich als Steuerzahler / Steuerzahlerin ein Recht auf die Buslinie habe.",
+  //     "Ich schreibe einen Brief an das Forstamt der Gemeinde.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 134,
     question: "Wen vertreten die Gewerkschaften in Deutschland?",
@@ -4779,41 +4779,41 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 135,
-    question: "Sie gehen in Deutschland zum Arbeitsgericht bei …",
-    possibleAnswers: [
-      "falscher Nebenkostenabrechnung.",
-      "ungerechtfertigter Kündigung durch Ihren Chef / Ihre Chefin.",
-      "Problemen mit den Nachbarn / Nachbarinnen.",
-      "Schwierigkeiten nach einem Verkehrsunfall.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 136,
-    question:
-      "Welches Gericht ist in Deutschland bei Konflikten in der Arbeitswelt zuständig?",
-    possibleAnswers: [
-      "das Familiengericht",
-      "das Strafgericht",
-      "das Arbeitsgericht",
-      "das Amtsgericht",
-    ],
-    answer: 2,
-  },
-  {
-    id: 137,
-    question:
-      "Was kann ich in Deutschland machen, wenn mir mein Arbeitgeber / meine Arbeitgeberin zu Unrecht gekündigt hat?",
-    possibleAnswers: [
-      "weiter arbeiten und freundlich zum Chef / zur Chefin sein",
-      "ein Mahnverfahren gegen den Arbeitgeber / die Arbeitgeberin führen",
-      "Kündigungsschutzklage erheben",
-      "den Arbeitgeber / die Arbeitgeberin bei der Polizei anzeigen",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 135,
+  //   question: "Sie gehen in Deutschland zum Arbeitsgericht bei …",
+  //   possibleAnswers: [
+  //     "falscher Nebenkostenabrechnung.",
+  //     "ungerechtfertigter Kündigung durch Ihren Chef / Ihre Chefin.",
+  //     "Problemen mit den Nachbarn / Nachbarinnen.",
+  //     "Schwierigkeiten nach einem Verkehrsunfall.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 136,
+  //   question:
+  //     "Welches Gericht ist in Deutschland bei Konflikten in der Arbeitswelt zuständig?",
+  //   possibleAnswers: [
+  //     "das Familiengericht",
+  //     "das Strafgericht",
+  //     "das Arbeitsgericht",
+  //     "das Amtsgericht",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 137,
+  //   question:
+  //     "Was kann ich in Deutschland machen, wenn mir mein Arbeitgeber / meine Arbeitgeberin zu Unrecht gekündigt hat?",
+  //   possibleAnswers: [
+  //     "weiter arbeiten und freundlich zum Chef / zur Chefin sein",
+  //     "ein Mahnverfahren gegen den Arbeitgeber / die Arbeitgeberin führen",
+  //     "Kündigungsschutzklage erheben",
+  //     "den Arbeitgeber / die Arbeitgeberin bei der Polizei anzeigen",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 138,
     question:
@@ -4862,17 +4862,17 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 142,
-    question: "Ein Richter / eine Richterin in Deutschland gehört zur …",
-    possibleAnswers: [
-      "Judikative.",
-      "Exekutive.",
-      "Operative.",
-      "Legislative.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 142,
+  //   question: "Ein Richter / eine Richterin in Deutschland gehört zur …",
+  //   possibleAnswers: [
+  //     "Judikative.",
+  //     "Exekutive.",
+  //     "Operative.",
+  //     "Legislative.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 143,
     question: "Ein Richter / eine Richterin gehört in Deutschland zur …",
@@ -4884,31 +4884,31 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 144,
-    question:
-      "In Deutschland wird die Staatsgewalt geteilt. Für welche Staatsgewalt arbeitet ein Richter / eine Richterin? Für die …",
-    possibleAnswers: ["Judikative.", "Exekutive.", "Presse.", "Legislative."],
-    answer: 0,
-  },
+  // {
+  //   id: 144,
+  //   question:
+  //     "In Deutschland wird die Staatsgewalt geteilt. Für welche Staatsgewalt arbeitet ein Richter / eine Richterin? Für die …",
+  //   possibleAnswers: ["Judikative.", "Exekutive.", "Presse.", "Legislative."],
+  //   answer: 0,
+  // },
   {
     id: 145,
     question: "Wie nennt man in Deutschland ein Verfahren vor einem Gericht?",
     possibleAnswers: ["Programm", "Prozedur", "Protokoll", "Prozess"],
     answer: 3,
   },
-  {
-    id: 146,
-    question:
-      "Was ist die Arbeit eines Richters / einer Richterin in Deutschland?",
-    possibleAnswers: [
-      "Deutschland regieren",
-      "Recht sprechen",
-      "Pläne erstellen",
-      "Gesetze erlassen",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 146,
+  //   question:
+  //     "Was ist die Arbeit eines Richters / einer Richterin in Deutschland?",
+  //   possibleAnswers: [
+  //     "Deutschland regieren",
+  //     "Recht sprechen",
+  //     "Pläne erstellen",
+  //     "Gesetze erlassen",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 147,
     question: "Was ist eine Aufgabe der Polizei in Deutschland?",
@@ -4920,17 +4920,17 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 148,
-    question: "Was ist ein Beispiel für antisemitisches Verhalten?",
-    possibleAnswers: [
-      "ein jüdisches Fest besuchen",
-      "die israelische Regierung kritisieren",
-      "den Holocaust leugnen",
-      "gegen Juden Fußball spielen",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 148,
+  //   question: "Was ist ein Beispiel für antisemitisches Verhalten?",
+  //   possibleAnswers: [
+  //     "ein jüdisches Fest besuchen",
+  //     "die israelische Regierung kritisieren",
+  //     "den Holocaust leugnen",
+  //     "gegen Juden Fußball spielen",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 149,
     question:
@@ -4943,29 +4943,29 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 150,
-    question: "Wer baute die Mauer in Berlin?",
-    possibleAnswers: [
-      "Großbritannien",
-      "die DDR",
-      "die Bundesrepublik Deutschland",
-      "die USA",
-    ],
-    answer: 1,
-  },
-  {
-    id: 151,
-    question:
-      "Wann waren die Nationalsozialisten mit Adolf Hitler in Deutschland an der Macht?",
-    possibleAnswers: [
-      "1918 bis 1923",
-      "1932 bis 1950",
-      "1933 bis 1945",
-      "1945 bis 1989",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 150,
+  //   question: "Wer baute die Mauer in Berlin?",
+  //   possibleAnswers: [
+  //     "Großbritannien",
+  //     "die DDR",
+  //     "die Bundesrepublik Deutschland",
+  //     "die USA",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 151,
+  //   question:
+  //     "Wann waren die Nationalsozialisten mit Adolf Hitler in Deutschland an der Macht?",
+  //   possibleAnswers: [
+  //     "1918 bis 1923",
+  //     "1932 bis 1950",
+  //     "1933 bis 1945",
+  //     "1945 bis 1989",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 152,
     question: "Was war am 8. Mai 1945?",
@@ -4977,86 +4977,86 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 153,
-    question: "Wann war der Zweite Weltkrieg zu Ende?",
-    possibleAnswers: ["1933", "1945", "1949", "1961"],
-    answer: 1,
-  },
-  {
-    id: 154,
-    question: "Wann waren die Nationalsozialisten in Deutschland an der Macht?",
-    possibleAnswers: [
-      "1888 bis 1918",
-      "1921 bis 1934",
-      "1933 bis 1945",
-      "1949 bis 1963",
-    ],
-    answer: 2,
-  },
-  {
-    id: 155,
-    question: "In welchem Jahr wurde Hitler Reichskanzler?",
-    possibleAnswers: ["1923", "1927", "1933", "1936"],
-    answer: 2,
-  },
-  {
-    id: 156,
-    question:
-      "Die Nationalsozialisten mit Adolf Hitler errichteten 1933 in Deutschland …",
-    possibleAnswers: [
-      "eine Diktatur.",
-      "einen demokratischen Staat.",
-      "eine Monarchie.",
-      "ein Fürstentum.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 157,
-    question: "Das „Dritte Reich“ war eine …",
-    possibleAnswers: [
-      "Diktatur.",
-      "Demokratie.",
-      "Monarchie.",
-      "Räterepublik.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 158,
-    question:
-      "Was gab es in Deutschland nicht während der Zeit des Nationalsozialismus?",
-    possibleAnswers: [
-      "freie Wahlen",
-      "Pressezensur",
-      "willkürliche Verhaftungen",
-      "Verfolgung der Juden",
-    ],
-    answer: 0,
-  },
-  {
-    id: 159,
-    question: "Welcher Krieg dauerte von 1939 bis 1945?",
-    possibleAnswers: [
-      "der Erste Weltkrieg",
-      "der Zweite Weltkrieg",
-      "der Vietnamkrieg",
-      "der Golfkrieg",
-    ],
-    answer: 1,
-  },
-  {
-    id: 160,
-    question: "Was kennzeichnete den NS-Staat? Eine Politik …",
-    possibleAnswers: [
-      "des staatlichen Rassismus",
-      "der Meinungsfreiheit",
-      "der allgemeinen Religionsfreiheit",
-      "der Entwicklung der Demokratie",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 153,
+  //   question: "Wann war der Zweite Weltkrieg zu Ende?",
+  //   possibleAnswers: ["1933", "1945", "1949", "1961"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 154,
+  //   question: "Wann waren die Nationalsozialisten in Deutschland an der Macht?",
+  //   possibleAnswers: [
+  //     "1888 bis 1918",
+  //     "1921 bis 1934",
+  //     "1933 bis 1945",
+  //     "1949 bis 1963",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 155,
+  //   question: "In welchem Jahr wurde Hitler Reichskanzler?",
+  //   possibleAnswers: ["1923", "1927", "1933", "1936"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 156,
+  //   question:
+  //     "Die Nationalsozialisten mit Adolf Hitler errichteten 1933 in Deutschland …",
+  //   possibleAnswers: [
+  //     "eine Diktatur.",
+  //     "einen demokratischen Staat.",
+  //     "eine Monarchie.",
+  //     "ein Fürstentum.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 157,
+  //   question: "Das „Dritte Reich“ war eine …",
+  //   possibleAnswers: [
+  //     "Diktatur.",
+  //     "Demokratie.",
+  //     "Monarchie.",
+  //     "Räterepublik.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 158,
+  //   question:
+  //     "Was gab es in Deutschland nicht während der Zeit des Nationalsozialismus?",
+  //   possibleAnswers: [
+  //     "freie Wahlen",
+  //     "Pressezensur",
+  //     "willkürliche Verhaftungen",
+  //     "Verfolgung der Juden",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 159,
+  //   question: "Welcher Krieg dauerte von 1939 bis 1945?",
+  //   possibleAnswers: [
+  //     "der Erste Weltkrieg",
+  //     "der Zweite Weltkrieg",
+  //     "der Vietnamkrieg",
+  //     "der Golfkrieg",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 160,
+  //   question: "Was kennzeichnete den NS-Staat? Eine Politik …",
+  //   possibleAnswers: [
+  //     "des staatlichen Rassismus",
+  //     "der Meinungsfreiheit",
+  //     "der allgemeinen Religionsfreiheit",
+  //     "der Entwicklung der Demokratie",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 161,
     question: "Claus Schenk Graf von Stauffenberg wurde bekannt durch …",
@@ -5135,29 +5135,29 @@ export const allQuestions: Question[] = [
     possibleAnswers: ["1939", "1945", "1949", "1951"],
     answer: 2,
   },
-  {
-    id: 169,
-    question:
-      "Was gab es während der Zeit des Nationalsozialismus in Deutschland?",
-    possibleAnswers: [
-      "das Verbot von Parteien",
-      "das Recht zur freien Entfaltung der Persönlichkeit",
-      "Pressefreiheit",
-      "den Schutz der Menschenwürde",
-    ],
-    answer: 0,
-  },
-  {
-    id: 170,
-    question: "Soziale Marktwirtschaft bedeutet, die Wirtschaft …",
-    possibleAnswers: [
-      "steuert sich allein nach Angebot und Nachfrage.",
-      "wird vom Staat geplant und gesteuert, Angebot und Nachfrage werden nicht berücksichtigt.",
-      "richtet sich nach der Nachfrage im Ausland.",
-      "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 169,
+  //   question:
+  //     "Was gab es während der Zeit des Nationalsozialismus in Deutschland?",
+  //   possibleAnswers: [
+  //     "das Verbot von Parteien",
+  //     "das Recht zur freien Entfaltung der Persönlichkeit",
+  //     "Pressefreiheit",
+  //     "den Schutz der Menschenwürde",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 170,
+  //   question: "Soziale Marktwirtschaft bedeutet, die Wirtschaft …",
+  //   possibleAnswers: [
+  //     "steuert sich allein nach Angebot und Nachfrage.",
+  //     "wird vom Staat geplant und gesteuert, Angebot und Nachfrage werden nicht berücksichtigt.",
+  //     "richtet sich nach der Nachfrage im Ausland.",
+  //     "richtet sich nach Angebot und Nachfrage, aber der Staat sorgt für einen sozialen Ausgleich.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 171,
     question: "In welcher Besatzungszone wurde die DDR gegründet? In der …",
@@ -5205,13 +5205,13 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 176,
-    question:
-      "Welche deutsche Stadt wurde nach dem Zweiten Weltkrieg in vier Sektoren aufgeteilt?",
-    possibleAnswers: ["München", "Berlin", "Dresden", "Frankfurt/Oder"],
-    answer: 1,
-  },
+  // {
+  //   id: 176,
+  //   question:
+  //     "Welche deutsche Stadt wurde nach dem Zweiten Weltkrieg in vier Sektoren aufgeteilt?",
+  //   possibleAnswers: ["München", "Berlin", "Dresden", "Frankfurt/Oder"],
+  //   answer: 1,
+  // },
   {
     id: 177,
     question:
@@ -5259,12 +5259,12 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 181,
-    question: "Wie heißt das jüdische Gebetshaus?",
-    possibleAnswers: ["Basilika", "Moschee", "Synagoge", "Kirche"],
-    answer: 2,
-  },
+  // {
+  //   id: 181,
+  //   question: "Wie heißt das jüdische Gebetshaus?",
+  //   possibleAnswers: ["Basilika", "Moschee", "Synagoge", "Kirche"],
+  //   answer: 2,
+  // },
   {
     id: 182,
     question:
@@ -5272,18 +5272,18 @@ export const allQuestions: Question[] = [
     possibleAnswers: ["40er Jahre", "50er Jahre", "70er Jahre", "80er Jahre"],
     answer: 1,
   },
-  {
-    id: 183,
-    question:
-      "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
-    possibleAnswers: [
-      "eine Resolution der Vereinten Nationen",
-      "ein Beschluss des Zionistenkongresses",
-      "ein Vorschlag der Bundesregierung",
-      "ein Vorschlag der UdSSR",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 183,
+  //   question:
+  //     "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
+  //   possibleAnswers: [
+  //     "eine Resolution der Vereinten Nationen",
+  //     "ein Beschluss des Zionistenkongresses",
+  //     "ein Vorschlag der Bundesregierung",
+  //     "ein Vorschlag der UdSSR",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 184,
     question:
@@ -5352,23 +5352,23 @@ export const allQuestions: Question[] = [
     possibleAnswers: ["Brandenburg", "Bayern", "Saarland", "Hessen"],
     answer: 0,
   },
-  {
-    id: 192,
-    question: "Von 1961 bis 1989 war Berlin …",
-    possibleAnswers: [
-      "ohne Bürgermeister.",
-      "ein eigener Staat.",
-      "durch eine Mauer geteilt.",
-      "nur mit dem Flugzeug erreichbar.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 193,
-    question: "Am 3. Oktober feiert man in Deutschland den Tag der Deutschen …",
-    possibleAnswers: ["Einheit.", "Nation.", "Bundesländer.", "Städte."],
-    answer: 0,
-  },
+  // {
+  //   id: 192,
+  //   question: "Von 1961 bis 1989 war Berlin …",
+  //   possibleAnswers: [
+  //     "ohne Bürgermeister.",
+  //     "ein eigener Staat.",
+  //     "durch eine Mauer geteilt.",
+  //     "nur mit dem Flugzeug erreichbar.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 193,
+  //   question: "Am 3. Oktober feiert man in Deutschland den Tag der Deutschen …",
+  //   possibleAnswers: ["Einheit.", "Nation.", "Bundesländer.", "Städte."],
+  //   answer: 0,
+  // },
   {
     id: 194,
     question:
@@ -5458,17 +5458,17 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 202,
-    question: "Wie hieß das Wirtschaftssystem der DDR?",
-    possibleAnswers: [
-      "Marktwirtschaft",
-      "Planwirtschaft",
-      "Angebot und Nachfrage",
-      "Kapitalismus",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 202,
+  //   question: "Wie hieß das Wirtschaftssystem der DDR?",
+  //   possibleAnswers: [
+  //     "Marktwirtschaft",
+  //     "Planwirtschaft",
+  //     "Angebot und Nachfrage",
+  //     "Kapitalismus",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 203,
     question:
@@ -5493,17 +5493,17 @@ export const allQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 205,
-    question: "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
-    possibleAnswers: [
-      "an berühmte deutsche Politikerinnen und Politiker",
-      "an die Opfer des Nationalsozialismus",
-      "an Verkehrstote",
-      "an bekannte jüdische Musiker",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 205,
+  //   question: "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
+  //   possibleAnswers: [
+  //     "an berühmte deutsche Politikerinnen und Politiker",
+  //     "an die Opfer des Nationalsozialismus",
+  //     "an Verkehrstote",
+  //     "an bekannte jüdische Musiker",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 206,
     question: "In welchem Militärbündnis war die DDR Mitglied?",
@@ -5555,39 +5555,39 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 211,
-    question: "Wie heißt Deutschland mit vollem Namen?",
-    possibleAnswers: [
-      "Bundesstaat Deutschland",
-      "Bundesländer Deutschland",
-      "Bundesrepublik Deutschland",
-      "Bundesbezirk Deutschland",
-    ],
-    answer: 2,
-  },
-  {
-    id: 212,
-    question: "Wie viele Einwohner hat Deutschland?",
-    possibleAnswers: [
-      "70 Millionen",
-      "78 Millionen",
-      "84 Millionen",
-      "90 Millionen",
-    ],
-    answer: 2,
-  },
-  {
-    id: 213,
-    question: "Welche Farben hat die deutsche Flagge?",
-    possibleAnswers: [
-      "schwarz-rot-gold",
-      "rot-weiß-schwarz",
-      "schwarz-rot-grün",
-      "schwarz-gelb-rot",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 211,
+  //   question: "Wie heißt Deutschland mit vollem Namen?",
+  //   possibleAnswers: [
+  //     "Bundesstaat Deutschland",
+  //     "Bundesländer Deutschland",
+  //     "Bundesrepublik Deutschland",
+  //     "Bundesbezirk Deutschland",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 212,
+  //   question: "Wie viele Einwohner hat Deutschland?",
+  //   possibleAnswers: [
+  //     "70 Millionen",
+  //     "78 Millionen",
+  //     "84 Millionen",
+  //     "90 Millionen",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 213,
+  //   question: "Welche Farben hat die deutsche Flagge?",
+  //   possibleAnswers: [
+  //     "schwarz-rot-gold",
+  //     "rot-weiß-schwarz",
+  //     "schwarz-rot-grün",
+  //     "schwarz-gelb-rot",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 214,
     question: "Wer wird als „Kanzler der Deutschen Einheit“ bezeichnet?",
@@ -5649,61 +5649,61 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 220,
-    question:
-      "Deutschland ist Mitglied des Schengener Abkommens. Was bedeutet das?",
-    possibleAnswers: [
-      "Deutsche können in viele Länder Europas ohne Passkontrolle reisen.",
-      "Alle Menschen können ohne Personenkontrolle in Deutschland einreisen.",
-      "Deutsche können ohne Passkontrolle in jedes Land reisen.",
-      "Deutsche können in jedem Land mit dem Euro bezahlen.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 221,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Ungarn", "Portugal", "Spanien", "Schweiz"],
-    answer: 3,
-  },
-  {
-    id: 222,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Rumänien", "Bulgarien", "Polen", "Griechenland"],
-    answer: 2,
-  },
-  {
-    id: 223,
-    question: "Was bedeutet die Abkürzung EU?",
-    possibleAnswers: [
-      "Europäische Unternehmen",
-      "Europäische Union",
-      "Einheitliche Union",
-      "Euro Union",
-    ],
-    answer: 1,
-  },
-  {
-    id: 224,
-    question:
-      "In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?",
-    possibleAnswers: ["Tschechien", "Norwegen", "Spanien", "Österreich"],
-    answer: 3,
-  },
-  {
-    id: 225,
-    question: "Welche ist die Flagge der Europäischen Union?",
-    image: "https://www.einbuergerungstest-online.de/img/fragen/226@2x.png",
-    possibleAnswers: ["1", "2", "3", "4"],
-    answer: 1,
-  },
-  {
-    id: 226,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Finnland", "Dänemark", "Norwegen", "Schweden"],
-    answer: 1,
-  },
+  // {
+  //   id: 220,
+  //   question:
+  //     "Deutschland ist Mitglied des Schengener Abkommens. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Deutsche können in viele Länder Europas ohne Passkontrolle reisen.",
+  //     "Alle Menschen können ohne Personenkontrolle in Deutschland einreisen.",
+  //     "Deutsche können ohne Passkontrolle in jedes Land reisen.",
+  //     "Deutsche können in jedem Land mit dem Euro bezahlen.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 221,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Ungarn", "Portugal", "Spanien", "Schweiz"],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 222,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Rumänien", "Bulgarien", "Polen", "Griechenland"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 223,
+  //   question: "Was bedeutet die Abkürzung EU?",
+  //   possibleAnswers: [
+  //     "Europäische Unternehmen",
+  //     "Europäische Union",
+  //     "Einheitliche Union",
+  //     "Euro Union",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 224,
+  //   question:
+  //     "In welchem anderen Land gibt es eine große deutschsprachige Bevölkerung?",
+  //   possibleAnswers: ["Tschechien", "Norwegen", "Spanien", "Österreich"],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 225,
+  //   question: "Welche ist die Flagge der Europäischen Union?",
+  //   image: "https://www.einbuergerungstest-online.de/img/fragen/226@2x.png",
+  //   possibleAnswers: ["1", "2", "3", "4"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 226,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Finnland", "Dänemark", "Norwegen", "Schweden"],
+  //   answer: 1,
+  // },
   {
     id: 227,
     question:
@@ -5716,12 +5716,12 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 228,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Spanien", "Bulgarien", "Norwegen", "Luxemburg"],
-    answer: 3,
-  },
+  // {
+  //   id: 228,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Spanien", "Bulgarien", "Norwegen", "Luxemburg"],
+  //   answer: 3,
+  // },
   {
     id: 229,
     question:
@@ -5729,17 +5729,17 @@ export const allQuestions: Question[] = [
     possibleAnswers: ["5 Jahre.", "6 Jahre.", "7 Jahre.", "8 Jahre."],
     answer: 0,
   },
-  {
-    id: 230,
-    question: "Was bedeutet der Begriff „europäische Integration“?",
-    possibleAnswers: [
-      "Damit sind amerikanische Einwanderer in Europa gemeint.",
-      "Der Begriff meint den Einwanderungsstopp nach Europa.",
-      "Damit sind europäische Auswanderer in den USA gemeint.",
-      "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 230,
+  //   question: "Was bedeutet der Begriff „europäische Integration“?",
+  //   possibleAnswers: [
+  //     "Damit sind amerikanische Einwanderer in Europa gemeint.",
+  //     "Der Begriff meint den Einwanderungsstopp nach Europa.",
+  //     "Damit sind europäische Auswanderer in den USA gemeint.",
+  //     "Der Begriff meint den Zusammenschluss europäischer Staaten zur EU.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 231,
     question: "Wer wird bei der Europawahl gewählt?",
@@ -5751,18 +5751,18 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 232,
-    question: "Welches Land ist ein Nachbarland von Deutschland?",
-    possibleAnswers: ["Tschechien", "Bulgarien", "Griechenland", "Portugal"],
-    answer: 0,
-  },
-  {
-    id: 233,
-    question: "Wo ist der Sitz des Europäischen Parlaments?",
-    possibleAnswers: ["London", "Paris", "Berlin", "Straßburg"],
-    answer: 3,
-  },
+  // {
+  //   id: 232,
+  //   question: "Welches Land ist ein Nachbarland von Deutschland?",
+  //   possibleAnswers: ["Tschechien", "Bulgarien", "Griechenland", "Portugal"],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 233,
+  //   question: "Wo ist der Sitz des Europäischen Parlaments?",
+  //   possibleAnswers: ["London", "Paris", "Berlin", "Straßburg"],
+  //   answer: 3,
+  // },
   {
     id: 234,
     question:
@@ -5794,17 +5794,17 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 237,
-    question: "An welchen Orten arbeitet das Europäische Parlament?",
-    possibleAnswers: [
-      "Paris, London und Den Haag",
-      "Straßburg, Luxemburg und Brüssel",
-      "Rom, Bern und Wien",
-      "Bonn, Zürich und Mailand",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 237,
+  //   question: "An welchen Orten arbeitet das Europäische Parlament?",
+  //   possibleAnswers: [
+  //     "Paris, London und Den Haag",
+  //     "Straßburg, Luxemburg und Brüssel",
+  //     "Rom, Bern und Wien",
+  //     "Bonn, Zürich und Mailand",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 238,
     question:
@@ -5823,18 +5823,18 @@ export const allQuestions: Question[] = [
     possibleAnswers: ["1995", "1998", "2002", "2005"],
     answer: 2,
   },
-  {
-    id: 240,
-    question:
-      "Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?",
-    possibleAnswers: [
-      "Sie muss an ihre Krankenkasse schreiben.",
-      "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
-      "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
-      "Sie muss das Arbeitsamt um Erlaubnis bitten.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 240,
+  //   question:
+  //     "Frau Seger bekommt ein Kind. Was muss sie tun, um Elterngeld zu erhalten?",
+  //   possibleAnswers: [
+  //     "Sie muss an ihre Krankenkasse schreiben.",
+  //     "Sie muss einen Antrag bei der Elterngeldstelle stellen.",
+  //     "Sie muss nichts tun, denn sie bekommt automatisch Elterngeld.",
+  //     "Sie muss das Arbeitsamt um Erlaubnis bitten.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 241,
     question:
@@ -5847,59 +5847,59 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 242,
-    question:
-      "Maik und Sybille wollen mit Freunden an ihrem deutschen Wohnort eine Demonstration auf der Straße abhalten. Was müssen sie vorher tun?",
-    possibleAnswers: [
-      "Sie müssen die Demonstration anmelden.",
-      "Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren.",
-      "Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten.",
-      "Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 243,
-    question:
-      "Welchen Schulabschluss braucht man normalerweise, um an einer Universität in Deutschland ein Studium zu beginnen?",
-    possibleAnswers: [
-      "das Abitur",
-      "ein Diplom",
-      "die Prokura",
-      "eine Gesellenprüfung",
-    ],
-    answer: 0,
-  },
-  {
-    id: 244,
-    question: "Wer darf in Deutschland nicht als Paar zusammenleben?",
-    possibleAnswers: [
-      "Hans (20 Jahre) und Marie (19 Jahre)",
-      "Tom (20 Jahre) und Klaus (45 Jahre)",
-      "Sofie (35 Jahre) und Lisa (40 Jahre)",
-      "Anne (13 Jahre) und Tim (25 Jahre)",
-    ],
-    answer: 3,
-  },
-  {
-    id: 245,
-    question: "Ab welchem Alter ist man in Deutschland volljährig?",
-    possibleAnswers: ["16", "18", "19", "21"],
-    answer: 1,
-  },
-  {
-    id: 246,
-    question:
-      "Eine Frau ist schwanger. Sie ist kurz vor und nach der Geburt ihres Kindes vom Gesetz besonders beschützt. Wie heißt dieser Schutz?",
-    possibleAnswers: [
-      "Elternzeit",
-      "Mutterschutz",
-      "Geburtsvorbereitung",
-      "Wochenbett",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 242,
+  //   question:
+  //     "Maik und Sybille wollen mit Freunden an ihrem deutschen Wohnort eine Demonstration auf der Straße abhalten. Was müssen sie vorher tun?",
+  //   possibleAnswers: [
+  //     "Sie müssen die Demonstration anmelden.",
+  //     "Sie müssen nichts tun. Man darf in Deutschland jederzeit überall demonstrieren.",
+  //     "Sie können gar nichts tun, denn Demonstrationen sind in Deutschland grundsätzlich verboten.",
+  //     "Maik und Sybille müssen einen neuen Verein gründen, weil nur Vereine demonstrieren dürfen.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 243,
+  //   question:
+  //     "Welchen Schulabschluss braucht man normalerweise, um an einer Universität in Deutschland ein Studium zu beginnen?",
+  //   possibleAnswers: [
+  //     "das Abitur",
+  //     "ein Diplom",
+  //     "die Prokura",
+  //     "eine Gesellenprüfung",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 244,
+  //   question: "Wer darf in Deutschland nicht als Paar zusammenleben?",
+  //   possibleAnswers: [
+  //     "Hans (20 Jahre) und Marie (19 Jahre)",
+  //     "Tom (20 Jahre) und Klaus (45 Jahre)",
+  //     "Sofie (35 Jahre) und Lisa (40 Jahre)",
+  //     "Anne (13 Jahre) und Tim (25 Jahre)",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 245,
+  //   question: "Ab welchem Alter ist man in Deutschland volljährig?",
+  //   possibleAnswers: ["16", "18", "19", "21"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 246,
+  //   question:
+  //     "Eine Frau ist schwanger. Sie ist kurz vor und nach der Geburt ihres Kindes vom Gesetz besonders beschützt. Wie heißt dieser Schutz?",
+  //   possibleAnswers: [
+  //     "Elternzeit",
+  //     "Mutterschutz",
+  //     "Geburtsvorbereitung",
+  //     "Wochenbett",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 247,
     question: "Die Erziehung der Kinder ist in Deutschland vor allem Aufgabe …",
@@ -5923,40 +5923,40 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 249,
-    question:
-      "In Deutschland hat man die besten Chancen auf einen gut bezahlten Arbeitsplatz, wenn man …",
-    possibleAnswers: [
-      "katholisch ist.",
-      "gut ausgebildet ist.",
-      "eine Frau ist.",
-      "Mitglied einer Partei ist.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 250,
-    question: "Wenn man in Deutschland ein Kind schlägt, …",
-    possibleAnswers: [
-      "geht das niemanden etwas an.",
-      "geht das nur die Familie etwas an.",
-      "kann man dafür nicht bestraft werden.",
-      "kann man dafür bestraft werden.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 251,
-    question: "In Deutschland …",
-    possibleAnswers: [
-      "darf man zur gleichen Zeit nur mit einem Partner / einer Partnerin verheiratet sein.",
-      "kann man mehrere Ehepartner / Ehepartnerinnen gleichzeitig haben.",
-      "darf man nicht wieder heiraten, wenn man einmal verheiratet war.",
-      "darf eine Frau nicht wieder heiraten, wenn ihr Mann gestorben ist.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 249,
+  //   question:
+  //     "In Deutschland hat man die besten Chancen auf einen gut bezahlten Arbeitsplatz, wenn man …",
+  //   possibleAnswers: [
+  //     "katholisch ist.",
+  //     "gut ausgebildet ist.",
+  //     "eine Frau ist.",
+  //     "Mitglied einer Partei ist.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 250,
+  //   question: "Wenn man in Deutschland ein Kind schlägt, …",
+  //   possibleAnswers: [
+  //     "geht das niemanden etwas an.",
+  //     "geht das nur die Familie etwas an.",
+  //     "kann man dafür nicht bestraft werden.",
+  //     "kann man dafür bestraft werden.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 251,
+  //   question: "In Deutschland …",
+  //   possibleAnswers: [
+  //     "darf man zur gleichen Zeit nur mit einem Partner / einer Partnerin verheiratet sein.",
+  //     "kann man mehrere Ehepartner / Ehepartnerinnen gleichzeitig haben.",
+  //     "darf man nicht wieder heiraten, wenn man einmal verheiratet war.",
+  //     "darf eine Frau nicht wieder heiraten, wenn ihr Mann gestorben ist.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 252,
     question: "Wo müssen Sie sich anmelden, wenn Sie in Deutschland umziehen?",
@@ -5968,30 +5968,30 @@ export const allQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 253,
-    question:
-      "In Deutschland dürfen Ehepaare sich scheiden lassen. Meistens müssen sie dazu das „Trennungsjahr“ einhalten. Was bedeutet das?",
-    possibleAnswers: [
-      "Der Scheidungsprozess dauert ein Jahr.",
-      "Die Ehegatten sind ein Jahr verheiratet, dann ist die Scheidung möglich.",
-      "Das Besuchsrecht für die Kinder gilt ein Jahr.",
-      "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 254,
-    question:
-      "Bei Erziehungsproblemen können Eltern in Deutschland Hilfe erhalten vom …",
-    possibleAnswers: [
-      "Ordnungsamt.",
-      "Schulamt.",
-      "Jugendamt.",
-      "Gesundheitsamt.",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 253,
+  //   question:
+  //     "In Deutschland dürfen Ehepaare sich scheiden lassen. Meistens müssen sie dazu das „Trennungsjahr“ einhalten. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Der Scheidungsprozess dauert ein Jahr.",
+  //     "Die Ehegatten sind ein Jahr verheiratet, dann ist die Scheidung möglich.",
+  //     "Das Besuchsrecht für die Kinder gilt ein Jahr.",
+  //     "Die Ehegatten führen mindestens ein Jahr getrennt ihr eigenes Leben. Danach ist die Scheidung möglich.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 254,
+  //   question:
+  //     "Bei Erziehungsproblemen können Eltern in Deutschland Hilfe erhalten vom …",
+  //   possibleAnswers: [
+  //     "Ordnungsamt.",
+  //     "Schulamt.",
+  //     "Jugendamt.",
+  //     "Gesundheitsamt.",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 255,
     question:
@@ -6004,41 +6004,41 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 256,
-    question:
-      "Eine erwachsene Frau möchte in Deutschland das Abitur nachholen. Das kann sie an …",
-    possibleAnswers: [
-      "einer Hochschule.",
-      "einem Abendgymnasium.",
-      "einer Hauptschule.",
-      "einer Privatuniversität.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 257,
-    question: "Was darf das Jugendamt in Deutschland?",
-    possibleAnswers: [
-      "Es entscheidet, welche Schule das Kind besucht.",
-      "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen.",
-      "Es bezahlt das Kindergeld an die Eltern.",
-      "Es kontrolliert, ob das Kind einen Kindergarten besucht.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 258,
-    question:
-      "Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft bei der …",
-    possibleAnswers: [
-      "Rentenberechnung.",
-      "Lehrstellensuche.",
-      "Steuererklärung.",
-      "Krankenversicherung.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 256,
+  //   question:
+  //     "Eine erwachsene Frau möchte in Deutschland das Abitur nachholen. Das kann sie an …",
+  //   possibleAnswers: [
+  //     "einer Hochschule.",
+  //     "einem Abendgymnasium.",
+  //     "einer Hauptschule.",
+  //     "einer Privatuniversität.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 257,
+  //   question: "Was darf das Jugendamt in Deutschland?",
+  //   possibleAnswers: [
+  //     "Es entscheidet, welche Schule das Kind besucht.",
+  //     "Es kann ein Kind, das geschlagen wird oder hungern muss, aus der Familie nehmen.",
+  //     "Es bezahlt das Kindergeld an die Eltern.",
+  //     "Es kontrolliert, ob das Kind einen Kindergarten besucht.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 258,
+  //   question:
+  //     "Das Berufsinformationszentrum BIZ bei der Bundesagentur für Arbeit in Deutschland hilft bei der …",
+  //   possibleAnswers: [
+  //     "Rentenberechnung.",
+  //     "Lehrstellensuche.",
+  //     "Steuererklärung.",
+  //     "Krankenversicherung.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 259,
     question: "In Deutschland hat ein Kind in der Schule …",
@@ -6050,29 +6050,29 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 260,
-    question:
-      "Ein Mann möchte mit 30 Jahren in Deutschland sein Abitur nachholen. Wo kann er das tun? An …",
-    possibleAnswers: [
-      "einer Hochschule",
-      "einem Abendgymnasium",
-      "einer Hauptschule",
-      "einer Privatuniversität",
-    ],
-    answer: 1,
-  },
-  {
-    id: 261,
-    question: "Was bedeutet in Deutschland der Grundsatz der Gleichbehandlung?",
-    possibleAnswers: [
-      "Niemand darf z.B. wegen einer Behinderung benachteiligt werden.",
-      "Man darf andere Personen benachteiligen, wenn ausreichende persönliche Gründe hierfür vorliegen.",
-      "Niemand darf gegen Personen klagen, wenn sie benachteiligt wurden.",
-      "Es ist für alle Gesetz, benachteiligten Gruppen jährlich Geld zu spenden.",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 260,
+  //   question:
+  //     "Ein Mann möchte mit 30 Jahren in Deutschland sein Abitur nachholen. Wo kann er das tun? An …",
+  //   possibleAnswers: [
+  //     "einer Hochschule",
+  //     "einem Abendgymnasium",
+  //     "einer Hauptschule",
+  //     "einer Privatuniversität",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 261,
+  //   question: "Was bedeutet in Deutschland der Grundsatz der Gleichbehandlung?",
+  //   possibleAnswers: [
+  //     "Niemand darf z.B. wegen einer Behinderung benachteiligt werden.",
+  //     "Man darf andere Personen benachteiligen, wenn ausreichende persönliche Gründe hierfür vorliegen.",
+  //     "Niemand darf gegen Personen klagen, wenn sie benachteiligt wurden.",
+  //     "Es ist für alle Gesetz, benachteiligten Gruppen jährlich Geld zu spenden.",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 262,
     question:
@@ -6085,18 +6085,18 @@ export const allQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 263,
-    question:
-      "Zu welchem Fest tragen Menschen in Deutschland bunte Kostüme und Masken?",
-    possibleAnswers: [
-      "am Rosenmontag",
-      "am Maifeiertag",
-      "beim Oktoberfest",
-      "an Pfingsten",
-    ],
-    answer: 0,
-  },
+  // {
+  //   id: 263,
+  //   question:
+  //     "Zu welchem Fest tragen Menschen in Deutschland bunte Kostüme und Masken?",
+  //   possibleAnswers: [
+  //     "am Rosenmontag",
+  //     "am Maifeiertag",
+  //     "beim Oktoberfest",
+  //     "an Pfingsten",
+  //   ],
+  //   answer: 0,
+  // },
   {
     id: 264,
     question:
@@ -6109,41 +6109,41 @@ export const allQuestions: Question[] = [
     ],
     answer: 3,
   },
-  {
-    id: 265,
-    question: "Wann beginnt die gesetzliche Nachtruhe in Deutschland?",
-    possibleAnswers: [
-      "wenn die Sonne untergeht",
-      "wenn die Nachbarn schlafen gehen",
-      "Mitternacht, um 0 Uhr",
-      "um 22 Uhr",
-    ],
-    answer: 3,
-  },
-  {
-    id: 266,
-    question:
-      "Eine junge Frau in Deutschland, 22 Jahre alt, lebt mit ihrem Freund zusammen. Die Eltern der Frau finden das nicht gut, weil ihnen der Freund nicht gefällt. Was können die Eltern tun?",
-    possibleAnswers: [
-      "Sie müssen die Entscheidung der volljährigen Tochter respektieren.",
-      "Sie haben das Recht, die Tochter in die elterliche Wohnung zurückzuholen.",
-      "Sie können zur Polizei gehen und die Tochter anzeigen.",
-      "Sie suchen einen anderen Mann für die Tochter.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 267,
-    question:
-      "Eine junge Frau will den Führerschein machen. Sie hat Angst vor der Prüfung, weil ihre Muttersprache nicht Deutsch ist. Was ist richtig?",
-    possibleAnswers: [
-      "Sie muss mindestens zehn Jahre in Deutschland leben, bevor sie den Führerschein machen kann.",
-      "Wenn sie kein Deutsch kann, darf sie keinen Führerschein haben.",
-      "Sie muss den Führerschein in dem Land machen, in dem man ihre Sprache spricht.",
-      "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl.",
-    ],
-    answer: 3,
-  },
+  // {
+  //   id: 265,
+  //   question: "Wann beginnt die gesetzliche Nachtruhe in Deutschland?",
+  //   possibleAnswers: [
+  //     "wenn die Sonne untergeht",
+  //     "wenn die Nachbarn schlafen gehen",
+  //     "Mitternacht, um 0 Uhr",
+  //     "um 22 Uhr",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 266,
+  //   question:
+  //     "Eine junge Frau in Deutschland, 22 Jahre alt, lebt mit ihrem Freund zusammen. Die Eltern der Frau finden das nicht gut, weil ihnen der Freund nicht gefällt. Was können die Eltern tun?",
+  //   possibleAnswers: [
+  //     "Sie müssen die Entscheidung der volljährigen Tochter respektieren.",
+  //     "Sie haben das Recht, die Tochter in die elterliche Wohnung zurückzuholen.",
+  //     "Sie können zur Polizei gehen und die Tochter anzeigen.",
+  //     "Sie suchen einen anderen Mann für die Tochter.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 267,
+  //   question:
+  //     "Eine junge Frau will den Führerschein machen. Sie hat Angst vor der Prüfung, weil ihre Muttersprache nicht Deutsch ist. Was ist richtig?",
+  //   possibleAnswers: [
+  //     "Sie muss mindestens zehn Jahre in Deutschland leben, bevor sie den Führerschein machen kann.",
+  //     "Wenn sie kein Deutsch kann, darf sie keinen Führerschein haben.",
+  //     "Sie muss den Führerschein in dem Land machen, in dem man ihre Sprache spricht.",
+  //     "Sie kann die Theorie-Prüfung vielleicht in ihrer Muttersprache machen. Es gibt mehr als zehn Sprachen zur Auswahl.",
+  //   ],
+  //   answer: 3,
+  // },
   {
     id: 268,
     question:
@@ -6156,121 +6156,121 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 269,
-    question: "Die Volkshochschule in Deutschland ist ein Einrichtung …",
-    possibleAnswers: [
-      "für den Religionsunterricht.",
-      "nur für Jungendliche.",
-      "zur Weiterbildung.",
-      "nur für Rentner und Rentnerinnen.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 270,
-    question: "Was ist in Deutschland ein Brauch zu Weihnachten?",
-    possibleAnswers: [
-      "bunte Eier verstecken",
-      "einen Tannenbaum schmücken",
-      "sich mit Masken und Kostümen verkleiden",
-      "Kürbisse vor die Tür stellen",
-    ],
-    answer: 1,
-  },
-  {
-    id: 271,
-    question: "Welche Lebensform ist in Deutschland nicht erlaubt?",
-    possibleAnswers: [
-      "Mann und Frau sind geschieden und leben mit neuen Partnern zusammen.",
-      "Zwei Frauen leben zusammen.",
-      "Ein alleinerziehender Vater lebt mit seinen zwei Kindern zusammen.",
-      "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 272,
-    question: "Bei Erziehungsproblemen gehen Sie in Deutschland …",
-    possibleAnswers: [
-      "zum Arzt / zur Ärztin.",
-      "zum Gesundheitsamt.",
-      "zum Einwohnermeldeamt.",
-      "zum Jugendamt.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 273,
-    question:
-      "Sie haben in Deutschland absichtlich einen Brief geöffnet, der an eine andere Person adressiert ist. Was haben Sie nicht beachtet?",
-    possibleAnswers: [
-      "das Schweigerecht",
-      "das Briefgeheimnis",
-      "die Schweigepflicht",
-      "die Meinungsfreiheit",
-    ],
-    answer: 1,
-  },
-  {
-    id: 274,
-    question: "Was braucht man in Deutschland für eine Ehescheidung?",
-    possibleAnswers: [
-      "die Einwilligung der Eltern",
-      "ein Attest eines Arztes / einer Ärztin",
-      "die Einwilligung der Kinder",
-      "die Unterstützung eines Anwalts / einer Anwältin",
-    ],
-    answer: 3,
-  },
-  {
-    id: 275,
-    question:
-      "Was sollten Sie tun, wenn Sie von Ihrem Ansprechpartner / Ihrer Ansprechpartnerin in einer deutschen Behörde schlecht behandelt werden?",
-    possibleAnswers: [
-      "Ich kann nichts tun.",
-      "Ich muss mir diese Behandlung gefallen lassen.",
-      "Ich drohe der Person.",
-      "Ich kann mich beim Behördenleiter / bei der Behördenleiterin beschweren.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 276,
-    question:
-      "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …",
-    possibleAnswers: [
-      "kein Englisch spricht.",
-      "zu hohe Gehaltsvorstellungen hat.",
-      "keine Erfahrungen in diesem Beruf hat.",
-      "Mutter ist.",
-    ],
-    answer: 3,
-  },
-  {
-    id: 277,
-    question:
-      "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …",
-    possibleAnswers: [
-      "im Rollstuhl sitzt.",
-      "keine Erfahrung hat.",
-      "zu hohe Gehaltsvorstellungen hat.",
-      "kein Englisch spricht.",
-    ],
-    answer: 0,
-  },
-  {
-    id: 278,
-    question:
-      "In den meisten Mietshäusern in Deutschland gibt es eine „Hausordnung“. Was steht in einer solchen „Hausordnung“? Sie nennt …",
-    possibleAnswers: [
-      "Regeln für die Benutzung öffentlicher Verkehrsmittel.",
-      "alle Mieter und Mieterinnen im Haus.",
-      "Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen.",
-      "die Adresse des nächsten Ordnungsamtes.",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 269,
+  //   question: "Die Volkshochschule in Deutschland ist ein Einrichtung …",
+  //   possibleAnswers: [
+  //     "für den Religionsunterricht.",
+  //     "nur für Jungendliche.",
+  //     "zur Weiterbildung.",
+  //     "nur für Rentner und Rentnerinnen.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 270,
+  //   question: "Was ist in Deutschland ein Brauch zu Weihnachten?",
+  //   possibleAnswers: [
+  //     "bunte Eier verstecken",
+  //     "einen Tannenbaum schmücken",
+  //     "sich mit Masken und Kostümen verkleiden",
+  //     "Kürbisse vor die Tür stellen",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 271,
+  //   question: "Welche Lebensform ist in Deutschland nicht erlaubt?",
+  //   possibleAnswers: [
+  //     "Mann und Frau sind geschieden und leben mit neuen Partnern zusammen.",
+  //     "Zwei Frauen leben zusammen.",
+  //     "Ein alleinerziehender Vater lebt mit seinen zwei Kindern zusammen.",
+  //     "Ein Mann ist mit zwei Frauen zur selben Zeit verheiratet.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 272,
+  //   question: "Bei Erziehungsproblemen gehen Sie in Deutschland …",
+  //   possibleAnswers: [
+  //     "zum Arzt / zur Ärztin.",
+  //     "zum Gesundheitsamt.",
+  //     "zum Einwohnermeldeamt.",
+  //     "zum Jugendamt.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 273,
+  //   question:
+  //     "Sie haben in Deutschland absichtlich einen Brief geöffnet, der an eine andere Person adressiert ist. Was haben Sie nicht beachtet?",
+  //   possibleAnswers: [
+  //     "das Schweigerecht",
+  //     "das Briefgeheimnis",
+  //     "die Schweigepflicht",
+  //     "die Meinungsfreiheit",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 274,
+  //   question: "Was braucht man in Deutschland für eine Ehescheidung?",
+  //   possibleAnswers: [
+  //     "die Einwilligung der Eltern",
+  //     "ein Attest eines Arztes / einer Ärztin",
+  //     "die Einwilligung der Kinder",
+  //     "die Unterstützung eines Anwalts / einer Anwältin",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 275,
+  //   question:
+  //     "Was sollten Sie tun, wenn Sie von Ihrem Ansprechpartner / Ihrer Ansprechpartnerin in einer deutschen Behörde schlecht behandelt werden?",
+  //   possibleAnswers: [
+  //     "Ich kann nichts tun.",
+  //     "Ich muss mir diese Behandlung gefallen lassen.",
+  //     "Ich drohe der Person.",
+  //     "Ich kann mich beim Behördenleiter / bei der Behördenleiterin beschweren.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 276,
+  //   question:
+  //     "Eine Frau, die ein zweijähriges Kind hat, bewirbt sich in Deutschland um eine Stelle. Was ist ein Beispiel für Diskriminierung? Sie bekommt die Stelle nur deshalb nicht, weil sie …",
+  //   possibleAnswers: [
+  //     "kein Englisch spricht.",
+  //     "zu hohe Gehaltsvorstellungen hat.",
+  //     "keine Erfahrungen in diesem Beruf hat.",
+  //     "Mutter ist.",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 277,
+  //   question:
+  //     "Ein Mann im Rollstuhl hat sich auf eine Stelle als Buchhalter beworben. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil er …",
+  //   possibleAnswers: [
+  //     "im Rollstuhl sitzt.",
+  //     "keine Erfahrung hat.",
+  //     "zu hohe Gehaltsvorstellungen hat.",
+  //     "kein Englisch spricht.",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 278,
+  //   question:
+  //     "In den meisten Mietshäusern in Deutschland gibt es eine „Hausordnung“. Was steht in einer solchen „Hausordnung“? Sie nennt …",
+  //   possibleAnswers: [
+  //     "Regeln für die Benutzung öffentlicher Verkehrsmittel.",
+  //     "alle Mieter und Mieterinnen im Haus.",
+  //     "Regeln, an die sich alle Bewohner und Bewohnerinnen halten müssen.",
+  //     "die Adresse des nächsten Ordnungsamtes.",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 279,
     question:
@@ -6283,18 +6283,18 @@ export const allQuestions: Question[] = [
     ],
     answer: 2,
   },
-  {
-    id: 280,
-    question:
-      "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …",
-    possibleAnswers: [
-      "Meinungsfreiheit.",
-      "Gleichbehandlung.",
-      "Versammlungsfreiheit.",
-      "Freizügigkeit.",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 280,
+  //   question:
+  //     "Zwei Freunde wollen in ein öffentliches Schwimmbad in Deutschland. Beide haben eine dunkle Hautfarbe und werden deshalb nicht hineingelassen. Welches Recht wird in dieser Situation verletzt? Das Recht auf …",
+  //   possibleAnswers: [
+  //     "Meinungsfreiheit.",
+  //     "Gleichbehandlung.",
+  //     "Versammlungsfreiheit.",
+  //     "Freizügigkeit.",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 281,
     question:
@@ -6319,90 +6319,90 @@ export const allQuestions: Question[] = [
     ],
     answer: 1,
   },
-  {
-    id: 283,
-    question:
-      "Was man für die Arbeit können muss, ändert sich in der Zukunft sehr schnell. Was kann man tun?",
-    possibleAnswers: [
-      "Es ist egal, was man lernt.",
-      "Erwachsene müssen auch nach der Ausbildung immer weiter lernen.",
-      "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
-      "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 284,
-    question:
-      "Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?",
-    possibleAnswers: [
-      "Lohnsteuer",
-      "Beiträge zur Arbeitslosenversicherung",
-      "Beiträge zur Renten- und Krankenversicherung",
-      "Umsatzsteuer",
-    ],
-    answer: 3,
-  },
-  {
-    id: 285,
-    question:
-      "Welche Organisation in einer Firma hilft den Arbeitnehmern und Arbeitnehmerinnen bei Problemen mit dem Arbeitgeber / der Arbeitgeberin?",
-    possibleAnswers: [
-      "der Betriebsrat",
-      "der Betriebsprüfer / die Betriebsprüferin",
-      "die Betriebsgruppe",
-      "das Betriebsmanagement",
-    ],
-    answer: 0,
-  },
-  {
-    id: 286,
-    question:
-      "Sie möchten bei einer Firma in Deutschland Ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?",
-    possibleAnswers: [
-      "die Gehaltszahlungen",
-      "die Arbeitszeit",
-      "die Kündigungsfrist",
-      "die Versicherungspflicht",
-    ],
-    answer: 2,
-  },
-  {
-    id: 287,
-    question:
-      "Woraus begründet sich Deutschlands besondere Verantwortung für Israel?",
-    possibleAnswers: [
-      "aus der Mitgliedschaft in der Europäischen Union (EU)",
-      "aus den nationalsozialistischen Verbrechen gegen Juden",
-      "aus dem Grundgesetz der Bundesrepublik Deutschland",
-      "aus der christlichen Tradition",
-    ],
-    answer: 1,
-  },
-  {
-    id: 288,
-    question:
-      "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …",
-    possibleAnswers: [
-      "seine Deutschkenntnisse zu gering sind.",
-      "er zu hohe Gehaltsvorstellungen hat.",
-      "er eine dunkle Haut hat.",
-      "er keine Erfahrungen im Beruf hat.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 289,
-    question:
-      "Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?",
-    possibleAnswers: [
-      "eine Anzeige schreiben",
-      "den Fernseher reklamieren",
-      "das Gerät ungefragt austauschen",
-      "die Garantie verlängern",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 283,
+  //   question:
+  //     "Was man für die Arbeit können muss, ändert sich in der Zukunft sehr schnell. Was kann man tun?",
+  //   possibleAnswers: [
+  //     "Es ist egal, was man lernt.",
+  //     "Erwachsene müssen auch nach der Ausbildung immer weiter lernen.",
+  //     "Kinder lernen in der Schule alles, was im Beruf wichtig ist. Nach der Schule muss man nicht weiter lernen.",
+  //     "Alle müssen früher aufhören zu arbeiten, weil sich alles ändert.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 284,
+  //   question:
+  //     "Frau Frost arbeitet als fest angestellte Mitarbeiterin in einem Büro. Was muss sie nicht von ihrem Gehalt bezahlen?",
+  //   possibleAnswers: [
+  //     "Lohnsteuer",
+  //     "Beiträge zur Arbeitslosenversicherung",
+  //     "Beiträge zur Renten- und Krankenversicherung",
+  //     "Umsatzsteuer",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 285,
+  //   question:
+  //     "Welche Organisation in einer Firma hilft den Arbeitnehmern und Arbeitnehmerinnen bei Problemen mit dem Arbeitgeber / der Arbeitgeberin?",
+  //   possibleAnswers: [
+  //     "der Betriebsrat",
+  //     "der Betriebsprüfer / die Betriebsprüferin",
+  //     "die Betriebsgruppe",
+  //     "das Betriebsmanagement",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 286,
+  //   question:
+  //     "Sie möchten bei einer Firma in Deutschland Ihr Arbeitsverhältnis beenden. Was müssen Sie beachten?",
+  //   possibleAnswers: [
+  //     "die Gehaltszahlungen",
+  //     "die Arbeitszeit",
+  //     "die Kündigungsfrist",
+  //     "die Versicherungspflicht",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 287,
+  //   question:
+  //     "Woraus begründet sich Deutschlands besondere Verantwortung für Israel?",
+  //   possibleAnswers: [
+  //     "aus der Mitgliedschaft in der Europäischen Union (EU)",
+  //     "aus den nationalsozialistischen Verbrechen gegen Juden",
+  //     "aus dem Grundgesetz der Bundesrepublik Deutschland",
+  //     "aus der christlichen Tradition",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 288,
+  //   question:
+  //     "Ein Mann mit dunkler Hautfarbe bewirbt sich um eine Stelle als Kellner in einem Restaurant in Deutschland. Was ist ein Beispiel für Diskriminierung? Er bekommt die Stelle nur deshalb nicht, weil …",
+  //   possibleAnswers: [
+  //     "seine Deutschkenntnisse zu gering sind.",
+  //     "er zu hohe Gehaltsvorstellungen hat.",
+  //     "er eine dunkle Haut hat.",
+  //     "er keine Erfahrungen im Beruf hat.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 289,
+  //   question:
+  //     "Sie haben in Deutschland einen Fernseher gekauft. Zu Hause packen Sie den Fernseher aus, doch er funktioniert nicht. Der Fernseher ist kaputt. Was können Sie machen?",
+  //   possibleAnswers: [
+  //     "eine Anzeige schreiben",
+  //     "den Fernseher reklamieren",
+  //     "das Gerät ungefragt austauschen",
+  //     "die Garantie verlängern",
+  //   ],
+  //   answer: 1,
+  // },
   {
     id: 290,
     question:
@@ -6415,29 +6415,29 @@ export const allQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 291,
-    question:
-      "Die Menschen in Deutschland leben nach dem Grundsatz der religiösen Toleranz. Was bedeutet das?",
-    possibleAnswers: [
-      "Es dürfen keine Moscheen gebaut werden.",
-      "Alle Menschen glauben an Gott.",
-      "Jeder kann glauben, was er möchte.",
-      "Der Staat entscheidet, an welchen Gott die Menschen glauben.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 292,
-    question: "Was ist in Deutschland ein Brauch an Ostern?",
-    possibleAnswers: [
-      "Kürbisse vor die Tür stellen",
-      "einen Tannenbaum schmücken",
-      "Eier bemalen",
-      "Raketen in die Luft schießen",
-    ],
-    answer: 2,
-  },
+  // {
+  //   id: 291,
+  //   question:
+  //     "Die Menschen in Deutschland leben nach dem Grundsatz der religiösen Toleranz. Was bedeutet das?",
+  //   possibleAnswers: [
+  //     "Es dürfen keine Moscheen gebaut werden.",
+  //     "Alle Menschen glauben an Gott.",
+  //     "Jeder kann glauben, was er möchte.",
+  //     "Der Staat entscheidet, an welchen Gott die Menschen glauben.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 292,
+  //   question: "Was ist in Deutschland ein Brauch an Ostern?",
+  //   possibleAnswers: [
+  //     "Kürbisse vor die Tür stellen",
+  //     "einen Tannenbaum schmücken",
+  //     "Eier bemalen",
+  //     "Raketen in die Luft schießen",
+  //   ],
+  //   answer: 2,
+  // },
   {
     id: 293,
     question: "Pfingsten ist ein …",
@@ -6449,37 +6449,37 @@ export const allQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 294,
-    question:
-      "Welche Religion hat die europäische und deutsche Kultur geprägt?",
-    possibleAnswers: [
-      "der Hinduismus",
-      "das Christentum",
-      "der Buddhismus",
-      "der Islam",
-    ],
-    answer: 1,
-  },
-  {
-    id: 295,
-    question:
-      "In Deutschland nennt man die letzten vier Wochen vor Weihnachten …",
-    possibleAnswers: [
-      "den Buß- und Bettag.",
-      "das Erntedankfest.",
-      "die Adventszeit.",
-      "Allerheiligen.",
-    ],
-    answer: 2,
-  },
-  {
-    id: 296,
-    question:
-      "Aus welchem Land sind die meisten Migranten / Migrantinnen nach Deutschland gekommen?",
-    possibleAnswers: ["Italien", "Polen", "Marokko", "Türkei"],
-    answer: 3,
-  },
+  // {
+  //   id: 294,
+  //   question:
+  //     "Welche Religion hat die europäische und deutsche Kultur geprägt?",
+  //   possibleAnswers: [
+  //     "der Hinduismus",
+  //     "das Christentum",
+  //     "der Buddhismus",
+  //     "der Islam",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 295,
+  //   question:
+  //     "In Deutschland nennt man die letzten vier Wochen vor Weihnachten …",
+  //   possibleAnswers: [
+  //     "den Buß- und Bettag.",
+  //     "das Erntedankfest.",
+  //     "die Adventszeit.",
+  //     "Allerheiligen.",
+  //   ],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 296,
+  //   question:
+  //     "Aus welchem Land sind die meisten Migranten / Migrantinnen nach Deutschland gekommen?",
+  //   possibleAnswers: ["Italien", "Polen", "Marokko", "Türkei"],
+  //   answer: 3,
+  // },
   {
     id: 297,
     question: "In der DDR lebten vor allem Migranten aus …",
@@ -6491,116 +6491,114 @@ export const allQuestions: Question[] = [
     ],
     answer: 0,
   },
-  {
-    id: 298,
-    question:
-      "Ausländische Arbeitnehmer und Arbeitnehmerinnen, die in den 50er und 60er Jahren von der Bundesrepublik Deutschland angeworben wurden, nannte man …",
-    possibleAnswers: [
-      "Schwarzarbeiter / Schwarzarbeiterinnen.",
-      "Gastarbeiter / Gastarbeiterinnen.",
-      "Zeitarbeiter / Zeitarbeiterinnen.",
-      "Schichtarbeiter / Schichtarbeiterinnen.",
-    ],
-    answer: 1,
-  },
-  {
-    id: 299,
-    question:
-      "Aus welchem Land kamen die ersten Gastarbeiter / Gastarbeiterinnen in die Bundesrepublik Deutschland?",
-    possibleAnswers: ["Italien", "Spanien", "Portugal", "Türkei"],
-    answer: 0,
-  },
-  {
-    id: 300,
-    question: "Welches Wappen gehört zur Freien und Hansestadt Hamburg?",
-    image: "https://www.einbuergerungstest-online.de/img/fragen/351@2x.png",
-    possibleAnswers: ["1", "2", "3", "4"],
-    answer: 1,
-  },
-  {
-    id: 301,
-    question: "Welches ist ein Bezirk von Hamburg?",
-    possibleAnswers: [
-      "Altona",
-      "Hemelingen",
-      "Pankow",
-      "Mecklenburgische Seenplatte",
-    ],
-    answer: 0,
-  },
-  {
-    id: 302,
-    question:
-      "Für wie viele Jahre wird das Landesparlament in Hamburg gewählt?",
-    possibleAnswers: ["3", "4", "5", "6"],
-    answer: 2,
-  },
-  {
-    id: 303,
-    question:
-      "Ab welchem Alter darf man in Hamburg bei Kommunalwahlen (Wahl der Bezirksversammlungen) wählen?",
-    possibleAnswers: ["14", "16", "18", "20"],
-    answer: 1,
-  },
-  {
-    id: 304,
-    question: "Welche Farben hat die Landesflagge von Hamburg?",
-    possibleAnswers: [
-      "blau-weiß-rot",
-      "weiß-rot",
-      "grün-weiß-rot",
-      "schwarz-gelb",
-    ],
-    answer: 1,
-  },
-  {
-    id: 305,
-    question:
-      "Wo können Sie sich in Hamburg über politische Themen informieren?",
-    possibleAnswers: [
-      "beim Ordnungsamt der Gemeinde",
-      "bei der Verbraucherzentrale",
-      "bei den Kirchen",
-      "bei der Landeszentrale für politische Bildung",
-    ],
-    answer: 3,
-  },
-  {
-    id: 306,
-    question: "Welches Bundesland ist ein Stadtstaat?",
-    possibleAnswers: ["Hamburg", "Sachsen", "Bayern", "Thüringen"],
-    answer: 0,
-  },
-  {
-    id: 307,
-    question: "Welches Bundesland ist Hamburg?",
-    image: "https://www.einbuergerungstest-online.de/img/fragen/358@2x.png",
-    possibleAnswers: ["1", "2", "3", "4"],
-    answer: 2,
-  },
-  {
-    id: 308,
-    question:
-      "Wie nennt man den Regierungschef / die Regierungschefin des Stadtstaates Hamburg?",
-    possibleAnswers: [
-      "Ministerpräsident / Ministerpräsidentin",
-      "Erster Bürgermeister / Erste Bürgermeisterin",
-      "Regierender Senator / Regierende Senatorin",
-      "Oberbürgermeister / Oberbürgermeisterin",
-    ],
-    answer: 1,
-  },
-  {
-    id: 309,
-    question: "Welchen Senator / welche Senatorin hat Hamburg nicht?",
-    possibleAnswers: [
-      "Justizsenator / Justizsenatorin",
-      "Senator / Senatorin für Außenbeziehungen",
-      "Finanzsenator / Finanzsenatorin",
-      "Innensenator / Innensenatorin",
-    ],
-    answer: 1,
-  },
+  // {
+  //   id: 298,
+  //   question:
+  //     "Ausländische Arbeitnehmer und Arbeitnehmerinnen, die in den 50er und 60er Jahren von der Bundesrepublik Deutschland angeworben wurden, nannte man …",
+  //   possibleAnswers: [
+  //     "Schwarzarbeiter / Schwarzarbeiterinnen.",
+  //     "Gastarbeiter / Gastarbeiterinnen.",
+  //     "Zeitarbeiter / Zeitarbeiterinnen.",
+  //     "Schichtarbeiter / Schichtarbeiterinnen.",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 299,
+  //   question:
+  //     "Aus welchem Land kamen die ersten Gastarbeiter / Gastarbeiterinnen in die Bundesrepublik Deutschland?",
+  //   possibleAnswers: ["Italien", "Spanien", "Portugal", "Türkei"],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 300,
+  //   question: "Welches Wappen gehört zur Freien und Hansestadt Hamburg?",
+  //   image: "https://www.einbuergerungstest-online.de/img/fragen/351@2x.png",
+  //   possibleAnswers: ["1", "2", "3", "4"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 301,
+  //   question: "Welches ist ein Bezirk von Hamburg?",
+  //   possibleAnswers: [
+  //     "Altona",
+  //     "Hemelingen",
+  //     "Pankow",
+  //     "Mecklenburgische Seenplatte",
+  //   ],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 302,
+  //   question:
+  //     "Für wie viele Jahre wird das Landesparlament in Hamburg gewählt?",
+  //   possibleAnswers: ["3", "4", "5", "6"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 303,
+  //   question:
+  //     "Ab welchem Alter darf man in Hamburg bei Kommunalwahlen (Wahl der Bezirksversammlungen) wählen?",
+  //   possibleAnswers: ["14", "16", "18", "20"],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 304,
+  //   question: "Welche Farben hat die Landesflagge von Hamburg?",
+  //   possibleAnswers: [
+  //     "blau-weiß-rot",
+  //     "weiß-rot",
+  //     "grün-weiß-rot",
+  //     "schwarz-gelb",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 305,
+  //   question:
+  //     "Wo können Sie sich in Hamburg über politische Themen informieren?",
+  //   possibleAnswers: [
+  //     "beim Ordnungsamt der Gemeinde",
+  //     "bei der Verbraucherzentrale",
+  //     "bei den Kirchen",
+  //     "bei der Landeszentrale für politische Bildung",
+  //   ],
+  //   answer: 3,
+  // },
+  // {
+  //   id: 306,
+  //   question: "Welches Bundesland ist ein Stadtstaat?",
+  //   possibleAnswers: ["Hamburg", "Sachsen", "Bayern", "Thüringen"],
+  //   answer: 0,
+  // },
+  // {
+  //   id: 307,
+  //   question: "Welches Bundesland ist Hamburg?",
+  //   image: "https://www.einbuergerungstest-online.de/img/fragen/358@2x.png",
+  //   possibleAnswers: ["1", "2", "3", "4"],
+  //   answer: 2,
+  // },
+  // {
+  //   id: 308,
+  //   question:
+  //     "Wie nennt man den Regierungschef / die Regierungschefin des Stadtstaates Hamburg?",
+  //   possibleAnswers: [
+  //     "Ministerpräsident / Ministerpräsidentin",
+  //     "Erster Bürgermeister / Erste Bürgermeisterin",
+  //     "Regierender Senator / Regierende Senatorin",
+  //     "Oberbürgermeister / Oberbürgermeisterin",
+  //   ],
+  //   answer: 1,
+  // },
+  // {
+  //   id: 309,
+  //   question: "Welchen Senator / welche Senatorin hat Hamburg nicht?",
+  //   possibleAnswers: [
+  //     "Justizsenator / Justizsenatorin",
+  //     "Senator / Senatorin für Außenbeziehungen",
+  //     "Finanzsenator / Finanzsenatorin",
+  //     "Innensenator / Innensenatorin",
+  //   ],
+  //   answer: 1,
+  // },
 ];
-
-export const allQuestionsReversed = allQuestions.reverse();

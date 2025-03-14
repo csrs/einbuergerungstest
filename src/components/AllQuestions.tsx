@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { allQuestionsReversed } from "../consts/questions.ts";
+import { allQuestions } from "../consts/questions.ts";
 
 import "./../App.css";
 import { Question as QuestionType } from "../types/questionAnswerTypes.ts";
@@ -7,7 +7,7 @@ import { Question } from "./Question.tsx";
 
 export const AllQuestions = () => {
   const [incorrectAnswers, setIncorrectAnswers] =
-    useState<QuestionType[]>(allQuestionsReversed);
+    useState<QuestionType[]>(allQuestions);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -24,7 +24,7 @@ export const AllQuestions = () => {
     );
 
     setIncorrectAnswers((prev) =>
-      prev.filter((q) => submittedAnswers[q.id] !== q.answer).reverse()
+      prev.filter((q) => submittedAnswers[q.id] !== q.answer)
     );
     window.scrollTo(0, 0);
   };
@@ -36,7 +36,7 @@ export const AllQuestions = () => {
           <legend>{incorrectAnswers.length} Questions remaining</legend>
           <div className="questions-container">
             {incorrectAnswers.map((q) => {
-              return <Question question={q} />;
+              return <Question key={q.id} question={q} />;
             })}
           </div>
           <div className="button-group">

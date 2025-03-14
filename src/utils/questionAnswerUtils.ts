@@ -8,7 +8,7 @@ export const chooseRandomQuestions = (
   const newArray: Question[] = [];
   const chosenMainIndices: number[] = [];
   const chosenHamburgIndices: number[] = [];
-  while (newArray.length < 30) {
+  while (newArray.length < 2) {
     const randomNumber = Math.floor(Math.random() * mainQuestions.length);
     if (
       !chosenMainIndices.includes(randomNumber) &&
@@ -18,19 +18,19 @@ export const chooseRandomQuestions = (
       chosenMainIndices.push(randomNumber);
     }
   }
-  while (newArray.length < 33) {
-    const randomQuestionId =
-      350 + Math.floor(Math.random() * hamburgQuestions.length);
-    // todo: refactor how the questions array is structered
+  // while (newArray.length < 33) {
+  //   const randomQuestionId =
+  //     350 + Math.floor(Math.random() * hamburgQuestions.length);
+  //   // todo: refactor how the questions array is structered
 
-    if (
-      !chosenHamburgIndices.includes(randomQuestionId - 350) &&
-      !ommittedQuestionIds?.includes(randomQuestionId)
-    ) {
-      newArray.push(hamburgQuestions[randomQuestionId - 350]);
-      chosenHamburgIndices.push(randomQuestionId - 350);
-    }
-  }
+  //   if (
+  //     !chosenHamburgIndices.includes(randomQuestionId - 350) &&
+  //     !ommittedQuestionIds?.includes(randomQuestionId)
+  //   ) {
+  //     newArray.push(hamburgQuestions[randomQuestionId - 350]);
+  //     chosenHamburgIndices.push(randomQuestionId - 350);
+  //   }
+  // }
 
   return newArray;
 };
@@ -81,6 +81,7 @@ export const isSessionStorageAvailable = () => {
     sessionStorage.removeItem(testKey);
     return true;
   } catch (e) {
+    console.error(e);
     return false;
   }
 };
