@@ -1,4 +1,3 @@
-import React from "react";
 import { Question as QuestionType } from "../types/questionAnswerTypes.ts";
 
 import "./../App.css";
@@ -22,8 +21,8 @@ export const Question = ({
             backgroundColor: !isSubmitted
               ? ""
               : isCorrectlyAnswered
-              ? GREEN
-              : YELLOW,
+                ? GREEN
+                : YELLOW,
           }}
         >
           <strong>

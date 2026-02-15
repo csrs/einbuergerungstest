@@ -1,3 +1,8 @@
+export enum QuestionSetType {
+  Random = "RANDOM",
+  All = "ALL",
+}
+
 export type Storage = {
   [questionId: number]: number;
 };

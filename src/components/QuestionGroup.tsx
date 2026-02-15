@@ -11,7 +11,7 @@ import { Question } from "./Question.tsx";
 
 export const QuestionGroup = () => {
   const [submittedAnswers, setSubmittedAnswers] = useState<QuestionAnswerKey>(
-    {}
+    {},
   );
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [omittedQuestions, setOmittedQuestions] = useState<number[]>([]);
@@ -20,10 +20,10 @@ export const QuestionGroup = () => {
     chooseRandomQuestions(
       mainQuestions,
       hamburgQuestions,
-      omittedQuestions
+      omittedQuestions,
       // 3,
       // 2
-    )
+    ),
   );
   const [score, setScore] = useState<number | undefined>(undefined);
   const [storageObject, setStorageObject] = useState<Storage>(() => {
@@ -31,19 +31,18 @@ export const QuestionGroup = () => {
     return savedStorageObject !== null ? JSON.parse(savedStorageObject) : {};
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const submittedAnswers = Array.from(formData.entries()).reduce(
-      (acc, entry) => {
-        const [questionId, submittedAnswer] = entry; // name and value from each form element
-        const questionIdAsNumber = Number(questionId);
-        const submittedAnswerAsNumber = Number(submittedAnswer as string);
-        acc[questionIdAsNumber] = submittedAnswerAsNumber;
-        return acc;
-      },
-      {}
-    );
+    const formData = new FormData(e.currentTarget);
+    const submittedAnswers = Array.from(formData.entries()).reduce<
+      Record<number, number>
+    >((acc, entry) => {
+      const [questionId, submittedAnswer] = entry; // name and value from each form element
+      const questionIdAsNumber = Number(questionId);
+      const submittedAnswerAsNumber = Number(submittedAnswer as string);
+      acc[questionIdAsNumber] = submittedAnswerAsNumber;
+      return acc;
+    }, {});
     setSubmittedAnswers(submittedAnswers);
     setIsSubmitted(true);
 
@@ -69,16 +68,16 @@ export const QuestionGroup = () => {
     window.scrollTo(0, 0);
   };
 
-  const handleReset = (e) => {
+  const handleReset = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setRandomQs(
       chooseRandomQuestions(
         mainQuestions,
         hamburgQuestions,
-        omittedQuestions
+        omittedQuestions,
         // 3,
         // 2
-      )
+      ),
     );
     setSubmittedAnswers({});
     setIsSubmitted(false);

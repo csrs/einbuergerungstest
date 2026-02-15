@@ -3,7 +3,7 @@ import { Answer, Question } from "../types/questionAnswerTypes";
 export const chooseRandomQuestions = (
   mainQuestions: Question[],
   hamburgQuestions: Question[],
-  ommittedQuestionIds?: number[]
+  ommittedQuestionIds?: number[],
 ): Question[] => {
   const newArray: Question[] = [];
   const chosenMainIndices: number[] = [];
@@ -37,10 +37,10 @@ export const chooseRandomQuestions = (
 
 export const findQuestionStringById = (
   questions: Question[],
-  questionId: number
+  questionId: number,
 ): string | undefined => {
   const questionResult: Question | undefined = questions.find(
-    (q) => q.id === questionId
+    (q) => q.id === questionId,
   );
   if (!questionResult) {
     return undefined;
@@ -51,7 +51,7 @@ export const findQuestionStringById = (
 export const convertAnswerNumberToString = (
   questions: Question[],
   questionId: number,
-  answerNumber: number
+  answerNumber: number,
 ): string | undefined => {
   const questionResult: Question | undefined = questions.find((q) => {
     q.id = questionId;
@@ -65,7 +65,7 @@ export const convertAnswerNumberToString = (
 export const compareSubmittedAnswer = (
   questionId: number,
   submittedAnswer: number,
-  answers: Answer[]
+  answers: Answer[],
 ): boolean => {
   const answer = answers.find((a) => a.id === questionId);
   if (!answer) {
