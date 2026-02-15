@@ -1,23 +1,24 @@
-import { chooseRandomQuestions } from "./questionAnswerUtils";
-import { Question, QuestionAnswerKey } from "../types/questionAnswerTypes";
+import { Question } from "../types/questionAnswerTypes";
+import { convertAnswerNumberToString } from "./questionAnswerUtils";
 
-describe("chooseRandomQuestions", () => {
-  it("should choose random questions from both arrays", () => {
-    const mainQuestions: Question[] = [
-      { id: 1, question: "Q1", possibleAnswers: ["A", "B", "C"], answer: 0 },
-      { id: 2, question: "Q2", possibleAnswers: ["A", "B", "C"], answer: 1 },
-    ];
-    const hamburgQuestions: Question[] = [
-      { id: 3, question: "Q3", possibleAnswers: ["A", "B", "C"], answer: 2 },
-      { id: 4, question: "Q4", possibleAnswers: ["A", "B", "C"], answer: 0 },
-    ];
-    const randomQuestions = chooseRandomQuestions(
-      mainQuestions,
-      hamburgQuestions
-    );
-    expect(randomQuestions.length).toBeGreaterThan(0);
-    expect(randomQuestions.length).toBeLessThanOrEqual(
-      mainQuestions.length + hamburgQuestions.length
-    );
+describe("convertAnswerNumberToString", () => {
+  const questions: Question[] = [
+    { id: 1, question: "Q1", possibleAnswers: ["A", "B", "C"], answer: 0 },
+    { id: 2, question: "Q2", possibleAnswers: ["X", "Y", "Z"], answer: 1 },
+  ];
+
+  it("returns the correct answer string when valid questionId and answerNumber are given", () => {
+    expect(convertAnswerNumberToString(questions, 1, 0)).toBe("A");
+    expect(convertAnswerNumberToString(questions, 1, 2)).toBe("C");
+    expect(convertAnswerNumberToString(questions, 2, 1)).toBe("Y");
+  });
+
+  it("returns undefined when questionId does not exist", () => {
+    expect(convertAnswerNumberToString(questions, 999, 0)).toBeUndefined();
+  });
+
+  it("returns undefined when answerNumber is out of range", () => {
+    expect(convertAnswerNumberToString(questions, 1, 5)).toBeUndefined();
+    expect(convertAnswerNumberToString(questions, 2, -1)).toBeUndefined();
   });
 });
