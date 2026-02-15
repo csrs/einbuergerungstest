@@ -1,14 +1,17 @@
 import "./App.css";
-import React, { useState } from "react";
+import { useState } from "react";
 import { QuestionGroup } from "./components/QuestionGroup.tsx";
 import { AllQuestions } from "./components/AllQuestions.tsx";
 import { Instructions } from "./components/Instructions.tsx";
+import { QuestionSetType } from "./types/questionAnswerTypes.ts";
 
 function App() {
-  const [selectedOption, setSelectedOption] = useState("randomQuestions");
+  const [selectedOption, setSelectedOption] = useState<QuestionSetType>(
+    QuestionSetType.Random,
+  );
 
-  const handleOptionChange = (e) => {
-    setSelectedOption(e.target.value);
+  const handleOptionChange = (value: QuestionSetType) => {
+    setSelectedOption(value);
   };
 
   return (
@@ -20,9 +23,9 @@ function App() {
             type="radio"
             id="randomQuestions"
             name="toggle"
-            value="randomQuestions"
-            checked={selectedOption === "randomQuestions"}
-            onChange={handleOptionChange}
+            value={QuestionSetType.Random}
+            checked={selectedOption === QuestionSetType.Random}
+            onChange={() => handleOptionChange(QuestionSetType.Random)}
           />
           <label htmlFor="randomQuestions">33 Random Questions</label>
         </div>
@@ -32,14 +35,14 @@ function App() {
             type="radio"
             id="allQuestions"
             name="toggle"
-            value="allQuestions"
-            checked={selectedOption === "allQuestions"}
-            onChange={handleOptionChange}
+            value={QuestionSetType.All}
+            checked={selectedOption === QuestionSetType.All}
+            onChange={() => handleOptionChange(QuestionSetType.All)}
           />
           <label htmlFor="allQuestions">All Questions</label>
         </div>
       </form>
-      {selectedOption === "allQuestions" ? (
+      {selectedOption === QuestionSetType.All ? (
         <>
           <Instructions allQuestionsMode />
           <AllQuestions />

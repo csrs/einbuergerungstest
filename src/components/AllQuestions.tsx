@@ -9,22 +9,21 @@ export const AllQuestions = () => {
   const [incorrectAnswers, setIncorrectAnswers] =
     useState<QuestionType[]>(allQuestionsReversed);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = new FormData(e.target);
-    const submittedAnswers = Array.from(formData.entries()).reduce(
-      (acc, entry) => {
-        const [questionId, submittedAnswer] = entry; // name and value from each form element
-        const questionIdAsNumber = Number(questionId);
-        const submittedAnswerAsNumber = Number(submittedAnswer as string);
-        acc[questionIdAsNumber] = submittedAnswerAsNumber;
-        return acc;
-      },
-      {}
-    );
+    const formData = new FormData(e.currentTarget);
+    const submittedAnswers = Array.from(formData.entries()).reduce<
+      Record<number, number>
+    >((acc, entry) => {
+      const [questionId, submittedAnswer] = entry; // name and value from each form element
+      const questionIdAsNumber = Number(questionId);
+      const submittedAnswerAsNumber = Number(submittedAnswer);
+      acc[questionIdAsNumber] = submittedAnswerAsNumber;
+      return acc;
+    }, {});
 
     setIncorrectAnswers((prev) =>
-      prev.filter((q) => submittedAnswers[q.id] !== q.answer).reverse()
+      prev.filter((q) => submittedAnswers[q.id] !== q.answer).reverse(),
     );
     window.scrollTo(0, 0);
   };
