@@ -1,11 +1,45 @@
 // @ts-check
 
 import eslint from "@eslint/js";
-import { defineConfig, globalIgnores } from "eslint/config";
 import tseslint from "typescript-eslint";
+import { defineConfig } from "eslint/config";
 
 export default defineConfig(
+  // Global ignores
+  {
+    ignores: ["dist/**/*", "public/**/*", "node_modules/**/*"],
+  },
+
+  // Base JS + TS rules
   eslint.configs.recommended,
-  tseslint.configs.recommended,
-  [globalIgnores(["dist/**/*.*", "public/**/*.*", "node_modules/**/*.*"])],
+  ...tseslint.configs.recommended,
+
+  {
+    rules: {
+      "no-console": "warn",
+      "@typescript-eslint/no-explicit-any": "warn",
+      "@typescript-eslint/consistent-type-imports": "error",
+      "@typescript-eslint/no-unused-vars": "error",
+    },
+  },
+
+  // Frontend TypeScript + React scope
+  {
+    files: ["frontend/src/**/*.{ts,tsx}"],
+    languageOptions: {
+      parserOptions: {
+        project: "./frontend/tsconfig.json",
+      },
+    },
+  },
+
+  // Backend TypeScript scope
+  {
+    files: ["backend/src/**/*.ts"],
+    languageOptions: {
+      parserOptions: {
+        project: "./backend/tsconfig.json",
+      },
+    },
+  },
 );

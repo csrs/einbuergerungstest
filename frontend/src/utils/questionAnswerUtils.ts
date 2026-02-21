@@ -1,8 +1,8 @@
-import { Answer, Question } from "../types/questionAnswerTypes";
+import { type Answer, type Question } from "../types/questionAnswerTypes";
 
 export const chooseRandomQuestions = (
   mainQuestions: Question[],
-  hamburgQuestions: Question[],
+  // hamburgQuestions: Question[],
   ommittedQuestionIds?: number[],
 ): Question[] => {
   const newArray: Question[] = [];

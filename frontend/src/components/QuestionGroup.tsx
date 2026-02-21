@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { mainQuestions, hamburgQuestions } from "../consts/questions";
-import { QuestionAnswerKey, Storage } from "../types/questionAnswerTypes";
+import { mainQuestions } from "../consts/questions";
+import {
+  type QuestionAnswerKey,
+  type Storage,
+} from "../types/questionAnswerTypes";
 import {
   chooseRandomQuestions,
   isSessionStorageAvailable,
@@ -19,7 +22,7 @@ export const QuestionGroup = () => {
   const [randomQs, setRandomQs] = useState(() =>
     chooseRandomQuestions(
       mainQuestions,
-      hamburgQuestions,
+      // hamburgQuestions,
       omittedQuestions,
       // 3,
       // 2
@@ -73,7 +76,7 @@ export const QuestionGroup = () => {
     setRandomQs(
       chooseRandomQuestions(
         mainQuestions,
-        hamburgQuestions,
+        // hamburgQuestions,
         omittedQuestions,
         // 3,
         // 2

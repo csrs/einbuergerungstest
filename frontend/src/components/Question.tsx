@@ -1,4 +1,4 @@
-import { Question as QuestionType } from "../types/questionAnswerTypes";
+import { type Question as QuestionType } from "../types/questionAnswerTypes";
 
 import "./../App.css";
 import { GREEN, YELLOW } from "../consts/colors";

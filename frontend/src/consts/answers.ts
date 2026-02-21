@@ -1,4 +1,4 @@
-import { Answer } from "../types/questionAnswerTypes";
+import { type Answer } from "../types/questionAnswerTypes";
 
 export const allAnswers: Answer[] = [
   {
