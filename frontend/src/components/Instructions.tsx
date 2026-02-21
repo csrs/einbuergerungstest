@@ -1,8 +1,6 @@
 export const Instructions = ({
-  omittedQuestions,
   allQuestionsMode,
 }: {
-  omittedQuestions?: number[];
   allQuestionsMode: boolean;
 }) => {
   return (
