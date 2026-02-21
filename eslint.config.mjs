@@ -7,7 +7,12 @@ import { defineConfig } from "eslint/config";
 export default defineConfig(
   // Global ignores
   {
-    ignores: ["dist/**/*", "public/**/*", "node_modules/**/*"],
+    ignores: [
+      "frontend/dist/**/*",
+      "frontend/public/**/*",
+      "frontend/node_modules/**/*",
+      "backend/node_modules/**/*",
+    ],
   },
 
   // Base JS + TS rules
