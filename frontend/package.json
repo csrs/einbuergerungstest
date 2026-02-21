@@ -17,8 +17,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "npx eslint .",
-    "type-check": "tsc --noEmit",
-    "prepare": "husky"
+    "type-check": "tsc --noEmit"
   },
   "browserslist": {
     "production": [
@@ -36,7 +35,6 @@
     "@eslint/js": "^9.39.2",
     "@vitejs/plugin-react": "^5.1.4",
     "eslint": "^9.39.2",
-    "husky": "^9.1.7",
     "jsdom": "^28.1.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.55.0",
