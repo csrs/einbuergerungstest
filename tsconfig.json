@@ -1,11 +1,4 @@
 {
-  "compilerOptions": {
-    "module": "esnext",
-    "target": "es6",
-    "lib": ["DOM", "ES2016", "DOM.Iterable"],
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  }
+  "files": [],
+  "references": [{ "path": "./backend" }, { "path": "./frontend" }]
 }

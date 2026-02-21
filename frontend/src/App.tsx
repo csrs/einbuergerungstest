@@ -1,9 +1,9 @@
 import "./App.css";
 import { useState } from "react";
-import { QuestionGroup } from "./components/QuestionGroup.tsx";
-import { AllQuestions } from "./components/AllQuestions.tsx";
-import { Instructions } from "./components/Instructions.tsx";
-import { QuestionSetType } from "./types/questionAnswerTypes.ts";
+import { QuestionGroup } from "./components/QuestionGroup";
+import { AllQuestions } from "./components/AllQuestions";
+import { Instructions } from "./components/Instructions";
+import { QuestionSetType } from "./types/questionAnswerTypes";
 
 function App() {
   const [selectedOption, setSelectedOption] = useState<QuestionSetType>(

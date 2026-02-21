@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "composite": true,
     "module": "esnext",
     "target": "es6",
     "noEmit": true,
