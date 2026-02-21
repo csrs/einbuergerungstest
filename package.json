@@ -17,7 +17,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "npx eslint .",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "prepare": "husky"
   },
   "browserslist": {
     "production": [
@@ -35,10 +36,21 @@
     "@eslint/js": "^9.39.2",
     "@vitejs/plugin-react": "^5.1.4",
     "eslint": "^9.39.2",
+    "husky": "^8.0.0",
     "jsdom": "^28.1.0",
+    "lint-staged": "^16.2.7",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.55.0",
     "vite": "^7.3.1",
     "vitest": "^4.0.18"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{ts,tsx}": [
+      "tsc --noEmit --skipLibCheck"
+    ]
   }
 }
