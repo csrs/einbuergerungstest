@@ -1,7 +1,7 @@
-import { Question as QuestionType } from "../types/questionAnswerTypes.ts";
+import { type Question as QuestionType } from "../types/questionAnswerTypes";
 
 import "./../App.css";
-import { GREEN, YELLOW } from "../consts/colors.ts";
+import { GREEN, YELLOW } from "../consts/colors";
 
 export const Question = ({
   question,

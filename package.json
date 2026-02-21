@@ -3,44 +3,25 @@
   "version": "0.1.0",
   "type": "module",
   "private": true,
-  "dependencies": {
-    "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.2",
-    "axios": "^1.7.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "dev": "vite",
-    "test": "vitest",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "npx eslint .",
-    "type-check": "tsc --noEmit",
+    "lint:backend": "npm --prefix backend run lint",
+    "lint:frontend": "npm --prefix frontend run lint",
+    "lint": "npm run lint:backend && npm run lint:frontend",
+    "type-check:backend": "npm --prefix backend run type-check",
+    "type-check:frontend": "npm --prefix frontend run type-check",
+    "type-check": "npm run type-check:backend && npm run type-check:frontend",
+    "install:all": "cd frontend && npm install && cd ../backend && npm install",
+    "test:frontend": "cd frontend && npm run test",
+    "test:backend": "cd backend && npm run test",
     "prepare": "husky"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
+    "@types/node": "^25.3.0",
     "@vitejs/plugin-react": "^5.1.4",
     "eslint": "^9.39.2",
     "husky": "^9.1.7",
-    "jsdom": "^28.1.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.55.0",
-    "vite": "^7.3.1",
-    "vitest": "^4.0.18"
+    "typescript-eslint": "^8.55.0"
   }
 }
