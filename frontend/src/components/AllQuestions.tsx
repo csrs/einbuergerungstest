@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { allQuestionsReversed } from "../consts/questions.ts";
+import { allQuestionsReversed } from "../consts/questions";
 
 import "./../App.css";
-import { Question as QuestionType } from "../types/questionAnswerTypes.ts";
+import { Question as QuestionType } from "../types/questionAnswerTypes";
 import { Question } from "./Question.tsx";
 
 export const AllQuestions = () => {

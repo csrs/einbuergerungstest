@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { mainQuestions, hamburgQuestions } from "../consts/questions.ts";
-import { QuestionAnswerKey, Storage } from "../types/questionAnswerTypes.ts";
+import { mainQuestions, hamburgQuestions } from "../consts/questions";
+import { QuestionAnswerKey, Storage } from "../types/questionAnswerTypes";
 import {
   chooseRandomQuestions,
   isSessionStorageAvailable,
