@@ -49,6 +49,10 @@ export const createOpenApiDocument = () => {
         name: "Words",
         description: "Word list lookup endpoints",
       },
+      {
+        name: "Anki",
+        description: "Endpoints that proxy AnkiConnect deck data",
+      },
     ],
     components: {
       securitySchemes: {
@@ -368,6 +372,66 @@ export const createOpenApiDocument = () => {
       },
     },
     paths: {
+      "/api/anki/decks": {
+        get: {
+          operationId: "getAnkiDecks",
+          tags: ["Anki"],
+          summary: "List available Anki deck names from AnkiConnect",
+          responses: {
+            "200": {
+              description: "List of Anki deck names",
+              content: {
+                "application/json": {
+                  schema: {
+                    type: "array",
+                    items: {
+                      type: "string",
+                    },
+                  },
+                },
+              },
+            },
+            "502": {
+              description: "AnkiConnect is unavailable",
+              content: jsonContent(schemaRef("ErrorResponse")),
+            },
+            "500": {
+              description: "Internal server error",
+              content: jsonContent(schemaRef("ErrorResponse")),
+            },
+          },
+        },
+      },
+      "/api/anki/modelNames": {
+        get: {
+          operationId: "getAnkiModelNames",
+          tags: ["Anki"],
+          summary: "List available Anki model names from AnkiConnect",
+          responses: {
+            "200": {
+              description: "List of Anki model names",
+              content: {
+                "application/json": {
+                  schema: {
+                    type: "array",
+                    items: {
+                      type: "string",
+                    },
+                  },
+                },
+              },
+            },
+            "502": {
+              description: "AnkiConnect is unavailable",
+              content: jsonContent(schemaRef("ErrorResponse")),
+            },
+            "500": {
+              description: "Internal server error",
+              content: jsonContent(schemaRef("ErrorResponse")),
+            },
+          },
+        },
+      },
       "/api/auth/register": {
         post: {
           operationId: "registerUser",
@@ -691,9 +755,11 @@ const createSwaggerUiHtml = (openApiJsonUrl: string) => `<!DOCTYPE html>
 export const router = Router();
 
 router.get("/", (_req, res) => {
+  void _req;
   res.type("html").send(createSwaggerUiHtml("/api/docs/openapi.json"));
 });
 
 router.get("/openapi.json", (_req, res) => {
+  void _req;
   res.json(createOpenApiDocument());
 });

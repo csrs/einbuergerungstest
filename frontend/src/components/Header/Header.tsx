@@ -82,11 +82,11 @@ export const Header = () => {
           </Button>
           <Button
             component={RouterLink}
-            to="/about"
+            to="/anki-connect"
             variant="text"
-            sx={getNavButtonSx(isActive("/about"))}
+            sx={getNavButtonSx(isActive("/anki-connect"))}
           >
-            About
+            Manage Anki Decks
           </Button>
         </Box>
       </Toolbar>

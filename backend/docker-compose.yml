@@ -34,6 +34,8 @@ services:
       CHOKIDAR_INTERVAL: "500"
       TSC_WATCHFILE: FixedPollingInterval
       TSC_WATCHDIRECTORY: FixedPollingInterval
+      ANKI_HOST: ${ANKI_HOST}
+      ANKI_PORT: ${ANKI_PORT}
     volumes:
       - ./:/app
       - /app/node_modules
