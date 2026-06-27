@@ -6,6 +6,7 @@ import express, {
 } from "express";
 import cors from "cors";
 
+import { router as ankiRouter } from "./routes/anki.js";
 import { router as authRouter } from "./routes/auth.js";
 import { router as docsRouter } from "./routes/docs.js";
 import { router as meRouter } from "./routes/me.js";
@@ -47,6 +48,7 @@ export const createApp = () => {
   app.use("/api/me", meRouter);
   app.use("/api/words", wordsRouter);
   app.use("/api/auth", authRouter);
+  app.use("/api/anki", ankiRouter);
 
   // If any other URL is requested, return a 404 error because the only routes in this application are the ones listed
   app.use((req, res) => {

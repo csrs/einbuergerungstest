@@ -8,5 +8,16 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
-  "git.ignoreLimitWarning": true
+  "git.ignoreLimitWarning": true,
+  // Source - https://stackoverflow.com/a/70257568
+  // Posted by wagonaf979
+  // Retrieved 2026-06-19, License - CC BY-SA 4.0
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top"
 }

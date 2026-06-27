@@ -50,6 +50,11 @@ const getDetailsByValueRequestSchema = z.object({
   language: z.enum(["de", "en"]),
 });
 
+const getAllWordsRequestSchema = z.object({
+  wordValueOnly: z.boolean().optional(),
+  limit: z.number().optional(),
+});
+
 const wordListSelect = {
   id: true,
   value: true,
@@ -336,9 +341,20 @@ const mapEnglishMatchesToGermanWordDetails = (
   return sortWordDetailMatches(Array.from(germanWordsById.values()));
 };
 
-// GET /api/words/all
-router.get("/all", async (_req, res) => {
-  void _req;
+// GET /api/words/all?wordValueOnly={wordValueOnly}&limit={limit}
+router.get("/all", async (req, res) => {
+  const parseResult = getAllWordsRequestSchema.safeParse({
+    wordValueOnly: req.query.wordValueOnly,
+    limit: req.query.limit,
+  });
+  if (!parseResult.success) {
+    const flattenedError = z.flattenError(parseResult.error);
+    return res.status(400).json({
+      formErrors: flattenedError.formErrors,
+      fieldErrors: flattenedError.fieldErrors,
+    });
+  }
+
   const lang: Language | null = await prisma.language.findUnique({
     where: { value: "de" },
   });
@@ -348,29 +364,40 @@ router.get("/all", async (_req, res) => {
       .json({ error: `Language 'de' not found in database` });
   }
 
+  // add cursor pagination, based on the word frequency id.
   const words = await prisma.word.findMany({
     where: { languageId: lang.id },
     orderBy: { frequencyRank: "asc" },
     select: wordListSelect,
   });
 
-  return res.json(
-    words.map((word) => {
-      const firstMeaning = word.meanings[0];
-      const firstTranslation = firstMeaning?.translations[0];
+  if (req.query.wordValueOnly) {
+    return res.json(
+      words.map((word) => {
+        return {
+          value: word.value,
+        };
+      }),
+    );
+  } else {
+    return res.json(
+      words.map((word) => {
+        const firstMeaning = word.meanings[0];
+        const firstTranslation = firstMeaning?.translations[0];
 
-      return {
-        id: word.id,
-        value: word.value,
-        languageId: word.languageId,
-        frequencyRank: word.frequencyRank,
-        partOfSpeech: firstMeaning?.partOfSpeech.value ?? null,
-        translation: firstTranslation?.toWord.value ?? null,
-        exampleBase: firstMeaning?.exampleBase ?? null,
-        exampleTarget: firstMeaning?.exampleTarget ?? null,
-      };
-    }),
-  );
+        return {
+          id: word.id,
+          value: word.value,
+          languageId: word.languageId,
+          frequencyRank: word.frequencyRank,
+          partOfSpeech: firstMeaning?.partOfSpeech.value ?? null,
+          translation: firstTranslation?.toWord.value ?? null,
+          exampleBase: firstMeaning?.exampleBase ?? null,
+          exampleTarget: firstMeaning?.exampleTarget ?? null,
+        };
+      }),
+    );
+  }
 });
 
 // GET /api/words?word={word}&language=de|en

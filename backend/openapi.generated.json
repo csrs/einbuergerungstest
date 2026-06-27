@@ -27,6 +27,10 @@
     {
       "name": "Words",
       "description": "Word list lookup endpoints"
+    },
+    {
+      "name": "Anki",
+      "description": "Endpoints that proxy AnkiConnect deck data"
     }
   ],
   "components": {
@@ -401,6 +405,94 @@
     }
   },
   "paths": {
+    "/api/anki/decks": {
+      "get": {
+        "operationId": "getAnkiDecks",
+        "tags": [
+          "Anki"
+        ],
+        "summary": "List available Anki deck names from AnkiConnect",
+        "responses": {
+          "200": {
+            "description": "List of Anki deck names",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "AnkiConnect is unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/anki/modelNames": {
+      "get": {
+        "operationId": "getAnkiModelNames",
+        "tags": [
+          "Anki"
+        ],
+        "summary": "List available Anki model names from AnkiConnect",
+        "responses": {
+          "200": {
+            "description": "List of Anki model names",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "502": {
+            "description": "AnkiConnect is unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/auth/register": {
       "post": {
         "operationId": "registerUser",
